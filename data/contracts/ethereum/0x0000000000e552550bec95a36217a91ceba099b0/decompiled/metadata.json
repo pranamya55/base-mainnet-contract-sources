@@ -1,0 +1,9 @@
+{
+  "tool": "panoramix-decompiler",
+  "status": "ok",
+  "chain": "ethereum",
+  "address": "0x0000000000e552550bec95a36217a91ceba099b0",
+  "bytecode_length": 10070,
+  "output_chars": 9768,
+  "decompiled_at_epoch": 1773854577
+}

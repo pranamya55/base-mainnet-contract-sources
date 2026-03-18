@@ -1,0 +1,1067 @@
+# Palkeoramix decompiler. 
+
+def storage:
+  stor0 is uint8 at storage 0
+  stor0 is uint8 at storage 0 offset 8
+  stor51 is uint32 at storage 51
+  unknown8da5cb5bAddress is address at storage 51
+  stor51 is uint256 at storage 51
+  unknown2eb4a7ab is uint256 at storage 101
+  unknown054f7d9c is uint8 at storage 102 offset 192
+  stor102 is uint32 at storage 102
+  unknownc17c5ab8 is uint32 at storage 102 offset 160
+  unknownb86d5298Address is address at storage 102
+  unknownb6399387Address is address at storage 103
+  stor104 is array of struct at storage 104
+  unknownc2a2c66e is mapping of uint256 at storage 105
+  stor106 is mapping of uint256 at storage 106
+
+def unknown054f7d9c() payable: 
+  return bool(unknown054f7d9c)
+
+def unknown2eb4a7ab() payable: 
+  return unknown2eb4a7ab
+
+def unknown8da5cb5b() payable: 
+  return address(unknown8da5cb5bAddress)
+
+def unknownb6399387() payable: 
+  return unknownb6399387Address
+
+def unknownb86d5298() payable: 
+  return unknownb86d5298Address
+
+def unknownc17c5ab8() payable: 
+  return unknownc17c5ab8
+
+def unknownc2a2c66e(uint256 _param1, uint256 _param2, uint256 _param3, array _param4) payable: 
+  require calldata.size - 4 >=′ 128
+  require _param1 == address(_param1)
+  require _param3 == uint32(_param3)
+  require _param4 <= 18446744073709551615
+  require _param4 + 35 <′ calldata.size
+  require _param4.length <= 18446744073709551615
+  require _param4 + (32 * _param4.length) + 36 <= calldata.size
+  mem[256 len 32 * _param4.length] = call.data[_param4 + 36 len 32 * _param4.length]
+  mem[(32 * _param4.length) + 256] = 0
+  idx = 0
+  s = 0
+  while idx < _param4.length:
+      if idx >= _param4.length:
+          revert with 0, 50
+      if s + sha3(address(_param1), _param2, uint32(_param3)) > mem[(32 * idx) + 256]:
+          mem[0] = mem[(32 * idx) + 256]
+          mem[32] = s + sha3(address(_param1), _param2, uint32(_param3))
+          if idx == -1:
+              revert with 0, 17
+          idx = idx + 1
+          s = sha3(mem[(32 * idx) + 256], s)
+          continue 
+      mem[0] = s + sha3(address(_param1), _param2, uint32(_param3))
+      mem[32] = mem[(32 * idx) + 256]
+      if idx == -1:
+          revert with 0, 17
+      idx = idx + 1
+      s = sha3(s, mem[(32 * idx) + 256])
+      continue 
+  if s != unknown2eb4a7ab:
+      revert with 0, 'Unverified'
+  return unknownc2a2c66e[address(_param1)][_param2][uint32(_param3)]
+
+#
+#  Regular functions
+#
+
+def _fallback(?) payable: # default function
+  revert
+
+def unknown64d1241a() payable: 
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  unknown054f7d9c = 1
+
+def unknown715018a6() payable: 
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  address(unknown8da5cb5bAddress) = 0
+  log 0x8be0079c: address(unknown8da5cb5bAddress), 0
+
+def unknown4783f0ef(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if unknown054f7d9c:
+      revert with 0, 'Frozen'
+  if unknown2eb4a7ab == _param1:
+      revert with 0, 'Must be different root'
+  unknown2eb4a7ab = _param1
+  log 0xe677a10f: this.address
+
+def unknowncdfa98e6(uint256 _param1, uint256 _param2, array _param3) payable: 
+  require calldata.size - 4 >=′ 160
+  require _param1 == address(_param1)
+  require _param2 == uint32(_param2)
+  require _param3 <= 18446744073709551615
+  require _param3 + 35 <′ calldata.size
+  require _param3.length <= 18446744073709551615
+  require _param3 + (32 * _param3.length) + 36 <= calldata.size
+  ...  # Decompilation aborted, sorry: ("decompilation didn't finish",)
+
+def unknown8c5f89dc(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if unknown054f7d9c:
+      revert with 0, 'Frozen'
+  if unknownb86d5298Address == address(_param1):
+      revert with 0, 'Must be different module'
+  unknownb86d5298Address = address(_param1)
+  log 0x8dd052dc: address(_param1)
+
+def unknownf2fde38b(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if not address(_param1):
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 'Ownable: new owner is the zero address'
+  address(unknown8da5cb5bAddress) = address(_param1)
+  log 0x8be0079c: address(unknown8da5cb5bAddress), address(_param1)
+
+def unknownd8a4bb1a(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == uint32(_param1)
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if unknownc17c5ab8:
+      revert with 0, 'Archived'
+  if not uint32(_param1):
+      unknownc17c5ab8 = uint32(block.timestamp)
+  else:
+      if uint32(_param1) <= uint32(block.timestamp):
+          revert with 0, 'Already past'
+      unknownc17c5ab8 = uint32(_param1)
+
+def unknown984866ce() payable: 
+  require calldata.size - 4 >=′ 160
+  require cd[4] <= 18446744073709551615
+  require cd[4] + 35 <′ calldata.size
+  require ('cd', 4).length <= 18446744073709551615
+  require cd[4] + (32 * ('cd', 4).length) + 36 <= calldata.size
+  require cd[36] <= 18446744073709551615
+  require cd[36] + 35 <′ calldata.size
+  require ('cd', 36).length <= 18446744073709551615
+  require cd[36] + (32 * ('cd', 36).length) + 36 <= calldata.size
+  require cd[68] <= 18446744073709551615
+  require cd[68] + 35 <′ calldata.size
+  require ('cd', 68).length <= 18446744073709551615
+  require cd[68] + (32 * ('cd', 68).length) + 36 <= calldata.size
+  require cd[100] <= 18446744073709551615
+  require cd[100] + 35 <′ calldata.size
+  require ('cd', 100).length <= 18446744073709551615
+  require cd[100] + (32 * ('cd', 100).length) + 36 <= calldata.size
+  require cd[132] <= 18446744073709551615
+  require cd[132] + 35 <′ calldata.size
+  require ('cd', 132).length <= 18446744073709551615
+  require cd[132] + (32 * ('cd', 132).length) + 36 <= calldata.size
+  if ('cd', 36).length != ('cd', 4).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 68).length != ('cd', 36).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 100).length != ('cd', 68).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 132).length != ('cd', 100).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 4).length > 50:
+      revert with 0, 'Over limit'
+  if 0 >= ('cd', 4).length:
+      stop
+  require ('cd', 4)[0] == address(('cd', 4)[0])
+  if 0 >= ('cd', 36).length:
+      revert with 0, 50
+  if 0 >= ('cd', 68).length:
+      revert with 0, 50
+  if 0 >= ('cd', 100).length:
+      revert with 0, 50
+  require ('cd', 100)[0] == uint32(('cd', 100)[0])
+  if 0 >= ('cd', 132).length:
+      revert with 0, 50
+  require ('cd', 132)[0] <′ calldata.size + -cd[132] - 67
+  require cd[(cd[132] + ('cd', 132)[0] + 36)] <= 18446744073709551615
+  require cd[132] + ('cd', 132)[0] + 68 <=′ calldata.size - (32 * cd[(cd[132] + ('cd', 132)[0] + 36)])
+  ...  # Decompilation aborted, sorry: ("decompilation didn't finish",)
+
+def unknownd45e1444(uint256 _param1, uint256 _param2, uint256 _param3, uint256 _param4, array _param5) payable: 
+  require calldata.size - 4 >=′ 160
+  require _param1 == address(_param1)
+  require _param5 <= 18446744073709551615
+  require _param5 + 35 <′ calldata.size
+  require _param5.length <= 18446744073709551615
+  require _param5 + (32 * _param5.length) + 36 <= calldata.size
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if unknownc17c5ab8:
+      revert with 0, 'Archived'
+  mem[256 len 32 * _param5.length] = call.data[_param5 + 36 len 32 * _param5.length]
+  mem[(32 * _param5.length) + 256] = 0
+  idx = 0
+  s = 0
+  while idx < _param5.length:
+      if idx >= _param5.length:
+          revert with 0, 50
+      if s + sha3(address(_param1), _param2, _param4) > mem[(32 * idx) + 256]:
+          mem[0] = mem[(32 * idx) + 256]
+          mem[32] = s + sha3(address(_param1), _param2, _param4)
+          if idx == -1:
+              revert with 0, 17
+          idx = idx + 1
+          s = sha3(mem[(32 * idx) + 256], s)
+          continue 
+      mem[0] = s + sha3(address(_param1), _param2, _param4)
+      mem[32] = mem[(32 * idx) + 256]
+      if idx == -1:
+          revert with 0, 17
+      idx = idx + 1
+      s = sha3(s, mem[(32 * idx) + 256])
+      continue 
+  if s != unknown2eb4a7ab:
+      revert with 0, 'Unverified'
+  if not _param3:
+      stor106[address(_param1)][_param2][_param4] = block.timestamp
+  else:
+      if _param3 <= block.timestamp:
+          revert with 0, 'Already past'
+      stor106[address(_param1)][_param2][_param4] = _param3
+
+def unknown5bf13ec5(uint256 _param1, uint256 _param2, uint256 _param3, array _param4) payable: 
+  require calldata.size - 4 >=′ 128
+  require _param1 == address(_param1)
+  require _param3 == uint32(_param3)
+  require _param4 <= 18446744073709551615
+  require _param4 + 35 <′ calldata.size
+  require _param4.length <= 18446744073709551615
+  require _param4 + (32 * _param4.length) + 36 <= calldata.size
+  mem[256 len 32 * _param4.length] = call.data[_param4 + 36 len 32 * _param4.length]
+  mem[(32 * _param4.length) + 256] = 0
+  idx = 0
+  s = 0
+  while idx < _param4.length:
+      if idx >= _param4.length:
+          revert with 0, 50
+      if s + sha3(address(_param1), _param2, uint32(_param3)) > mem[(32 * idx) + 256]:
+          mem[0] = mem[(32 * idx) + 256]
+          mem[32] = s + sha3(address(_param1), _param2, uint32(_param3))
+          if idx == -1:
+              revert with 0, 17
+          idx = idx + 1
+          s = sha3(mem[(32 * idx) + 256], s)
+          continue 
+      mem[0] = s + sha3(address(_param1), _param2, uint32(_param3))
+      mem[32] = mem[(32 * idx) + 256]
+      if idx == -1:
+          revert with 0, 17
+      idx = idx + 1
+      s = sha3(s, mem[(32 * idx) + 256])
+      continue 
+  if s != unknown2eb4a7ab:
+      revert with 0, 'Unverified'
+  if not unknownc17c5ab8:
+      if not stor106[address(_param1)][_param2][uint32(_param3)]:
+          return 0
+  else:
+      if not stor106[address(_param1)][_param2][uint32(_param3)]:
+          return unknownc17c5ab8
+      if unknownc17c5ab8:
+          if unknownc17c5ab8 <= stor106[address(_param1)][_param2][uint32(_param3)]:
+              return unknownc17c5ab8
+  return stor106[address(_param1)][_param2][uint32(_param3)]
+
+def unknown06b091f9(uint256 _param1, uint256 _param2) payable: 
+  require calldata.size - 4 >=′ 64
+  require _param1 == address(_param1)
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if unknown054f7d9c:
+      revert with 0, 'Frozen'
+  mem[100] = this.address
+  static call address(_param1).0x70a08231 with:
+          gas gas_remaining wei
+         args this.address
+  mem[96] = ext_call.return_data[0]
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require return_data.size >=′ 32
+  if _param2 > ext_call.return_data[0]:
+      revert with 0, 'Insufficient Balance'
+  mem[ceil32(return_data.size) + 132] = address(unknown8da5cb5bAddress)
+  mem[ceil32(return_data.size) + 164] = _param2
+  mem[ceil32(return_data.size) + 96] = 68
+  mem[ceil32(return_data.size) + 132 len 28] = Mask(224, 0, stor51)
+  mem[ceil32(return_data.size) + 128 len 4] = 2835717307
+  mem[ceil32(return_data.size) + 196] = 32
+  mem[ceil32(return_data.size) + 228] = 'SafeERC20: low-level call failed'
+  if eth.balance(this.address) < 0:
+      revert with 0, 'Address: insufficient balance for call'
+  if not ext_code.size(address(_param1)):
+      revert with 0, 'Address: call to non-contract'
+  mem[ceil32(return_data.size) + 260 len 96] = 2835717307, Mask(224, 0, stor51), uint32(stor51), _param2, 0
+  mem[ceil32(return_data.size) + 328] = 0
+  call address(_param1) with:
+     funct Mask(32, 224, 2835717307, Mask(224, 0, stor51), uint32(stor51), _param2, 0) >> 224
+       gas gas_remaining wei
+      args (Mask(512, -288, 2835717307, Mask(224, 0, stor51), uint32(stor51), _param2, 0) << 288)
+  if not return_data.size:
+      if not ext_call.success:
+          if ext_call.return_data[0]:
+              revert with memory
+                from 128
+                 len ext_call.return_data[0]
+          revert with 0, 'SafeERC20: low-level call failed'
+      if ext_call.return_data[0]:
+          require ext_call.return_data[0] >=′ 32
+          require uint32(this.address), mem[132 len 28] == bool(uint32(this.address), mem[132 len 28])
+          if not uint32(this.address), mem[132 len 28]:
+              revert with 0, 'SafeERC20: ERC20 operation did not succeed'
+  else:
+      mem[ceil32(return_data.size) + 292 len return_data.size] = ext_call.return_data[0 len return_data.size]
+      if not ext_call.success:
+          if return_data.size:
+              revert with ext_call.return_data[0 len return_data.size]
+          revert with 0, 'SafeERC20: low-level call failed'
+      if return_data.size:
+          require return_data.size >=′ 32
+          require mem[ceil32(return_data.size) + 292] == bool(mem[ceil32(return_data.size) + 292])
+          if not mem[ceil32(return_data.size) + 292]:
+              revert with 0, 'SafeERC20: ERC20 operation did not succeed'
+  log 0x680f2e4f: _param2, address(unknown8da5cb5bAddress)
+
+def unknown48ac04fb(uint256 _param1, uint256 _param2, uint256 _param3, array _param4) payable: 
+  require calldata.size - 4 >=′ 128
+  require _param2 == address(_param2)
+  require _param3 == address(_param3)
+  require _param4 <= 18446744073709551615
+  require _param4 + 35 <′ calldata.size
+  if _param4.length > 18446744073709551615:
+      revert with 0, 65
+  if ceil32(ceil32(_param4.length)) + 97 < 96 or ceil32(ceil32(_param4.length)) + 97 > 18446744073709551615:
+      revert with 0, 65
+  require _param4 + _param4.length + 36 <= calldata.size
+  if uint8(stor0.field_8):
+      if ext_code.size(this.address):
+          revert with 0, 'Initializable: contract is already initialized'
+      unknown2eb4a7ab = _param1
+      unknownb6399387Address = address(_param2)
+      unknownb86d5298Address = address(_param3)
+      if bool(stor104.length):
+          if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+              revert with 0, 34
+          if _param4.length:
+              stor104[].field_0 = Array(len=_param4.length, data=_param4[all])
+          else:
+              stor104.length = 0
+              idx = 0
+              while (uint255(stor104.length) * 0.5) + 31 / 32 > idx:
+                  stor104[idx].field_0 = 0
+                  idx = idx + 1
+                  continue 
+      else:
+          if bool(stor104.length) == stor104.length.field_1 < 32:
+              revert with 0, 34
+          if _param4.length:
+              stor104[].field_0 = Array(len=_param4.length, data=_param4[all])
+          else:
+              stor104.length = 0
+              idx = 0
+              while stor104.length.field_1 + 31 / 32 > idx:
+                  stor104[idx].field_0 = 0
+                  idx = idx + 1
+                  continue 
+      if not uint8(stor0.field_8):
+          revert with 0, 'Initializable: contract is not initializing'
+      address(unknown8da5cb5bAddress) = caller
+      log 0x8be0079c: address(unknown8da5cb5bAddress), caller
+  else:
+      if uint8(stor0.field_0) >= 1:
+          revert with 0, 'Initializable: contract is already initialized'
+      uint8(stor0.field_0) = 1
+      uint8(stor0.field_8) = 1
+      unknown2eb4a7ab = _param1
+      unknownb6399387Address = address(_param2)
+      unknownb86d5298Address = address(_param3)
+      if bool(stor104.length):
+          if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+              revert with 0, 34
+          if _param4.length:
+              stor104[].field_0 = Array(len=_param4.length, data=_param4[all])
+          else:
+              stor104.length = 0
+              idx = 0
+              while (uint255(stor104.length) * 0.5) + 31 / 32 > idx:
+                  stor104[idx].field_0 = 0
+                  idx = idx + 1
+                  continue 
+      else:
+          if bool(stor104.length) == stor104.length.field_1 < 32:
+              revert with 0, 34
+          if _param4.length:
+              stor104[].field_0 = Array(len=_param4.length, data=_param4[all])
+          else:
+              stor104.length = 0
+              idx = 0
+              while stor104.length.field_1 + 31 / 32 > idx:
+                  stor104[idx].field_0 = 0
+                  idx = idx + 1
+                  continue 
+      if not uint8(stor0.field_8):
+          revert with 0, 'Initializable: contract is not initializing'
+      address(unknown8da5cb5bAddress) = caller
+      log 0x8be0079c: address(unknown8da5cb5bAddress), caller
+      uint8(stor0.field_8) = 0
+      log 0x7f26b83f: 1
+
+def unknown6547098d() payable: 
+  mem[64] = 96
+  require calldata.size - 4 >=′ 160
+  require cd[4] <= 18446744073709551615
+  require cd[4] + 35 <′ calldata.size
+  require ('cd', 4).length <= 18446744073709551615
+  require cd[4] + (32 * ('cd', 4).length) + 36 <= calldata.size
+  require cd[36] <= 18446744073709551615
+  require cd[36] + 35 <′ calldata.size
+  require ('cd', 36).length <= 18446744073709551615
+  require cd[36] + (32 * ('cd', 36).length) + 36 <= calldata.size
+  require cd[68] <= 18446744073709551615
+  require cd[68] + 35 <′ calldata.size
+  require ('cd', 68).length <= 18446744073709551615
+  require cd[68] + (32 * ('cd', 68).length) + 36 <= calldata.size
+  require cd[100] <= 18446744073709551615
+  require cd[100] + 35 <′ calldata.size
+  require ('cd', 100).length <= 18446744073709551615
+  require cd[100] + (32 * ('cd', 100).length) + 36 <= calldata.size
+  require cd[132] <= 18446744073709551615
+  require cd[132] + 35 <′ calldata.size
+  require ('cd', 132).length <= 18446744073709551615
+  require cd[132] + (32 * ('cd', 132).length) + 36 <= calldata.size
+  if address(unknown8da5cb5bAddress) != caller:
+      revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+  if ('cd', 36).length != ('cd', 4).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 68).length != ('cd', 36).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 100).length != ('cd', 68).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 132).length != ('cd', 100).length:
+      revert with 0, 'Invalid list'
+  if ('cd', 4).length > 50:
+      revert with 0, 'Over limit'
+  idx = 0
+  while idx < ('cd', 4).length:
+      require cd[((32 * idx) + cd[4] + 36)] == address(cd[((32 * idx) + cd[4] + 36)])
+      if idx >= ('cd', 36).length:
+          revert with 0, 50
+      if idx >= ('cd', 68).length:
+          revert with 0, 50
+      if idx >= ('cd', 100).length:
+          revert with 0, 50
+      if idx >= ('cd', 132).length:
+          revert with 0, 50
+      require cd[(cd[132] + (32 * idx) + 36)] <′ calldata.size + -cd[132] - 67
+      require cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)] <= 18446744073709551615
+      require cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 68 <=′ calldata.size - (32 * cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)])
+      if address(unknown8da5cb5bAddress) != caller:
+          revert with 0, 32, 32, 0xfe4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65
+      if unknownc17c5ab8:
+          revert with 0, 'Archived'
+      _40 = mem[64]
+      mem[mem[64] + 32] = address(cd[((32 * idx) + cd[4] + 36)])
+      mem[mem[64] + 64] = cd[((32 * idx) + cd[36] + 36)]
+      mem[mem[64] + 96] = cd[((32 * idx) + cd[100] + 36)]
+      _41 = mem[64]
+      mem[mem[64]] = 96
+      mem[64] = mem[64] + 128
+      _43 = sha3(mem[_41 + 32 len mem[_41]])
+      mem[64] = _40 + (32 * cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]) + 160
+      mem[_40 + 128] = cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]
+      mem[_40 + 160 len 32 * cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]] = call.data[cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 68 len 32 * cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]]
+      mem[_40 + (32 * cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]) + 160] = 0
+      s = 0
+      t = _43
+      while s < cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]:
+          if s >= cd[(cd[132] + cd[(cd[132] + (32 * idx) + 36)] + 36)]:
+              revert with 0, 50
+          if t > mem[(32 * s) + _40 + 160]:
+              mem[0] = mem[(32 * s) + _40 + 160]
+              mem[32] = t
+              if s == -1:
+                  revert with 0, 17
+              s = s + 1
+              t = sha3(mem[(32 * s) + _40 + 160], t)
+              continue 
+          mem[0] = t
+          mem[32] = mem[(32 * s) + _40 + 160]
+          if s == -1:
+              revert with 0, 17
+          s = s + 1
+          t = sha3(t, mem[(32 * s) + _40 + 160])
+          continue 
+      if t != unknown2eb4a7ab:
+          revert with 0, 'Unverified'
+      if not cd[((32 * idx) + cd[68] + 36)]:
+          mem[0] = _43
+          mem[32] = 106
+          stor106[_43] = block.timestamp
+      else:
+          if cd[((32 * idx) + cd[68] + 36)] <= block.timestamp:
+              revert with 0, 'Already past'
+          mem[0] = _43
+          mem[32] = 106
+          stor106[_43] = cd[((32 * idx) + cd[68] + 36)]
+      if idx == -1:
+          revert with 0, 17
+      idx = idx + 1
+      continue 
+
+def unknowned1f08a0() payable: 
+  if bool(stor104.length):
+      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+          revert with 0, 34
+      if bool(stor104.length):
+          if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+              revert with 0, 34
+          if Mask(256, -1, stor104.length):
+              if 31 < uint255(stor104.length) * 0.5:
+                  mem[128] = uint256(stor104.field_0)
+                  idx = 128
+                  s = 0
+                  while (uint255(stor104.length) * 0.5) + 96 > idx:
+                      mem[idx + 32] = stor104[s].field_256
+                      idx = idx + 32
+                      s = s + 1
+                      continue 
+                  return Array(len=2 * Mask(256, -1, stor104.length), data=mem[128 len ceil32(uint255(stor104.length) * 0.5)])
+              mem[128] = 256 * stor104.length.field_8
+      else:
+          if bool(stor104.length) == stor104.length.field_1 < 32:
+              revert with 0, 34
+          if stor104.length.field_1:
+              if 31 < stor104.length.field_1:
+                  mem[128] = uint256(stor104.field_0)
+                  idx = 128
+                  s = 0
+                  while stor104.length.field_1 + 96 > idx:
+                      mem[idx + 32] = stor104[s].field_256
+                      idx = idx + 32
+                      s = s + 1
+                      continue 
+                  return Array(len=2 * Mask(256, -1, stor104.length), data=mem[128 len ceil32(uint255(stor104.length) * 0.5)])
+              mem[128] = 256 * stor104.length.field_8
+      mem[ceil32(uint255(stor104.length) * 0.5) + 192 len ceil32(uint255(stor104.length) * 0.5)] = mem[128 len ceil32(uint255(stor104.length) * 0.5)]
+      if ceil32(uint255(stor104.length) * 0.5) > uint255(stor104.length) * 0.5:
+          mem[ceil32(uint255(stor104.length) * 0.5) + (uint255(stor104.length) * 0.5) + 192] = 0
+      return Array(len=2 * Mask(256, -1, stor104.length), data=mem[128 len ceil32(uint255(stor104.length) * 0.5)], mem[(2 * ceil32(uint255(stor104.length) * 0.5)) + 192 len 2 * ceil32(uint255(stor104.length) * 0.5)]), 
+  if bool(stor104.length) == stor104.length.field_1 < 32:
+      revert with 0, 34
+  if bool(stor104.length):
+      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+          revert with 0, 34
+      if Mask(256, -1, stor104.length):
+          if 31 < uint255(stor104.length) * 0.5:
+              mem[128] = uint256(stor104.field_0)
+              idx = 128
+              s = 0
+              while (uint255(stor104.length) * 0.5) + 96 > idx:
+                  mem[idx + 32] = stor104[s].field_256
+                  idx = idx + 32
+                  s = s + 1
+                  continue 
+              return Array(len=stor104.length % 128, data=mem[128 len ceil32(stor104.length.field_1)])
+          mem[128] = 256 * stor104.length.field_8
+  else:
+      if bool(stor104.length) == stor104.length.field_1 < 32:
+          revert with 0, 34
+      if stor104.length.field_1:
+          if 31 < stor104.length.field_1:
+              mem[128] = uint256(stor104.field_0)
+              idx = 128
+              s = 0
+              while stor104.length.field_1 + 96 > idx:
+                  mem[idx + 32] = stor104[s].field_256
+                  idx = idx + 32
+                  s = s + 1
+                  continue 
+              return Array(len=stor104.length % 128, data=mem[128 len ceil32(stor104.length.field_1)])
+          mem[128] = 256 * stor104.length.field_8
+  mem[ceil32(stor104.length.field_1) + 192 len ceil32(stor104.length.field_1)] = mem[128 len ceil32(stor104.length.field_1)]
+  if ceil32(stor104.length.field_1) > stor104.length.field_1:
+      mem[ceil32(stor104.length.field_1) + stor104.length.field_1 + 192] = 0
+  return Array(len=stor104.length % 128, data=mem[128 len ceil32(stor104.length.field_1)], mem[(2 * ceil32(stor104.length.field_1)) + 192 len 2 * ceil32(stor104.length.field_1)]), 
+
+def unknown7c3a6f37(uint256 _param1, uint256 _param2, uint256 _param3, array _param4) payable: 
+  require calldata.size - 4 >=′ 128
+  require _param1 == address(_param1)
+  require _param3 == uint32(_param3)
+  require _param4 <= 18446744073709551615
+  require _param4 + 35 <′ calldata.size
+  require _param4.length <= 18446744073709551615
+  require _param4 + (32 * _param4.length) + 36 <= calldata.size
+  mem[256 len 32 * _param4.length] = call.data[_param4 + 36 len 32 * _param4.length]
+  mem[(32 * _param4.length) + 256] = 0
+  idx = 0
+  s = 0
+  while idx < _param4.length:
+      if idx >= _param4.length:
+          revert with 0, 50
+      if s + sha3(address(_param1), _param2, uint32(_param3)) > mem[(32 * idx) + 256]:
+          mem[0] = mem[(32 * idx) + 256]
+          mem[32] = s + sha3(address(_param1), _param2, uint32(_param3))
+          if idx == -1:
+              revert with 0, 17
+          idx = idx + 1
+          s = sha3(mem[(32 * idx) + 256], s)
+          continue 
+      mem[0] = s + sha3(address(_param1), _param2, uint32(_param3))
+      mem[32] = mem[(32 * idx) + 256]
+      if idx == -1:
+          revert with 0, 17
+      idx = idx + 1
+      s = sha3(s, mem[(32 * idx) + 256])
+      continue 
+  if s != unknown2eb4a7ab:
+      revert with 0, 'Unverified'
+  if not unknownc17c5ab8:
+      if not stor106[address(_param1)][_param2][uint32(_param3)]:
+          if bool(stor104.length):
+              if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                  revert with 0, 34
+              if not bool(stor104.length):
+                  static call unknownb86d5298Address.0xad9c499b with:
+                          gas gas_remaining wei
+                         args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+              else:
+                  if bool(stor104.length) != 1:
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                  else:
+                      idx = 0
+                      s = 0
+                      while idx < uint255(stor104.length) * 0.5:
+                          mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                          idx = idx + 32
+                          s = s + 1
+                          continue 
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+          else:
+              if bool(stor104.length) == stor104.length.field_1 < 32:
+                  revert with 0, 34
+              if not bool(stor104.length):
+                  static call unknownb86d5298Address.0xad9c499b with:
+                          gas gas_remaining wei
+                         args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+              else:
+                  if bool(stor104.length) != 1:
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                  else:
+                      idx = 0
+                      s = 0
+                      while idx < stor104.length.field_1:
+                          mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                          idx = idx + 32
+                          s = s + 1
+                          continue 
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+      else:
+          if block.timestamp <= stor106[address(_param1)][_param2][uint32(_param3)]:
+              if bool(stor104.length):
+                  if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < uint255(stor104.length) * 0.5:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+              else:
+                  if bool(stor104.length) == stor104.length.field_1 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < stor104.length.field_1:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+          else:
+              if bool(stor104.length):
+                  if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < uint255(stor104.length) * 0.5:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+              else:
+                  if bool(stor104.length) == stor104.length.field_1 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < stor104.length.field_1:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+  else:
+      if block.timestamp <= unknownc17c5ab8:
+          if not stor106[address(_param1)][_param2][uint32(_param3)]:
+              if bool(stor104.length):
+                  if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < uint255(stor104.length) * 0.5:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+              else:
+                  if bool(stor104.length) == stor104.length.field_1 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < stor104.length.field_1:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+          else:
+              if block.timestamp <= stor106[address(_param1)][_param2][uint32(_param3)]:
+                  if bool(stor104.length):
+                      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < uint255(stor104.length) * 0.5:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, block.timestamp, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+                  else:
+                      if bool(stor104.length) == stor104.length.field_1 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < stor104.length.field_1:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, block.timestamp, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+              else:
+                  if bool(stor104.length):
+                      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < uint255(stor104.length) * 0.5:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+                  else:
+                      if bool(stor104.length) == stor104.length.field_1 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < stor104.length.field_1:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+      else:
+          if not stor106[address(_param1)][_param2][uint32(_param3)]:
+              if bool(stor104.length):
+                  if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, stor102, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < uint255(stor104.length) * 0.5:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor102, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+              else:
+                  if bool(stor104.length) == stor104.length.field_1 < 32:
+                      revert with 0, 34
+                  if not bool(stor104.length):
+                      static call unknownb86d5298Address.0xad9c499b with:
+                              gas gas_remaining wei
+                             args 0, _param3 << 224, stor102, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                  else:
+                      if bool(stor104.length) != 1:
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                      else:
+                          idx = 0
+                          s = 0
+                          while idx < stor104.length.field_1:
+                              mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                              idx = idx + 32
+                              s = s + 1
+                              continue 
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor102, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+          else:
+              if unknownc17c5ab8 <= stor106[address(_param1)][_param2][uint32(_param3)]:
+                  if bool(stor104.length):
+                      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor102, _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < uint255(stor104.length) * 0.5:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor102, _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+                  else:
+                      if bool(stor104.length) == stor104.length.field_1 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor102, _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < stor104.length.field_1:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor102, _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+              else:
+                  if bool(stor104.length):
+                      if bool(stor104.length) == uint255(stor104.length) * 0.5 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < uint255(stor104.length) * 0.5:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, 2 * Mask(256, -1, stor104.length), mem[(32 * _param4.length) + 452 len ceil32(uint255(stor104.length) * 0.5)]
+                  else:
+                      if bool(stor104.length) == stor104.length.field_1 < 32:
+                          revert with 0, 34
+                      if not bool(stor104.length):
+                          static call unknownb86d5298Address.0xad9c499b with:
+                                  gas gas_remaining wei
+                                 args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, Mask(248, 8, stor104.length)
+                      else:
+                          if bool(stor104.length) != 1:
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args mem[(32 * _param4.length) + 260 len -(32 * _param4.length) - 260]
+                          else:
+                              idx = 0
+                              s = 0
+                              while idx < stor104.length.field_1:
+                                  mem[idx + (32 * _param4.length) + 452] = stor104[s].field_0
+                                  idx = idx + 32
+                                  s = s + 1
+                                  continue 
+                              static call unknownb86d5298Address.0xad9c499b with:
+                                      gas gas_remaining wei
+                                     args 0, _param3 << 224, stor106[address(_param1)][_param2][uint32(_param3)], _param2, 160, stor104.length % 128, mem[(32 * _param4.length) + 452 len ceil32(stor104.length.field_1)]
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require return_data.size >=′ 32
+  if ext_call.return_data[0] < unknownc2a2c66e[address(_param1)][_param2][uint32(_param3)]:
+      revert with 0, 17
+  return (ext_call.return_data[0] - unknownc2a2c66e[address(_param1)][_param2][uint32(_param3)])

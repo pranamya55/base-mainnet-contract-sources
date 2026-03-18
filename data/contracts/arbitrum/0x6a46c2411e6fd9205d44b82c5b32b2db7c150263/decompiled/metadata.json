@@ -1,0 +1,9 @@
+{
+  "tool": "panoramix-decompiler",
+  "status": "ok",
+  "chain": "arbitrum",
+  "address": "0x6a46c2411e6fd9205d44b82c5b32b2db7c150263",
+  "bytecode_length": 2742,
+  "output_chars": 1966,
+  "decompiled_at_epoch": 1773854512
+}

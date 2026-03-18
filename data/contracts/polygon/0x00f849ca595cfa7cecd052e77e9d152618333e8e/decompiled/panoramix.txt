@@ -1,0 +1,61 @@
+# Palkeoramix decompiler. 
+
+def storage:
+  unknown8da5cb5bAddress is address at storage 0
+  stor1 is mapping of uint8 at storage 1
+
+def unknown8da5cb5b() payable: 
+  return unknown8da5cb5bAddress
+
+def unknowncad283e0(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  return bool(stor1[_param1])
+
+def unknownfd74c2a8(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  return bool(stor1[address(_param1)])
+
+#
+#  Regular functions
+#
+
+def _fallback(?) payable: # default function
+  revert
+
+def unknown715018a6() payable: 
+  if unknown8da5cb5bAddress != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  unknown8da5cb5bAddress = 0
+  log 0x8be0079c: unknown8da5cb5bAddress, 0
+
+def unknown22175a32(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  if unknown8da5cb5bAddress != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  if not stor1[address(_param1)]:
+      revert with 0, 'Not registered'
+  stor1[address(_param1)] = 0
+  log 0xb6cd5651: address(_param1)
+
+def unknownc6e2a400(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  if unknown8da5cb5bAddress != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  if stor1[address(_param1)]:
+      revert with 0, 'Already registered'
+  stor1[address(_param1)] = 1
+  log 0x859eb742: address(_param1)
+
+def unknownf2fde38b(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 == address(_param1)
+  if unknown8da5cb5bAddress != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  if not address(_param1):
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 'Ownable: new owner is the zero address'
+  unknown8da5cb5bAddress = address(_param1)
+  log 0x8be0079c: unknown8da5cb5bAddress, address(_param1)

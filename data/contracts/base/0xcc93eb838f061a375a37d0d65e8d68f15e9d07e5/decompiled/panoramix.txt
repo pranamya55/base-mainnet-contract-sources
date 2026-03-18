@@ -1,0 +1,20 @@
+# Palkeoramix decompiler. 
+
+def _fallback(?) payable: # default function
+  revert
+
+def unknownad9c499b(uint256 _param1, uint256 _param2, uint256 _param3, uint256 _param4, array _param5) payable: 
+  require calldata.size - 4 >=′ 160
+  require _param1 == uint32(_param1)
+  require _param2 == uint32(_param2)
+  require _param5 <= 18446744073709551615
+  require _param5 + 35 <′ calldata.size
+  if _param5.length > 18446744073709551615:
+      revert with 0, 65
+  if ceil32(ceil32(_param5.length)) + 97 < 96 or ceil32(ceil32(_param5.length)) + 97 > 18446744073709551615:
+      revert with 0, 65
+  require _param5 + _param5.length + 36 <= calldata.size
+  if _param3 >= uint32(_param2):
+      return _param4
+  else:
+      return 0

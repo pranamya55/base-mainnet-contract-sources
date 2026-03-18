@@ -1,0 +1,4 @@
+# Palkeoramix decompiler. 
+
+def _fallback(?) payable: # default function
+  revert

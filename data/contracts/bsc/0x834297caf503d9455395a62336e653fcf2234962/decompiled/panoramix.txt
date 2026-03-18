@@ -1,0 +1,39 @@
+# Palkeoramix decompiler. 
+
+const unknown23d6cf2b = 0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f
+
+#
+#  Regular functions
+#
+
+def _fallback(?) payable: # default function
+  revert
+
+def unknown94bbcbe5(uint256 _param1, uint256 _param2, uint256 _param3, array _param4) payable: 
+  require calldata.size - 4 >=′ 128
+  require _param2 == address(_param2)
+  require _param3 == address(_param3)
+  require _param4 <= 18446744073709551615
+  require _param4 + 35 <′ calldata.size
+  if _param4.length > 18446744073709551615:
+      revert with 0, 65
+  if ceil32(ceil32(_param4.length)) + 97 < 96 or ceil32(ceil32(_param4.length)) + 97 > 18446744073709551615:
+      revert with 0, 65
+  require _param4 + _param4.length + 36 <= calldata.size
+  create contract with 0 wei
+                  code: 0x3d602d80600a3d3981f3363d3d373d3d3d363d73, 7442825886782328224, 0x5af43d82803e903d91602b57fd5bf3
+  if not address(create.new_address):
+      revert with 0, 'ERC1167: create failed'
+  require ext_code.size(address(create.new_address))
+  call address(create.new_address).0x48ac04fb with:
+       gas gas_remaining wei
+      args _param1, address(_param2), address(_param3), Array(len=_param4.length, data=_param4[all])
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require ext_code.size(address(create.new_address))
+  call address(create.new_address).0xf2fde38b with:
+       gas gas_remaining wei
+      args caller
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  log 0x3700dda9: address(create.new_address)

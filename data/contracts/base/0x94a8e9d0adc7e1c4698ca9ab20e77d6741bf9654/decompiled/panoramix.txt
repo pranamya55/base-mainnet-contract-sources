@@ -1,0 +1,1559 @@
+# Palkeoramix decompiler. 
+
+def storage:
+  stor0 is uint8 at storage 0
+  stor0 is uint8 at storage 0 offset 8
+  stor0 is uint16 at storage 0
+  unknown248a9ca3 is mapping of struct at storage 201
+  unknown5c975abb is uint8 at storage 251
+  stor351 is mapping of uint8 at storage 351
+  unknowne06118b7Address is address at storage 401
+  stor28112841201335349834453692049721162298602443551102169375635371325218314459888 is mapping of uint8 at storage 0x3e274de2f9112d7d0c957a43ac931f42280faf1d8f6e484d9ad9960c60331af0
+  stor4910 is uint8 at storage 0x4910fdfa16fed3260ed0e7147f7cc6da11a60208b5b9406d12a635614ffd9143
+  stor36126541343047316783461016726933189047045668878540992948297416756329120912357 is mapping of uint8 at storage 0x4fdee5d586e5e228014d80a37dce2600da265f01b2c59eb2b21880eeb6a9d3e5
+  stor58798135013249593460108280977022746446257191352797983742652137861604544603990 is mapping of uint8 at storage 0x81fe90a866a48a634a12852c1be675b683a22307409932a7443b8029347be756
+  storFE36 is address at storage 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b
+
+def unknown248a9ca3(uint256 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  return unknown248a9ca3[_param1].field_256
+
+def unknown5c975abb(): # not payable
+  require calldata.size - 4 >=′ 0
+  return bool(unknown5c975abb)
+
+def unknown6b248080(uint128 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not Mask(96, 160, _param1)
+  return bool(stor351[address(_param1)])
+
+def unknown91d14854(uint256 _param1, uint128 _param2): # not payable
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param2)
+  return bool(unknown248a9ca3[_param1][address(_param2)].field_0)
+
+def unknowne06118b7(): # not payable
+  require calldata.size - 4 >=′ 0
+  return unknowne06118b7Address
+
+#
+#  Regular functions
+#
+
+def unknowna217fddf(): # not payable
+  require calldata.size - 4 >=′ 0
+  return 0
+
+def unknownce46e046(): # not payable
+  require calldata.size - 4 >=′ 0
+  return 0
+
+def unknowne63ab1e9(): # not payable
+  require calldata.size - 4 >=′ 0
+  return 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+
+def unknown52d1902d(): # not payable
+  require calldata.size - 4 >=′ 0
+  if this.address - 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+      revert with 147028384, 'UUPSUpgradeable: must not be called through delegatecall'
+  return 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b
+
+def unknowne49617e1(uint256 _param1) payable: 
+  require calldata.size - 4 >=′ 32
+  require _param1 <= 18446744073709551615
+  require calldata.size + -_param1 - 4 >=′ 320
+  if call.value:
+      revert with 359987699
+  if caller - 0x4200000000000000000000000000000000000021:
+      revert with 1286113383
+  if unknown5c975abb:
+      revert with 147028384, 'Pausable: paused'
+  return 1
+
+def unknown01ffc9a7(uint256 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not _param1 - Mask(32, 224, _param1)
+  if Mask(32, 224, _param1) != 0x7965db0b00000000000000000000000000000000000000000000000000000000:
+      return (0x1ffc9a700000000000000000000000000000000000000000000000000000000 == Mask(32, 224, _param1))
+  return (Mask(32, 224, _param1) == 0x7965db0b00000000000000000000000000000000000000000000000000000000)
+
+def unknown36568abe(uint256 _param1, uint128 _param2): # not payable
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param2)
+  if address(_param2) - caller:
+      revert with 147028384, 'AccessControl: can only renounce roles for self'
+  if unknown248a9ca3[_param1][address(_param2)].field_0:
+      unknown248a9ca3[_param1][address(_param2)].field_0 = 0
+      log 0xf6391f5c: _param1, address(_param2), caller
+      return 0
+  else:
+      return 0
+
+def unknowne60c3505() payable: 
+  require calldata.size - 4 >=′ 32
+  require cd[4] <= 18446744073709551615
+  require calldata.size + -cd[4] - 4 >=′ 320
+  if call.value:
+      revert with 359987699
+  if caller - 0x4200000000000000000000000000000000000021:
+      revert with 1286113383
+  if unknown5c975abb:
+      revert with 147028384, 'Pausable: paused'
+  require not Mask(96, 160, ('cd', 4)[6])
+  if not stor351[address(('cd', 4)[6])]:
+      return bool(stor351[address(('cd', 4)[6])])
+  require ext_code.size(unknowne06118b7Address)
+  call unknowne06118b7Address.0x5250fec7 with:
+       gas gas_remaining wei
+      args ('cd', 4).length
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  return 1
+
+def unknown88e5b2d9() payable: 
+  require calldata.size - 4 >=′ 64
+  require cd[4] <= 18446744073709551615
+  require cd[4] + 35 <′ calldata.size
+  require ('cd', 4).length <= 18446744073709551615
+  require (32 * ('cd', 4).length) + cd[4] + 36 <= calldata.size
+  require cd[36] <= 18446744073709551615
+  require cd[36] + 35 <′ calldata.size
+  require ('cd', 36).length <= 18446744073709551615
+  require (32 * ('cd', 36).length) + cd[36] + 36 <= calldata.size
+  if call.value:
+      revert with 359987699
+  if caller - 0x4200000000000000000000000000000000000021:
+      revert with 1286113383
+  if ('cd', 4).length - ('cd', 36).length:
+      revert with 2491243140
+  s = call.value
+  idx = 0
+  while idx < ('cd', 4).length:
+      if idx >= ('cd', 36).length:
+          revert with 0, 50
+      if cd[((32 * idx) + cd[36] + 36)] > s:
+          revert with 285282964
+      if idx >= ('cd', 4).length:
+          revert with 0, 50
+      require cd[(cd[4] + (32 * idx) + 36)] <′ calldata.size + -cd[4] - 355
+      if unknown5c975abb:
+          revert with 147028384, 'Pausable: paused'
+      s = s - cd[((32 * idx) + cd[36] + 36)]
+      idx = idx + 1
+      continue 
+  return 1
+
+def unknown485cc955(uint128 _param1, uint128 _param2): # not payable
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param1)
+  require not Mask(96, 160, _param2)
+  if not uint8(stor0.field_8):
+      if uint8(stor0.field_0) >= 2:
+          revert with 147028384, 'Initializable: contract is already initialized'
+  else:
+      if uint8(stor0.field_8):
+          revert with 147028384, 'Initializable: contract is already initialized'
+  uint16(stor0.field_0) = 258
+  if not address(_param1):
+      revert with 147028384, 'missing default admin address'
+  unknown5c975abb = 0
+  if not address(_param2):
+      revert with 3723370756
+  if address(_param2) == unknowne06118b7Address:
+      revert with 3723370756
+  unknowne06118b7Address = address(_param2)
+  log 0xdf6a4c0e: unknowne06118b7Address, address(_param2)
+  if not unknown248a9ca3[0][address(_param1)].field_0:
+      unknown248a9ca3[0][address(_param1)].field_0 = 1
+      log 0x2f878811: 0, address(_param1), caller
+  uint8(stor0.field_8) = 0
+  log 0x7f26b83f: 2
+  return 0
+
+def unknown8456cb59(): # not payable
+  require calldata.size - 4 >=′ 0
+  if stor4FDE[caller]:
+      if unknown5c975abb:
+          revert with 147028384, 'Pausable: paused'
+      unknown5c975abb = 1
+      log 0x62e78cea: caller
+      return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if caller + 10240:
+      revert with 147028384, 'Strings: hex length insufficient'
+  mem[224 len 96] = call.data[calldata.size len 96]
+  idx = 65
+  s = 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 66:
+          revert with 0, 50
+      mem[idx + 224 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+
+def unknown3f4ba83a(): # not payable
+  require calldata.size - 4 >=′ 0
+  if stor4FDE[caller]:
+      if not unknown5c975abb:
+          revert with 147028384, 'Pausable: not paused'
+      unknown5c975abb = 0
+      log 0x5db9ee0a: caller
+      return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if caller + 10240:
+      revert with 147028384, 'Strings: hex length insufficient'
+  mem[224 len 96] = call.data[calldata.size len 96]
+  idx = 65
+  s = 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 66:
+          revert with 0, 50
+      mem[idx + 224 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+
+def unknown72327553(uint128 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not Mask(96, 160, _param1)
+  if stor81FE[caller]:
+      if stor351[address(_param1)]:
+          revert with 2038366283, address(_param1)
+      stor351[address(_param1)] = 1
+      log 0x84c8e535: address(_param1)
+      return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if caller + 10240:
+      revert with 147028384, 'Strings: hex length insufficient'
+  mem[224 len 96] = call.data[calldata.size len 96]
+  idx = 65
+  while idx > 1:
+      if idx >= 66:
+          revert with 0, 50
+      mem[idx + 224 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      continue 
+  revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+
+def unknowncc78fef1(uint128 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not Mask(96, 160, _param1)
+  if stor81FE[caller]:
+      if not stor351[address(_param1)]:
+          revert with 3586396104, address(_param1)
+      stor351[address(_param1)] = 0
+      log 0x368846ed: address(_param1)
+      return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if caller + 10240:
+      revert with 147028384, 'Strings: hex length insufficient'
+  mem[224 len 96] = call.data[calldata.size len 96]
+  idx = 65
+  while idx > 1:
+      if idx >= 66:
+          revert with 0, 50
+      mem[idx + 224 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      continue 
+  revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+
+def unknown3b431e92(uint128 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not Mask(96, 160, _param1)
+  if stor81FE[caller]:
+      if not address(_param1):
+          revert with 3723370756
+      if address(_param1) == unknowne06118b7Address:
+          revert with 3723370756
+      unknowne06118b7Address = address(_param1)
+      log 0xdf6a4c0e: unknowne06118b7Address, address(_param1)
+      return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if caller + 10240:
+      revert with 147028384, 'Strings: hex length insufficient'
+  mem[224 len 96] = call.data[calldata.size len 96]
+  idx = 65
+  while idx > 1:
+      if idx >= 66:
+          revert with 0, 50
+      mem[idx + 224 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      continue 
+  revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+
+def unknownd547741f(uint256 _param1, uint128 _param2): # not payable
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param2)
+  if unknown248a9ca3[unknown248a9ca3[_param1].field_256][caller].field_0:
+      if unknown248a9ca3[_param1][address(_param2)].field_0:
+          unknown248a9ca3[_param1][address(_param2)].field_0 = 0
+          log 0xf6391f5c: _param1, address(_param2), caller
+          return 0
+      else:
+          return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if not caller + 10240:
+      mem[224 len 96] = call.data[calldata.size len 96]
+      idx = 65
+      s = unknown248a9ca3[_param1].field_256
+      while idx > 1:
+          if s % 16 >= 16:
+              revert with 0, 50
+          if idx >= 66:
+              revert with 0, 50
+          mem[idx + 224 len 8] = 0
+          if not idx:
+              revert with 0, 17
+          idx = idx - 1
+          s = Mask(252, 0, s) * 0.0625
+          continue 
+      if not unknown248a9ca3[_param1].field_256 + 16384:
+          revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+  revert with 147028384, 'Strings: hex length insufficient'
+
+def unknown2f2ff15d(uint256 _param1, uint128 _param2): # not payable
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param2)
+  if unknown248a9ca3[unknown248a9ca3[_param1].field_256][caller].field_0:
+      if not unknown248a9ca3[_param1][address(_param2)].field_0:
+          unknown248a9ca3[_param1][address(_param2)].field_0 = 1
+          log 0x2f878811: _param1, address(_param2), caller
+          return 0
+      else:
+          return 0
+  mem[128 len 64] = call.data[calldata.size len 64]
+  idx = 41
+  s = caller
+  while idx > 1:
+      if s % 16 >= 16:
+          revert with 0, 50
+      if idx >= 42:
+          revert with 0, 50
+      mem[idx + 128 len 8] = 0
+      if not idx:
+          revert with 0, 17
+      idx = idx - 1
+      s = Mask(252, 0, s) * 0.0625
+      continue 
+  if not caller + 10240:
+      mem[224 len 96] = call.data[calldata.size len 96]
+      idx = 65
+      s = unknown248a9ca3[_param1].field_256
+      while idx > 1:
+          if s % 16 >= 16:
+              revert with 0, 50
+          if idx >= 66:
+              revert with 0, 50
+          mem[idx + 224 len 8] = 0
+          if not idx:
+              revert with 0, 17
+          idx = idx - 1
+          s = Mask(252, 0, s) * 0.0625
+          continue 
+      if not unknown248a9ca3[_param1].field_256 + 16384:
+          revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+  revert with 147028384, 'Strings: hex length insufficient'
+
+def unknown91db0b7e() payable: 
+  require calldata.size - 4 >=′ 64
+  require cd[4] <= 18446744073709551615
+  require cd[4] + 35 <′ calldata.size
+  require ('cd', 4).length <= 18446744073709551615
+  require (32 * ('cd', 4).length) + cd[4] + 36 <= calldata.size
+  require cd[36] <= 18446744073709551615
+  require cd[36] + 35 <′ calldata.size
+  require ('cd', 36).length <= 18446744073709551615
+  require (32 * ('cd', 36).length) + cd[36] + 36 <= calldata.size
+  if call.value:
+      revert with 359987699
+  if caller - 0x4200000000000000000000000000000000000021:
+      revert with 1286113383
+  if ('cd', 4).length - ('cd', 36).length:
+      revert with 2491243140
+  s = call.value
+  idx = 0
+  while idx < ('cd', 4).length:
+      if idx >= ('cd', 36).length:
+          revert with 0, 50
+      if cd[((32 * idx) + cd[36] + 36)] > s:
+          revert with 285282964
+      if idx >= ('cd', 4).length:
+          revert with 0, 50
+      require cd[(cd[4] + (32 * idx) + 36)] <′ calldata.size + -cd[4] - 355
+      if unknown5c975abb:
+          revert with 147028384, 'Pausable: paused'
+      require not Mask(96, 160, cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])
+      mem[0] = address(cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])
+      mem[32] = 351
+      if not stor351[address(cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])]:
+          return 0
+      require ext_code.size(unknowne06118b7Address)
+      mem[96] = 0x5250fec700000000000000000000000000000000000000000000000000000000
+      mem[100] = cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 36)]
+      call unknowne06118b7Address.0x5250fec7 with:
+           gas gas_remaining wei
+          args cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 36)]
+      if not ext_call.success:
+          revert with ext_call.return_data[0 len return_data.size]
+      s = s - cd[((32 * idx) + cd[36] + 36)]
+      idx = idx + 1
+      continue 
+  return 1
+
+def unknown3659cfe6(uint128 _param1): # not payable
+  require calldata.size - 4 >=′ 32
+  require not Mask(96, 160, _param1)
+  if 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654 == this.address:
+      revert with 147028384, 'Function must be called through delegatecall'
+  if storFE36 != 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+      revert with 147028384, 'Function must be called through active proxy'
+  if not stor3E27[caller]:
+      mem[128 len 64] = call.data[calldata.size len 64]
+      idx = 41
+      s = caller
+      while idx > 1:
+          if s % 16 >= 16:
+              revert with 0, 50
+          if idx >= 42:
+              revert with 0, 50
+          mem[idx + 128 len 8] = 0
+          if not idx:
+              revert with 0, 17
+          idx = idx - 1
+          s = Mask(252, 0, s) * 0.0625
+          continue 
+      if caller + 10240:
+          revert with 147028384, 'Strings: hex length insufficient'
+      mem[224 len 96] = call.data[calldata.size len 96]
+      idx = 65
+      s = 0x9fb01ce187beeba8ed8f1bda3ced5658208f6290374a7d5dce78086aef02fe7e
+      while idx > 1:
+          if s % 16 >= 16:
+              revert with 0, 50
+          if idx >= 66:
+              revert with 0, 50
+          mem[idx + 224 len 8] = 0
+          if not idx:
+              revert with 0, 17
+          idx = idx - 1
+          s = Mask(252, 0, s) * 0.0625
+          continue 
+      revert with 147028384, 32, 148, 0x416363657373436f6e74726f6c3a, mem[160 len 42], 8297, mem[288 len 66], 0, None >> 928, 0
+  if stor4910:
+      if not ext_code.size(_param1):
+          revert with 147028384, 'ERC1967: new implementation is not a contract'
+      storFE36 = address(_param1)
+  else:
+      static call address(_param1).0x52d1902d with:
+              gas gas_remaining wei
+      if not ext_call.success:
+          revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+      if 32 > return_data.size:
+          if ceil32(return_data.size) + 128 > 18446744073709551615 or ceil32(return_data.size) + 128 < 128:
+              revert with 0, 65
+          require return_data.size >=′ 32
+      if not ext_call.success:
+          revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+      if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+          revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+      if not ext_code.size(_param1):
+          revert with 147028384, 'ERC1967: new implementation is not a contract'
+      storFE36 = address(_param1)
+      log 0xbc7cd75a: address(_param1)
+  return 0
+
+def unknown4f1ef286(uint128 _param1, array _param2) payable: 
+  require calldata.size - 4 >=′ 64
+  require not Mask(96, 160, _param1)
+  require _param2 <= 18446744073709551615
+  require _param2 + 35 <′ calldata.size
+  if _param2.length > 18446744073709551615:
+      revert with 0, 65
+  if ceil32(ceil32(_param2.length)) + 97 > 18446744073709551615 or ceil32(ceil32(_param2.length)) + 97 < 96:
+      revert with 0, 65
+  require _param2 + _param2.length + 36 <= calldata.size
+  if 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654 == this.address:
+      revert with 147028384, 'Function must be called through delegatecall'
+  if storFE36 != 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+      revert with 147028384, 'Function must be called through active proxy'
+  if not stor3E27[caller]:
+      if ceil32(ceil32(_param2.length)) + 193 <= 18446744073709551615 and 193 >= 97:
+          idx = 41
+          s = caller
+          while idx > 1:
+              if s % 16 >= 16:
+                  revert with 0, 50
+              if idx >= 42:
+                  revert with 0, 50
+              mem[idx + ceil32(ceil32(_param2.length)) + 129 len 8] = 0
+              if not idx:
+                  revert with 0, 17
+              idx = idx - 1
+              s = Mask(252, 0, s) * 0.0625
+              continue 
+          if caller + 10240:
+              revert with 147028384, 'Strings: hex length insufficient'
+          if ceil32(ceil32(_param2.length)) + 321 <= 18446744073709551615 and 321 >= 193:
+              mem[ceil32(ceil32(_param2.length)) + 225 len 96] = call.data[calldata.size len 96]
+              idx = 65
+              s = 0x9fb01ce187beeba8ed8f1bda3ced5658208f6290374a7d5dce78086aef02fe7e
+              while idx > 1:
+                  if s % 16 >= 16:
+                      revert with 0, 50
+                  if idx >= 66:
+                      revert with 0, 50
+                  mem[idx + ceil32(ceil32(_param2.length)) + 225 len 8] = 0
+                  if not idx:
+                      revert with 0, 17
+                  idx = idx - 1
+                  s = Mask(252, 0, s) * 0.0625
+                  continue 
+              if ceil32(ceil32(_param2.length)) + 513 <= 18446744073709551615 and 513 >= 321:
+                  revert with 147028384, 32, 148, mem[ceil32(ceil32(_param2.length)) + 289 len 66], 0 >> 928, 0
+      revert with 0, 65
+  if stor4910:
+      if not ext_code.size(_param1):
+          revert with 147028384, 'ERC1967: new implementation is not a contract'
+      storFE36 = address(_param1)
+  else:
+      static call address(_param1).0x52d1902d with:
+              gas gas_remaining wei
+      if not ext_call.success:
+          revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+      if 32 <= return_data.size:
+          if ceil32(ceil32(_param2.length)) + 129 > 18446744073709551615 or 129 < 97:
+              revert with 0, 65
+          if not ext_call.success:
+              revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+          if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+              revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+          if not ext_code.size(_param1):
+              revert with 147028384, 'ERC1967: new implementation is not a contract'
+          storFE36 = address(_param1)
+          log 0xbc7cd75a: address(_param1)
+          if not _param2.length:
+              if ceil32(ceil32(_param2.length)) + 225 > 18446744073709551615 or 128 < 32:
+                  revert with 0, 65
+              delegate _param1 with:
+                   gas gas_remaining wei
+                  args _param2[all]
+              if not return_data.size:
+                  if not delegate.return_code:
+                      if _param2.length:
+                          revert with _param2[all]
+                      revert with 147028384, 
+                                  32,
+                                  39,
+                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                  0
+                  if not _param2.length:
+                      if not ext_code.size(_param1):
+                          revert with 147028384, 'Address: call to non-contract'
+              else:
+                  if return_data.size > 18446744073709551615:
+                      revert with 0, 65
+                  if ceil32(ceil32(_param2.length)) + ceil32(ceil32(return_data.size)) + 226 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 129 < 128:
+                      revert with 0, 65
+                  if not delegate.return_code:
+                      if return_data.size:
+                          revert with ext_call.return_data[0 len return_data.size]
+                      revert with 147028384, 
+                                  32,
+                                  39,
+                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                  0
+                  if not return_data.size:
+                      if not ext_code.size(_param1):
+                          revert with 147028384, 'Address: call to non-contract'
+          else:
+              if _param2.length:
+                  if ceil32(ceil32(_param2.length)) + 225 > 18446744073709551615 or 128 < 32:
+                      revert with 0, 65
+                  delegate _param1 with:
+                       gas gas_remaining wei
+                      args _param2[all]
+                  if not return_data.size:
+                      if not delegate.return_code:
+                          if _param2.length:
+                              revert with _param2[all]
+                          revert with 147028384, 
+                                      32,
+                                      39,
+                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                      0
+                      if not _param2.length:
+                          if not ext_code.size(_param1):
+                              revert with 147028384, 'Address: call to non-contract'
+                  else:
+                      if return_data.size > 18446744073709551615:
+                          revert with 0, 65
+                      if ceil32(ceil32(_param2.length)) + ceil32(ceil32(return_data.size)) + 226 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 129 < 128:
+                          revert with 0, 65
+                      if not delegate.return_code:
+                          if return_data.size:
+                              revert with ext_call.return_data[0 len return_data.size]
+                          revert with 147028384, 
+                                      32,
+                                      39,
+                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                      0
+                      if not return_data.size:
+                          if not ext_code.size(_param1):
+                              revert with 147028384, 'Address: call to non-contract'
+      else:
+          if ceil32(ceil32(_param2.length)) + ceil32(return_data.size) + 97 > 18446744073709551615 or ceil32(return_data.size) < 0:
+              revert with 0, 65
+          require return_data.size >=′ 32
+          if not ext_call.success:
+              revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+          if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+              revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+          if not ext_code.size(_param1):
+              revert with 147028384, 'ERC1967: new implementation is not a contract'
+          storFE36 = address(_param1)
+          log 0xbc7cd75a: address(_param1)
+          if not _param2.length:
+              if ceil32(ceil32(_param2.length)) + ceil32(return_data.size) + 193 > 18446744073709551615 or 96 < 0:
+                  revert with 0, 65
+              delegate _param1 with:
+                   gas gas_remaining wei
+                  args _param2[all]
+              if not return_data.size:
+                  if not delegate.return_code:
+                      if _param2.length:
+                          revert with _param2[all]
+                      revert with 147028384, 
+                                  32,
+                                  39,
+                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                  0
+                  if not _param2.length:
+                      if not ext_code.size(_param1):
+                          revert with 147028384, 'Address: call to non-contract'
+              else:
+                  if return_data.size > 18446744073709551615:
+                      revert with 0, 65
+                  if ceil32(ceil32(_param2.length)) + ceil32(return_data.size) + ceil32(ceil32(return_data.size)) + 194 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 97 < 96:
+                      revert with 0, 65
+                  if not delegate.return_code:
+                      if return_data.size:
+                          revert with ext_call.return_data[0 len return_data.size]
+                      revert with 147028384, 
+                                  32,
+                                  39,
+                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                  0
+                  if not return_data.size:
+                      if not ext_code.size(_param1):
+                          revert with 147028384, 'Address: call to non-contract'
+          else:
+              if _param2.length:
+                  if ceil32(ceil32(_param2.length)) + ceil32(return_data.size) + 193 > 18446744073709551615 or 96 < 0:
+                      revert with 0, 65
+                  delegate _param1 with:
+                       gas gas_remaining wei
+                      args _param2[all]
+                  if not return_data.size:
+                      if not delegate.return_code:
+                          if _param2.length:
+                              revert with _param2[all]
+                          revert with 147028384, 
+                                      32,
+                                      39,
+                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                      0
+                      if not _param2.length:
+                          if not ext_code.size(_param1):
+                              revert with 147028384, 'Address: call to non-contract'
+                  else:
+                      if return_data.size > 18446744073709551615:
+                          revert with 0, 65
+                      if ceil32(ceil32(_param2.length)) + ceil32(return_data.size) + ceil32(ceil32(return_data.size)) + 194 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 97 < 96:
+                          revert with 0, 65
+                      if not delegate.return_code:
+                          if return_data.size:
+                              revert with ext_call.return_data[0 len return_data.size]
+                          revert with 147028384, 
+                                      32,
+                                      39,
+                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                      0
+                      if not return_data.size:
+                          if not ext_code.size(_param1):
+                              revert with 147028384, 'Address: call to non-contract'
+  return 0
+
+def _fallback(?) payable: # default function
+  if calldata.size < 4:
+      require not calldata.size
+      revert with 359987699
+  if 33540519 == uint32(call.func_hash) >> 224:
+      require not call.value
+      require calldata.size - 4 >=′ 32
+      require not cd[4] - Mask(32, 224, cd[4])
+      if Mask(32, 224, cd[4]) != 0x7965db0b00000000000000000000000000000000000000000000000000000000:
+          return (0x1ffc9a700000000000000000000000000000000000000000000000000000000 == Mask(32, 224, cd[4]))
+      return (Mask(32, 224, cd[4]) == 0x7965db0b00000000000000000000000000000000000000000000000000000000)
+  if 613063843 == uint32(call.func_hash) >> 224:
+      require not call.value
+      require calldata.size - 4 >=′ 32
+      return unknown248a9ca3[cd[4]].field_256
+  if 791671133 == uint32(call.func_hash) >> 224:
+      require not call.value
+      require calldata.size - 4 >=′ 64
+      require not Mask(96, 160, cd[36])
+      if unknown248a9ca3[unknown248a9ca3[cd[4]].field_256][caller].field_0:
+          if not unknown248a9ca3[cd[4]][address(cd[36])].field_0:
+              unknown248a9ca3[cd[4]][address(cd[36])].field_0 = 1
+              log 0x2f878811: cd[4], address(cd[36]), caller
+              return 0
+          else:
+              return 0
+      idx = 41
+      s = caller
+      while idx > 1:
+          if s % 16 >= 16:
+              revert with 0, 50
+          if idx >= 42:
+              revert with 0, 50
+          mem[idx + 160 len 8] = 0
+          if not idx:
+              revert with 0, 17
+          idx = idx - 1
+          s = Mask(252, 0, s) * 0.0625
+          continue 
+      if not caller + 10240:
+          mem[256 len 96] = call.data[calldata.size len 96]
+          idx = 65
+          s = unknown248a9ca3[cd[4]].field_256
+          while idx > 1:
+              if s % 16 >= 16:
+                  revert with 0, 50
+              if idx >= 66:
+                  revert with 0, 50
+              mem[idx + 256 len 8] = 0
+              if not idx:
+                  revert with 0, 17
+              idx = idx - 1
+              s = Mask(252, 0, s) * 0.0625
+              continue 
+          if not unknown248a9ca3[cd[4]].field_256 + 16384:
+              revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+      revert with 147028384, 'Strings: hex length insufficient'
+  if 911641278 == uint32(call.func_hash) >> 224:
+      require not call.value
+      require calldata.size - 4 >=′ 64
+      require not Mask(96, 160, cd[36])
+      if address(cd[36]) - caller:
+          revert with 147028384, 'AccessControl: can only renounce roles for self'
+      if unknown248a9ca3[cd[4]][address(cd[36])].field_0:
+          unknown248a9ca3[cd[4]][address(cd[36])].field_0 = 0
+          log 0xf6391f5c: cd[4], address(cd[36]), caller
+  else:
+      if 911855590 == uint32(call.func_hash) >> 224:
+          require not call.value
+          require calldata.size - 4 >=′ 32
+          require not Mask(96, 160, cd[4])
+          if 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654 == this.address:
+              revert with 147028384, 'Function must be called through delegatecall'
+          if storFE36 != 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+              revert with 147028384, 'Function must be called through active proxy'
+          if not stor3E27[caller]:
+              idx = 41
+              s = caller
+              while idx > 1:
+                  if s % 16 >= 16:
+                      revert with 0, 50
+                  if idx >= 42:
+                      revert with 0, 50
+                  mem[idx + 160 len 8] = 0
+                  if not idx:
+                      revert with 0, 17
+                  idx = idx - 1
+                  s = Mask(252, 0, s) * 0.0625
+                  continue 
+              if caller + 10240:
+                  revert with 147028384, 'Strings: hex length insufficient'
+              mem[256 len 96] = call.data[calldata.size len 96]
+              idx = 65
+              s = 0x9fb01ce187beeba8ed8f1bda3ced5658208f6290374a7d5dce78086aef02fe7e
+              while idx > 1:
+                  if s % 16 >= 16:
+                      revert with 0, 50
+                  if idx >= 66:
+                      revert with 0, 50
+                  mem[idx + 256 len 8] = 0
+                  if not idx:
+                      revert with 0, 17
+                  idx = idx - 1
+                  s = Mask(252, 0, s) * 0.0625
+                  continue 
+              revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+          if stor4910:
+              if not ext_code.size(cd[4]):
+                  revert with 147028384, 'ERC1967: new implementation is not a contract'
+              storFE36 = address(cd[4])
+          else:
+              static call address(cd[4]).0x52d1902d with:
+                      gas gas_remaining wei
+              if not ext_call.success:
+                  revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+              if 32 > return_data.size:
+                  if ceil32(return_data.size) + 160 > 18446744073709551615 or ceil32(return_data.size) + 160 < 160:
+                      revert with 0, 65
+                  require return_data.size >=′ 32
+              if not ext_call.success:
+                  revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+              if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+                  revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+              if not ext_code.size(cd[4]):
+                  revert with 147028384, 'ERC1967: new implementation is not a contract'
+              storFE36 = address(cd[4])
+              log 0xbc7cd75a: address(cd[4])
+      else:
+          if 994254482 == uint32(call.func_hash) >> 224:
+              require not call.value
+              require calldata.size - 4 >=′ 32
+              require not Mask(96, 160, cd[4])
+              if not stor81FE[caller]:
+                  idx = 41
+                  s = caller
+                  while idx > 1:
+                      if s % 16 >= 16:
+                          revert with 0, 50
+                      if idx >= 42:
+                          revert with 0, 50
+                      mem[idx + 160 len 8] = 0
+                      if not idx:
+                          revert with 0, 17
+                      idx = idx - 1
+                      s = Mask(252, 0, s) * 0.0625
+                      continue 
+                  if caller + 10240:
+                      revert with 147028384, 'Strings: hex length insufficient'
+                  mem[256 len 96] = call.data[calldata.size len 96]
+                  idx = 65
+                  while idx > 1:
+                      if idx >= 66:
+                          revert with 0, 50
+                      mem[idx + 256 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+                      if not idx:
+                          revert with 0, 17
+                      idx = idx - 1
+                      continue 
+                  revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+              if not address(cd[4]):
+                  revert with 3723370756
+              if address(cd[4]) == unknowne06118b7Address:
+                  revert with 3723370756
+              unknowne06118b7Address = address(cd[4])
+              log 0xdf6a4c0e: unknowne06118b7Address, address(cd[4])
+          else:
+              if 1061922874 == uint32(call.func_hash) >> 224:
+                  require not call.value
+                  require calldata.size - 4 >=′ 0
+                  if stor4FDE[caller]:
+                      if not unknown5c975abb:
+                          revert with 147028384, 'Pausable: not paused'
+                      unknown5c975abb = 0
+                      log 0x5db9ee0a: caller
+                      return 0
+                  idx = 41
+                  s = caller
+                  while idx > 1:
+                      if s % 16 >= 16:
+                          revert with 0, 50
+                      if idx >= 42:
+                          revert with 0, 50
+                      mem[idx + 160 len 8] = 0
+                      if not idx:
+                          revert with 0, 17
+                      idx = idx - 1
+                      s = Mask(252, 0, s) * 0.0625
+                      continue 
+                  if caller + 10240:
+                      revert with 147028384, 'Strings: hex length insufficient'
+                  mem[256 len 96] = call.data[calldata.size len 96]
+                  idx = 65
+                  s = 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+                  while idx > 1:
+                      if s % 16 >= 16:
+                          revert with 0, 50
+                      if idx >= 66:
+                          revert with 0, 50
+                      mem[idx + 256 len 8] = 0
+                      if not idx:
+                          revert with 0, 17
+                      idx = idx - 1
+                      s = Mask(252, 0, s) * 0.0625
+                      continue 
+                  revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+              if 1214040405 == uint32(call.func_hash) >> 224:
+                  require not call.value
+                  require calldata.size - 4 >=′ 64
+                  require not Mask(96, 160, cd[4])
+                  require not Mask(96, 160, cd[36])
+                  if not uint8(stor0.field_8):
+                      if uint8(stor0.field_0) >= 2:
+                          revert with 147028384, 'Initializable: contract is already initialized'
+                  else:
+                      if uint8(stor0.field_8):
+                          revert with 147028384, 'Initializable: contract is already initialized'
+                  uint16(stor0.field_0) = 258
+                  if not address(cd[4]):
+                      revert with 147028384, 'missing default admin address'
+                  unknown5c975abb = 0
+                  if not address(cd[36]):
+                      revert with 3723370756
+                  if address(cd[36]) == unknowne06118b7Address:
+                      revert with 3723370756
+                  unknowne06118b7Address = address(cd[36])
+                  log 0xdf6a4c0e: unknowne06118b7Address, address(cd[36])
+                  if not unknown248a9ca3[0][address(cd[4])].field_0:
+                      unknown248a9ca3[0][address(cd[4])].field_0 = 1
+                      log 0x2f878811: 0, address(cd[4]), caller
+                  uint8(stor0.field_8) = 0
+                  log 0x7f26b83f: 2
+              else:
+                  if uint32(call.func_hash) >> 224 != 1327428230:
+                      if 1389465645 == uint32(call.func_hash) >> 224:
+                          require not call.value
+                          require calldata.size - 4 >=′ 0
+                          if this.address - 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+                              revert with 147028384, 'UUPSUpgradeable: must not be called through delegatecall'
+                          return 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b
+                      if 1553423035 == uint32(call.func_hash) >> 224:
+                          require not call.value
+                          require calldata.size - 4 >=′ 0
+                          return bool(unknown5c975abb)
+                      if 1797554304 == uint32(call.func_hash) >> 224:
+                          require not call.value
+                          require calldata.size - 4 >=′ 32
+                          require not Mask(96, 160, cd[4])
+                          return bool(stor351[address(cd[4])])
+                      if 1915909459 == uint32(call.func_hash) >> 224:
+                          require not call.value
+                          require calldata.size - 4 >=′ 32
+                          require not Mask(96, 160, cd[4])
+                          if stor81FE[caller]:
+                              if stor351[address(cd[4])]:
+                                  revert with 2038366283, address(cd[4])
+                              stor351[address(cd[4])] = 1
+                              log 0x84c8e535: address(cd[4])
+                              return 0
+                          idx = 41
+                          s = caller
+                          while idx > 1:
+                              if s % 16 >= 16:
+                                  revert with 0, 50
+                              if idx >= 42:
+                                  revert with 0, 50
+                              mem[idx + 160 len 8] = 0
+                              if not idx:
+                                  revert with 0, 17
+                              idx = idx - 1
+                              s = Mask(252, 0, s) * 0.0625
+                              continue 
+                          if caller + 10240:
+                              revert with 147028384, 'Strings: hex length insufficient'
+                          mem[256 len 96] = call.data[calldata.size len 96]
+                          idx = 65
+                          while idx > 1:
+                              if idx >= 66:
+                                  revert with 0, 50
+                              mem[idx + 256 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+                              if not idx:
+                                  revert with 0, 17
+                              idx = idx - 1
+                              continue 
+                          revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+                      if 2220280665 == uint32(call.func_hash) >> 224:
+                          require not call.value
+                          require calldata.size - 4 >=′ 0
+                          if stor4FDE[caller]:
+                              if unknown5c975abb:
+                                  revert with 147028384, 'Pausable: paused'
+                              unknown5c975abb = 1
+                              log 0x62e78cea: caller
+                              return 0
+                          idx = 41
+                          s = caller
+                          while idx > 1:
+                              if s % 16 >= 16:
+                                  revert with 0, 50
+                              if idx >= 42:
+                                  revert with 0, 50
+                              mem[idx + 160 len 8] = 0
+                              if not idx:
+                                  revert with 0, 17
+                              idx = idx - 1
+                              s = Mask(252, 0, s) * 0.0625
+                              continue 
+                          if caller + 10240:
+                              revert with 147028384, 'Strings: hex length insufficient'
+                          mem[256 len 96] = call.data[calldata.size len 96]
+                          idx = 65
+                          s = 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+                          while idx > 1:
+                              if s % 16 >= 16:
+                                  revert with 0, 50
+                              if idx >= 66:
+                                  revert with 0, 50
+                              mem[idx + 256 len 8] = 0
+                              if not idx:
+                                  revert with 0, 17
+                              idx = idx - 1
+                              s = Mask(252, 0, s) * 0.0625
+                              continue 
+                          revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+                      if 2296754905 == uint32(call.func_hash) >> 224:
+                          require calldata.size - 4 >=′ 64
+                          require cd[4] <= 18446744073709551615
+                          require cd[4] + 35 <′ calldata.size
+                          require ('cd', 4).length <= 18446744073709551615
+                          require (32 * ('cd', 4).length) + cd[4] + 36 <= calldata.size
+                          require cd[36] <= 18446744073709551615
+                          require cd[36] + 35 <′ calldata.size
+                          require ('cd', 36).length <= 18446744073709551615
+                          require (32 * ('cd', 36).length) + cd[36] + 36 <= calldata.size
+                          if call.value:
+                              revert with 359987699
+                          if caller - 0x4200000000000000000000000000000000000021:
+                              revert with 1286113383
+                          if ('cd', 4).length - ('cd', 36).length:
+                              revert with 2491243140
+                          s = call.value
+                          idx = 0
+                          while idx < ('cd', 4).length:
+                              if idx >= ('cd', 36).length:
+                                  revert with 0, 50
+                              if cd[((32 * idx) + cd[36] + 36)] > s:
+                                  revert with 285282964
+                              if idx >= ('cd', 4).length:
+                                  revert with 0, 50
+                              require cd[(cd[4] + (32 * idx) + 36)] <′ calldata.size + -cd[4] - 355
+                              if unknown5c975abb:
+                                  revert with 147028384, 'Pausable: paused'
+                              s = s - cd[((32 * idx) + cd[36] + 36)]
+                              idx = idx + 1
+                              continue 
+                      else:
+                          if 2446411860 == uint32(call.func_hash) >> 224:
+                              require not call.value
+                              require calldata.size - 4 >=′ 64
+                              require not Mask(96, 160, cd[36])
+                              return bool(unknown248a9ca3[cd[4]][address(cd[36])].field_0)
+                          if 2447051646 == uint32(call.func_hash) >> 224:
+                              require calldata.size - 4 >=′ 64
+                              require cd[4] <= 18446744073709551615
+                              require cd[4] + 35 <′ calldata.size
+                              require ('cd', 4).length <= 18446744073709551615
+                              require (32 * ('cd', 4).length) + cd[4] + 36 <= calldata.size
+                              require cd[36] <= 18446744073709551615
+                              require cd[36] + 35 <′ calldata.size
+                              require ('cd', 36).length <= 18446744073709551615
+                              require (32 * ('cd', 36).length) + cd[36] + 36 <= calldata.size
+                              if call.value:
+                                  revert with 359987699
+                              if caller - 0x4200000000000000000000000000000000000021:
+                                  revert with 1286113383
+                              if ('cd', 4).length - ('cd', 36).length:
+                                  revert with 2491243140
+                              s = call.value
+                              idx = 0
+                              while idx < ('cd', 4).length:
+                                  if idx >= ('cd', 36).length:
+                                      revert with 0, 50
+                                  if cd[((32 * idx) + cd[36] + 36)] > s:
+                                      revert with 285282964
+                                  if idx >= ('cd', 4).length:
+                                      revert with 0, 50
+                                  require cd[(cd[4] + (32 * idx) + 36)] <′ calldata.size + -cd[4] - 355
+                                  if unknown5c975abb:
+                                      revert with 147028384, 'Pausable: paused'
+                                  require not Mask(96, 160, cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])
+                                  mem[0] = address(cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])
+                                  mem[32] = 351
+                                  if not stor351[address(cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 260)])]:
+                                      return 0
+                                  require ext_code.size(unknowne06118b7Address)
+                                  mem[128] = 0x5250fec700000000000000000000000000000000000000000000000000000000
+                                  mem[132] = cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 36)]
+                                  call unknowne06118b7Address.0x5250fec7 with:
+                                       gas gas_remaining wei
+                                      args cd[(cd[4] + cd[(cd[4] + (32 * idx) + 36)] + 36)]
+                                  if not ext_call.success:
+                                      revert with ext_call.return_data[0 len return_data.size]
+                                  s = s - cd[((32 * idx) + cd[36] + 36)]
+                                  idx = idx + 1
+                                  continue 
+                          else:
+                              if 2719481311 == uint32(call.func_hash) >> 224:
+                                  require not call.value
+                                  require calldata.size - 4 >=′ 0
+                                  return 0
+                              if 3430481649 == uint32(call.func_hash) >> 224:
+                                  require not call.value
+                                  require calldata.size - 4 >=′ 32
+                                  require not Mask(96, 160, cd[4])
+                                  if stor81FE[caller]:
+                                      if not stor351[address(cd[4])]:
+                                          revert with 3586396104, address(cd[4])
+                                      stor351[address(cd[4])] = 0
+                                      log 0x368846ed: address(cd[4])
+                                      return 0
+                                  idx = 41
+                                  s = caller
+                                  while idx > 1:
+                                      if s % 16 >= 16:
+                                          revert with 0, 50
+                                      if idx >= 42:
+                                          revert with 0, 50
+                                      mem[idx + 160 len 8] = 0
+                                      if not idx:
+                                          revert with 0, 17
+                                      idx = idx - 1
+                                      s = Mask(252, 0, s) * 0.0625
+                                      continue 
+                                  if caller + 10240:
+                                      revert with 147028384, 'Strings: hex length insufficient'
+                                  mem[256 len 96] = call.data[calldata.size len 96]
+                                  idx = 65
+                                  while idx > 1:
+                                      if idx >= 66:
+                                          revert with 0, 50
+                                      mem[idx + 256 len 8] = Mask(8, -(2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) + 256, 0) << (2724742338242959531295527451044037484577054111885111183851832432573236117504, 0) - 256
+                                      if not idx:
+                                          revert with 0, 17
+                                      idx = idx - 1
+                                      continue 
+                                  revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+                              if 3460751430 == uint32(call.func_hash) >> 224:
+                                  require not call.value
+                                  require calldata.size - 4 >=′ 0
+                                  return 0
+                              if 3578229791 == uint32(call.func_hash) >> 224:
+                                  require not call.value
+                                  require calldata.size - 4 >=′ 64
+                                  require not Mask(96, 160, cd[36])
+                                  if unknown248a9ca3[unknown248a9ca3[cd[4]].field_256][caller].field_0:
+                                      if unknown248a9ca3[cd[4]][address(cd[36])].field_0:
+                                          unknown248a9ca3[cd[4]][address(cd[36])].field_0 = 0
+                                          log 0xf6391f5c: cd[4], address(cd[36]), caller
+                                          return 0
+                                      else:
+                                          return 0
+                                  idx = 41
+                                  s = caller
+                                  while idx > 1:
+                                      if s % 16 >= 16:
+                                          revert with 0, 50
+                                      if idx >= 42:
+                                          revert with 0, 50
+                                      mem[idx + 160 len 8] = 0
+                                      if not idx:
+                                          revert with 0, 17
+                                      idx = idx - 1
+                                      s = Mask(252, 0, s) * 0.0625
+                                      continue 
+                                  if not caller + 10240:
+                                      mem[256 len 96] = call.data[calldata.size len 96]
+                                      idx = 65
+                                      s = unknown248a9ca3[cd[4]].field_256
+                                      while idx > 1:
+                                          if s % 16 >= 16:
+                                              revert with 0, 50
+                                          if idx >= 66:
+                                              revert with 0, 50
+                                          mem[idx + 256 len 8] = 0
+                                          if not idx:
+                                              revert with 0, 17
+                                          idx = idx - 1
+                                          s = Mask(252, 0, s) * 0.0625
+                                          continue 
+                                      if not unknown248a9ca3[cd[4]].field_256 + 16384:
+                                          revert with 147028384, 32, 148, mem[320 len 66], 0 >> 928, 0
+                                  revert with 147028384, 'Strings: hex length insufficient'
+                              if 3764459703 == uint32(call.func_hash) >> 224:
+                                  require not call.value
+                                  require calldata.size - 4 >=′ 0
+                                  return unknowne06118b7Address
+                              if 3835041761 == uint32(call.func_hash) >> 224:
+                                  require calldata.size - 4 >=′ 32
+                                  require cd[4] <= 18446744073709551615
+                                  require calldata.size + -cd[4] - 4 >=′ 320
+                                  if call.value:
+                                      revert with 359987699
+                                  if caller - 0x4200000000000000000000000000000000000021:
+                                      revert with 1286113383
+                                  if unknown5c975abb:
+                                      revert with 147028384, 'Pausable: paused'
+                              else:
+                                  if uint32(call.func_hash) >> 224 != 3859559685:
+                                      if 3862606313 == uint32(call.func_hash) >> 224:
+                                          require not call.value
+                                          require calldata.size - 4 >=′ 0
+                                          return 0x87dbdffcfd428d70c7e42cd79579fe3d5d16b4b99c589326e25d5537d550bfc6
+                                      if -(uint32(call.func_hash) >> 224) + 4146859403:
+                                          require not calldata.size
+                                          revert with 359987699
+                                      require not call.value
+                                      require calldata.size - 4 >=′ 0
+                                      return 0x9fb01ce187beeba8ed8f1bda3ced5658208f6290374a7d5dce78086aef02fe7e
+                                  require calldata.size - 4 >=′ 32
+                                  require cd[4] <= 18446744073709551615
+                                  require calldata.size + -cd[4] - 4 >=′ 320
+                                  if call.value:
+                                      revert with 359987699
+                                  if caller - 0x4200000000000000000000000000000000000021:
+                                      revert with 1286113383
+                                  if unknown5c975abb:
+                                      revert with 147028384, 'Pausable: paused'
+                                  require not Mask(96, 160, ('cd', 4)[6])
+                                  if not stor351[address(('cd', 4)[6])]:
+                                      return bool(stor351[address(('cd', 4)[6])])
+                                  require ext_code.size(unknowne06118b7Address)
+                                  call unknowne06118b7Address.0x5250fec7 with:
+                                       gas gas_remaining wei
+                                      args ('cd', 4).length
+                                  if not ext_call.success:
+                                      revert with ext_call.return_data[0 len return_data.size]
+                      return 1
+                  require calldata.size - 4 >=′ 64
+                  require not Mask(96, 160, cd[4])
+                  require cd[36] <= 18446744073709551615
+                  require cd[36] + 35 <′ calldata.size
+                  if ('cd', 36).length > 18446744073709551615:
+                      revert with 0, 65
+                  if ceil32(ceil32(('cd', 36).length)) + 129 > 18446744073709551615 or ceil32(ceil32(('cd', 36).length)) + 129 < 128:
+                      revert with 0, 65
+                  mem[128] = ('cd', 36).length
+                  require cd[36] + ('cd', 36).length + 36 <= calldata.size
+                  mem[160 len ('cd', 36).length] = call.data[cd[36] + 36 len ('cd', 36).length]
+                  mem[('cd', 36).length + 160] = 0
+                  if 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654 == this.address:
+                      revert with 147028384, 'Function must be called through delegatecall'
+                  if storFE36 != 0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654:
+                      revert with 147028384, 'Function must be called through active proxy'
+                  if not stor3E27[caller]:
+                      if ceil32(ceil32(('cd', 36).length)) + 225 <= 18446744073709551615 and 225 >= 129:
+                          idx = 41
+                          s = caller
+                          while idx > 1:
+                              if s % 16 >= 16:
+                                  revert with 0, 50
+                              if idx >= 42:
+                                  revert with 0, 50
+                              mem[idx + ceil32(ceil32(('cd', 36).length)) + 161 len 8] = 0
+                              if not idx:
+                                  revert with 0, 17
+                              idx = idx - 1
+                              s = Mask(252, 0, s) * 0.0625
+                              continue 
+                          if caller + 10240:
+                              revert with 147028384, 'Strings: hex length insufficient'
+                          if ceil32(ceil32(('cd', 36).length)) + 353 <= 18446744073709551615 and 353 >= 225:
+                              mem[ceil32(ceil32(('cd', 36).length)) + 257 len 96] = call.data[calldata.size len 96]
+                              idx = 65
+                              s = 0x9fb01ce187beeba8ed8f1bda3ced5658208f6290374a7d5dce78086aef02fe7e
+                              while idx > 1:
+                                  if s % 16 >= 16:
+                                      revert with 0, 50
+                                  if idx >= 66:
+                                      revert with 0, 50
+                                  mem[idx + ceil32(ceil32(('cd', 36).length)) + 257 len 8] = 0
+                                  if not idx:
+                                      revert with 0, 17
+                                  idx = idx - 1
+                                  s = Mask(252, 0, s) * 0.0625
+                                  continue 
+                              if ceil32(ceil32(('cd', 36).length)) + 545 <= 18446744073709551615 and 545 >= 353:
+                                  revert with 147028384, 32, 148, mem[ceil32(ceil32(('cd', 36).length)) + 321 len 66], 0 >> 928, 0
+                      revert with 0, 65
+                  if stor4910:
+                      if not ext_code.size(cd[4]):
+                          revert with 147028384, 'ERC1967: new implementation is not a contract'
+                      storFE36 = address(cd[4])
+                  else:
+                      static call address(cd[4]).0x52d1902d with:
+                              gas gas_remaining wei
+                      mem[ceil32(ceil32(('cd', 36).length)) + 129] = ext_call.return_data[0]
+                      if not ext_call.success:
+                          revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+                      if 32 <= return_data.size:
+                          if ceil32(ceil32(('cd', 36).length)) + 161 > 18446744073709551615 or 161 < 129:
+                              revert with 0, 65
+                          if not ext_call.success:
+                              revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+                          if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+                              revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+                          if not ext_code.size(cd[4]):
+                              revert with 147028384, 'ERC1967: new implementation is not a contract'
+                          storFE36 = address(cd[4])
+                          log 0xbc7cd75a: address(cd[4])
+                          if not ('cd', 36).length:
+                              if ceil32(ceil32(('cd', 36).length)) + 257 > 18446744073709551615 or 128 < 32:
+                                  revert with 0, 65
+                              mem[ceil32(ceil32(('cd', 36).length)) + 161] = 39
+                              mem[ceil32(ceil32(('cd', 36).length)) + 193] = 'Address: low-level delegate call'
+                              mem[ceil32(ceil32(('cd', 36).length)) + 225] = 0x206661696c656400000000000000000000000000000000000000000000000000
+                              delegate cd[4] with:
+                                   gas gas_remaining wei
+                                  args call.data[cd[36] + 36 len ('cd', 36).length]
+                              if not return_data.size:
+                                  if not delegate.return_code:
+                                      if mem[96]:
+                                          revert with memory
+                                            from 128
+                                             len mem[96]
+                                      revert with 147028384, 
+                                                  32,
+                                                  39,
+                                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                  0
+                                  if not mem[96]:
+                                      if not ext_code.size(cd[4]):
+                                          revert with 147028384, 'Address: call to non-contract'
+                              else:
+                                  if return_data.size > 18446744073709551615:
+                                      revert with 0, 65
+                                  if ceil32(ceil32(('cd', 36).length)) + ceil32(ceil32(return_data.size)) + 258 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 129 < 128:
+                                      revert with 0, 65
+                                  if not delegate.return_code:
+                                      if return_data.size:
+                                          revert with ext_call.return_data[0 len return_data.size]
+                                      revert with 147028384, 
+                                                  32,
+                                                  39,
+                                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                  0
+                                  if not return_data.size:
+                                      if not ext_code.size(cd[4]):
+                                          revert with 147028384, 'Address: call to non-contract'
+                          else:
+                              if ('cd', 36).length:
+                                  if ceil32(ceil32(('cd', 36).length)) + 257 > 18446744073709551615 or 128 < 32:
+                                      revert with 0, 65
+                                  mem[ceil32(ceil32(('cd', 36).length)) + 161] = 39
+                                  mem[ceil32(ceil32(('cd', 36).length)) + 193] = 'Address: low-level delegate call'
+                                  mem[ceil32(ceil32(('cd', 36).length)) + 225] = 0x206661696c656400000000000000000000000000000000000000000000000000
+                                  delegate cd[4] with:
+                                       gas gas_remaining wei
+                                      args call.data[cd[36] + 36 len ('cd', 36).length]
+                                  if not return_data.size:
+                                      if not delegate.return_code:
+                                          if mem[96]:
+                                              revert with memory
+                                                from 128
+                                                 len mem[96]
+                                          revert with 147028384, 
+                                                      32,
+                                                      39,
+                                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                      0
+                                      if not mem[96]:
+                                          if not ext_code.size(cd[4]):
+                                              revert with 147028384, 'Address: call to non-contract'
+                                  else:
+                                      if return_data.size > 18446744073709551615:
+                                          revert with 0, 65
+                                      if ceil32(ceil32(('cd', 36).length)) + ceil32(ceil32(return_data.size)) + 258 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 129 < 128:
+                                          revert with 0, 65
+                                      if not delegate.return_code:
+                                          if return_data.size:
+                                              revert with ext_call.return_data[0 len return_data.size]
+                                          revert with 147028384, 
+                                                      32,
+                                                      39,
+                                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                      0
+                                      if not return_data.size:
+                                          if not ext_code.size(cd[4]):
+                                              revert with 147028384, 'Address: call to non-contract'
+                      else:
+                          if ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 129 > 18446744073709551615 or ceil32(return_data.size) < 0:
+                              revert with 0, 65
+                          require return_data.size >=′ 32
+                          if not ext_call.success:
+                              revert with 147028384, 'ERC1967Upgrade: new implementation is not UUPS'
+                          if ext_call.return_data[0] - 0xfe360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382b:
+                              revert with 147028384, 'ERC1967Upgrade: unsupported proxiableUUID'
+                          if not ext_code.size(cd[4]):
+                              revert with 147028384, 'ERC1967: new implementation is not a contract'
+                          storFE36 = address(cd[4])
+                          log 0xbc7cd75a: address(cd[4])
+                          if not ('cd', 36).length:
+                              if ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 225 > 18446744073709551615 or 96 < 0:
+                                  revert with 0, 65
+                              mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 129] = 39
+                              mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 161] = 'Address: low-level delegate call'
+                              mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 193] = 0x206661696c656400000000000000000000000000000000000000000000000000
+                              delegate cd[4] with:
+                                   gas gas_remaining wei
+                                  args call.data[cd[36] + 36 len ('cd', 36).length]
+                              if not return_data.size:
+                                  if not delegate.return_code:
+                                      if mem[96]:
+                                          revert with memory
+                                            from 128
+                                             len mem[96]
+                                      revert with 147028384, 
+                                                  32,
+                                                  39,
+                                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                  0
+                                  if not mem[96]:
+                                      if not ext_code.size(cd[4]):
+                                          revert with 147028384, 'Address: call to non-contract'
+                              else:
+                                  if return_data.size > 18446744073709551615:
+                                      revert with 0, 65
+                                  if ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + ceil32(ceil32(return_data.size)) + 226 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 97 < 96:
+                                      revert with 0, 65
+                                  if not delegate.return_code:
+                                      if return_data.size:
+                                          revert with ext_call.return_data[0 len return_data.size]
+                                      revert with 147028384, 
+                                                  32,
+                                                  39,
+                                                  'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                  0
+                                  if not return_data.size:
+                                      if not ext_code.size(cd[4]):
+                                          revert with 147028384, 'Address: call to non-contract'
+                          else:
+                              if ('cd', 36).length:
+                                  if ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 225 > 18446744073709551615 or 96 < 0:
+                                      revert with 0, 65
+                                  mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 129] = 39
+                                  mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 161] = 'Address: low-level delegate call'
+                                  mem[ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + 193] = 0x206661696c656400000000000000000000000000000000000000000000000000
+                                  delegate cd[4] with:
+                                       gas gas_remaining wei
+                                      args call.data[cd[36] + 36 len ('cd', 36).length]
+                                  if not return_data.size:
+                                      if not delegate.return_code:
+                                          if mem[96]:
+                                              revert with memory
+                                                from 128
+                                                 len mem[96]
+                                          revert with 147028384, 
+                                                      32,
+                                                      39,
+                                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                      0
+                                      if not mem[96]:
+                                          if not ext_code.size(cd[4]):
+                                              revert with 147028384, 'Address: call to non-contract'
+                                  else:
+                                      if return_data.size > 18446744073709551615:
+                                          revert with 0, 65
+                                      if ceil32(ceil32(('cd', 36).length)) + ceil32(return_data.size) + ceil32(ceil32(return_data.size)) + 226 > 18446744073709551615 or ceil32(ceil32(return_data.size)) + 97 < 96:
+                                          revert with 0, 65
+                                      if not delegate.return_code:
+                                          if return_data.size:
+                                              revert with ext_call.return_data[0 len return_data.size]
+                                          revert with 147028384, 
+                                                      32,
+                                                      39,
+                                                      'Address: low-level delegate call', 0x206661696c656400000000000000000000000000000000000000000000000000 >> 56,
+                                                      0
+                                      if not return_data.size:
+                                          if not ext_code.size(cd[4]):
+                                              revert with 147028384, 'Address: call to non-contract'
+  return 0

@@ -1,0 +1,83 @@
+# Palkeoramix decompiler. 
+
+def storage:
+  unknownbd102430Address is address at storage 0
+
+def unknownbd102430() payable: 
+  return unknownbd102430Address
+
+#
+#  Regular functions
+#
+
+def _fallback(?) payable: # default function
+  revert
+
+def unknowne23fc9c4() payable: 
+  mem[64] = 96
+  require calldata.size - 4 >=′ 64
+  require cd[4] == address(cd[4])
+  require cd[36] <= 18446744073709551615
+  require calldata.size >′ cd[36] + 35
+  require ('cd', 36).length <= 18446744073709551615
+  require cd[36] + (32 * ('cd', 36).length) + 36 <= calldata.size
+  if unknownbd102430Address != caller:
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 'BlacklisterOnly: caller is not the blacklister'
+  idx = 0
+  while idx < ('cd', 36).length:
+      require cd[((32 * idx) + cd[36] + 36)] == address(cd[((32 * idx) + cd[36] + 36)])
+      _28 = mem[64]
+      mem[mem[64] + 36] = address(cd[((32 * idx) + cd[36] + 36)])
+      _29 = mem[64]
+      mem[mem[64]] = 36
+      mem[64] = mem[64] + 68
+      mem[_29 + 32] = 0xf9f92be400000000000000000000000000000000000000000000000000000000 or mem[_29 + 36 len 28]
+      mem[64] = _28 + 164
+      mem[_28 + 68] = 34
+      mem[_28 + 100 len 34] = 0xfe4261746368426c61636b6c69737465723a20626c61636b6c697374206661696c65
+      if eth.balance(this.address) < 0:
+          revert with 0, 'Address: insufficient balance for call'
+      if not ext_code.size(cd[4]):
+          revert with 0, 'Address: call to non-contract'
+      _36 = mem[_29]
+      s = 0
+      while s < _36:
+          mem[s + _28 + 164] = mem[s + _29 + 32]
+          s = s + 32
+          continue 
+      mem[_36 + _28 + 164] = 0
+      call address(cd[4]).mem[_28 + 164 len 4] with:
+           gas gas_remaining wei
+          args mem[_28 + 168 len _36 - 4]
+      if not return_data.size:
+          if ext_call.success:
+              idx = idx + 1
+              continue 
+          if mem[96]:
+              revert with memory
+                from 128
+                 len mem[96]
+          mem[_28 + 164] = 0x8c379a000000000000000000000000000000000000000000000000000000000
+          mem[_28 + 168] = 32
+          idx = 0
+          while idx < 34:
+              mem[idx + _28 + 232] = mem[idx + _28 + 100]
+              idx = idx + 32
+              continue 
+          revert with 0, 32, 34, mem[_28 + 232 len 34], 0
+      mem[64] = _28 + ceil32(return_data.size) + 165
+      mem[_28 + 164] = return_data.size
+      mem[_28 + 196 len return_data.size] = ext_call.return_data[0 len return_data.size]
+      if ext_call.success:
+          idx = idx + 1
+          continue 
+      if return_data.size:
+          revert with ext_call.return_data[0 len return_data.size]
+      mem[_28 + ceil32(return_data.size) + 165] = 0x8c379a000000000000000000000000000000000000000000000000000000000
+      mem[_28 + ceil32(return_data.size) + 169] = 32
+      idx = 0
+      while idx < 34:
+          mem[idx + _28 + ceil32(return_data.size) + 233] = mem[idx + _28 + 100]
+          idx = idx + 32
+          continue 
+      revert with 0, 32, 34, mem[_28 + ceil32(return_data.size) + 233 len 34], 0

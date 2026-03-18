@@ -1,0 +1,9 @@
+{
+  "tool": "panoramix-decompiler",
+  "status": "ok",
+  "chain": "base",
+  "address": "0xa0bf66c54002ceb15ab6e8423eebb994e8b2f7fe",
+  "bytecode_length": 3002,
+  "output_chars": 5963,
+  "decompiled_at_epoch": 1773854567
+}

@@ -41,6 +41,24 @@ Notes:
 - `solana` entries are included as metadata records only (non-EVM; no Solidity source fetch).
 - Some addresses are EOAs or unverified contracts and therefore have no verified source.
 
+## Bytecode Decompilation
+
+For EVM contracts that are unverified but have deployed bytecode, this snapshot includes:
+
+- `data/contracts/<chain>/<address>/decompiled/panoramix.txt`
+- `data/contracts/<chain>/<address>/decompiled/metadata.json`
+
+Run results are summarized in:
+
+- `data/decompilation_report.json`
+
+Current decompilation report:
+
+- Candidates (unverified EVM entries): `71`
+- Decompiled output generated: `64`
+- No bytecode at address: `7`
+- Decompilation failures: `0`
+
 Unresolved proxies in this snapshot:
 
 - `base:0x043ac8dbd2f0e932800210260f207806650c6145`
