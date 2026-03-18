@@ -46,12 +46,4 @@ Unresolved proxies in this snapshot:
 - `base:0x043ac8dbd2f0e932800210260f207806650c6145`
 - `base:0xc6d566a56a1aff6508b41f6c90ff131615583bcd`
 
-## Rebuild
-
-```bash
-python3 tools/parse_non_testnet_manifest.py
-export ETHERSCAN_API_KEY='<your-key>'
-python3 tools/fetch_multichain_contract_sources.py
-```
-
-The API key is read from environment only and redacted from saved metadata.
+This repository contains a static snapshot of fetched artifacts.
