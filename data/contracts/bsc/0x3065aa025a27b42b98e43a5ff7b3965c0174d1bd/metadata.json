@@ -1,0 +1,23 @@
+{
+  "chain": "bsc",
+  "address": "0x3065aa025a27b42b98e43a5ff7b3965c0174d1bd",
+  "labels_from_input": [
+    "BNB Smart Chain\t0x3065aa025a27B42B98E43a5fF7B3965c0174D1bD"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getsourcecode&address=0x3065aa025a27b42b98e43a5ff7b3965c0174d1bd&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:16+00:00"
+}

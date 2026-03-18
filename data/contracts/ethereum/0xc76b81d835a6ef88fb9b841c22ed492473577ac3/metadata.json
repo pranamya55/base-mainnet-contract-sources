@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0xc76b81d835a6ef88fb9b841c22ed492473577ac3",
+  "labels_from_input": [
+    "Enables complex vesting logic integration.\t0xc76B81D835A6Ef88fb9b841C22Ed492473577aC3"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0xc76b81d835a6ef88fb9b841c22ed492473577ac3&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:37+00:00"
+}

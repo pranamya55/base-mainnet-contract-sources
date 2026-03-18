@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6",
+  "labels_from_input": [
+    "Connects external funding sources to distribution contracts.\t0x5D09B26B148f9b9e341E9DB8116e3DFa7755CFd6"
+  ],
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x78fe41628abbc9f477186641d4b52d0c5d93ca20",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 11,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:44+00:00"
+}

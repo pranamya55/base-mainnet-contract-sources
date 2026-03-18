@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x866e82a600a1414e583f7f13623f1ac5d58b0afa",
+  "labels_from_input": [
+    "L1CrossDomainMessenger\t0x866E82a600A1414e583f7F13623F1aC5d58b0Afa"
+  ],
+  "contract_name": "ResolvedDelegateProxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x5d5a095665886119693f0b41d8dfee78da033e8b",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 4,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x866e82a600a1414e583f7f13623f1ac5d58b0afa&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:34+00:00"
+}

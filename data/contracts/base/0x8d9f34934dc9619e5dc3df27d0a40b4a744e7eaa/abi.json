@@ -1,0 +1,168 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "authCaptureEscrow_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "spendPermissionManager_",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "OnlyAuthCaptureEscrow",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      }
+    ],
+    "name": "SafeERC20FailedOperation",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "SpendPermissionApprovalFailed",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "authCaptureEscrow",
+    "outputs": [
+      {
+        "internalType": "contract AuthCaptureEscrow",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "payer",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint120",
+            "name": "maxAmount",
+            "type": "uint120"
+          },
+          {
+            "internalType": "uint48",
+            "name": "preApprovalExpiry",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint48",
+            "name": "authorizationExpiry",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint48",
+            "name": "refundExpiry",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint16",
+            "name": "minFeeBps",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint16",
+            "name": "maxFeeBps",
+            "type": "uint16"
+          },
+          {
+            "internalType": "address",
+            "name": "feeReceiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "salt",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct AuthCaptureEscrow.PaymentInfo",
+        "name": "paymentInfo",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "tokenStore",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes",
+        "name": "collectorData",
+        "type": "bytes"
+      }
+    ],
+    "name": "collectTokens",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "collectorType",
+    "outputs": [
+      {
+        "internalType": "enum TokenCollector.CollectorType",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "spendPermissionManager",
+    "outputs": [
+      {
+        "internalType": "contract SpendPermissionManager",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

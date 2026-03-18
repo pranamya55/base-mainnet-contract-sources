@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x0000dfcd0263ac062b3fc7a17abd1f0407f389a6",
+  "labels_from_input": [
+    "Base\t0x0000DfcD0263aC062b3fC7A17aBd1f0407f389A6"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x0000dfcd0263ac062b3fc7a17abd1f0407f389a6&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:12+00:00"
+}

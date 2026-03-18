@@ -1,0 +1,530 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_proxyAdmin",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_optimismPortal",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_systemConfig",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1StandardBridge",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1ERC721Bridge",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_optimismMintableERC20Factory",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1CrossDomainMessenger",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2OutputOracle",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_superchainConfig",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_protocolVersions",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "chainID",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "configHash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "outputRoot",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "batchInbox",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "l2OutputOracle",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "systemConfig",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "optimismPortal",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1CrossDomainMessenger",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1StandardBridge",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1ERC721Bridge",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "optimismMintableERC20Factory",
+            "type": "address"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct DeployChain.DeployAddresses",
+        "name": "addresses",
+        "type": "tuple"
+      }
+    ],
+    "name": "Deploy",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "MESSAGE_PASSER_STORAGE_HASH",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "version",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint256",
+        "name": "chainID",
+        "type": "uint256"
+      }
+    ],
+    "name": "calculateBatchInbox",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "chainID",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "l1Number",
+            "type": "uint64"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "l2Hash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "l2StateRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint64",
+            "name": "l2Time",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct DeployChain.GenesisConfiguration",
+        "name": "genesisConfig",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint32",
+            "name": "basefeeScalar",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "blobbasefeeScalar",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint64",
+            "name": "gasLimit",
+            "type": "uint64"
+          },
+          {
+            "internalType": "address",
+            "name": "gasToken",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct DeployChain.GasConfiguration",
+        "name": "gasConfig",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "batcher",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "proposer",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "unsafeBlockSigner",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct DeployChain.AddressConfiguration",
+        "name": "addressConfig",
+        "type": "tuple"
+      },
+      {
+        "internalType": "bool",
+        "name": "proofsEnabled",
+        "type": "bool"
+      }
+    ],
+    "name": "deploy",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "chainID",
+        "type": "uint256"
+      }
+    ],
+    "name": "deployAddresses",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "l2OutputOracle",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "systemConfig",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "optimismPortal",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1CrossDomainMessenger",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1StandardBridge",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "l1ERC721Bridge",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "optimismMintableERC20Factory",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct DeployChain.DeployAddresses",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "l1CrossDomainMessenger",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "l1ERC721Bridge",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "l1StandardBridge",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "l2OutputOracle",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optimismMintableERC20Factory",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "optimismPortal",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "protocolVersions",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "proxy",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "salt",
+        "type": "bytes32"
+      }
+    ],
+    "name": "proxyAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "proxyAdmin",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "superchainConfig",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "systemConfig",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "chain": "optimism",
+  "address": "0x2fbdd01e44513302bb2789302e98749fb01c0e8d",
+  "labels_from_input": [
+    "Optimism\t0x2fbdd01e44513302bb2789302e98749fb01c0e8d"
+  ],
+  "contract_name": "DistributorFactory",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 46,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=10&module=contract&action=getsourcecode&address=0x2fbdd01e44513302bb2789302e98749fb01c0e8d&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:42+00:00"
+}

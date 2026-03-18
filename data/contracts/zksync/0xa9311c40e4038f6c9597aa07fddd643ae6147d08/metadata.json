@@ -1,0 +1,23 @@
+{
+  "chain": "zksync",
+  "address": "0xa9311c40e4038f6c9597aa07fddd643ae6147d08",
+  "labels_from_input": [
+    "ZKSync Era\t0xa9311c40e4038f6c9597aa07fddd643ae6147d08"
+  ],
+  "contract_name": "src/unlock/v1/DistributorFactory.sol:DistributorFactory",
+  "compiler_version": "zkVM-0.8.23-1.0.1",
+  "optimization_used": "1",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 46,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://block-explorer-api.mainnet.zksync.io/api?module=contract&action=getsourcecode&address=0xa9311c40e4038f6c9597aa07fddd643ae6147d08",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:50+00:00"
+}

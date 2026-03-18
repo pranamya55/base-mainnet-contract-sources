@@ -1,0 +1,23 @@
+{
+  "chain": "avalanche",
+  "address": "0xe57499b85448582a0bfd486283a0a023581d2778",
+  "labels_from_input": [
+    "Avalanche\t0xE57499B85448582a0bFd486283a0a023581D2778"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=43114&module=contract&action=getsourcecode&address=0xe57499b85448582a0bfd486283a0a023581d2778&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:05+00:00"
+}

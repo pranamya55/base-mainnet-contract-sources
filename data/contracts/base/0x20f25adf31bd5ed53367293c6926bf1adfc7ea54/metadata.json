@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x20f25adf31bd5ed53367293c6926bf1adfc7ea54",
+  "labels_from_input": [
+    "Efficiently blacklists multiple addresses in a single transaction.\t0x20F25adf31BD5Ed53367293C6926bF1AdfC7Ea54"
+  ],
+  "contract_name": "BatchBlacklister",
+  "compiler_version": "v0.8.6+commit.11564f7e",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "berlin",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 2,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x20f25adf31bd5ed53367293c6926bf1adfc7ea54&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:24+00:00"
+}

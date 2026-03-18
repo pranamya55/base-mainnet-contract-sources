@@ -1,0 +1,10 @@
+{
+  "chain": "solana",
+  "address": "HNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM",
+  "labels_from_input": [
+    "Handles message validation and token custody on Solana.\tHNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM"
+  ],
+  "source_verified": false,
+  "note": "Non-EVM chain entry; explorer source fetch not supported by this fetcher",
+  "fetched_at": "2026-03-18T16:56:50+00:00"
+}

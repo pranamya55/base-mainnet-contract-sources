@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x071ff6d93895c8e6537c572a6d40cf47c36abed7",
+  "labels_from_input": [
+    "Enforces rules and restrictions for withdrawing liquidity.\t0x071fF6D93895c8E6537C572a6D40CF47c36aBed7"
+  ],
+  "contract_name": "RemoveLiquidityPolicy",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "cancun",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 12,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x071ff6d93895c8e6537c572a6d40cf47c36abed7&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:17+00:00"
+}

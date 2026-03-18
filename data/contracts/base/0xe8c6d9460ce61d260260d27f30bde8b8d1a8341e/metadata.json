@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e",
+  "labels_from_input": [
+    "Manages chain initialization with precompiled contracts.\t0xe8c6D9460Ce61D260260d27f30bde8b8d1a8341e"
+  ],
+  "contract_name": "DeployChain",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "london",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 90,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:10+00:00"
+}

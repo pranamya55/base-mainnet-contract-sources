@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x560aa3207ae4b516a5489e04f2fa2e2808cea896",
+  "labels_from_input": [
+    "Base\t0x560aa3207ae4b516A5489E04f2Fa2e2808CEa896"
+  ],
+  "contract_name": "MintFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "optimization_used": "1",
+  "runs": "100",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 28,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x560aa3207ae4b516a5489e04f2fa2e2808cea896&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:41+00:00"
+}

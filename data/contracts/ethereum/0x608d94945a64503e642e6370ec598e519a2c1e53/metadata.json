@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x608d94945a64503e642e6370ec598e519a2c1e53",
+  "labels_from_input": [
+    "L1ERC721Bridge\t0x608d94945A64503E642E6370Ec598e519a2C1E53"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x74f1ac50eb0be98853805d381c884f5f9abdecf9",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 1,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x608d94945a64503e642e6370ec598e519a2c1e53&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:30+00:00"
+}

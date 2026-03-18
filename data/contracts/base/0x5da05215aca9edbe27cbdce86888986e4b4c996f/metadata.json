@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x5da05215aca9edbe27cbdce86888986e4b4c996f",
+  "labels_from_input": [
+    "No-fee deployment option for basic mintable token contracts.\t0x5da05215acA9eDBE27CBDCE86888986E4b4c996F"
+  ],
+  "contract_name": "MintFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "optimization_used": "1",
+  "runs": "100",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 28,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x5da05215aca9edbe27cbdce86888986e4b4c996f&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:45+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd",
+  "labels_from_input": [
+    "Manages name resolution and record storage for .base.eth domains.\t0xC6d566A56A1aFf6508b41f6c90ff131615583BCD"
+  ],
+  "contract_name": "L2Resolver",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd",
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 33,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xc6d566a56a1aff6508b41f6c90ff131615583bcd&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:02+00:00"
+}

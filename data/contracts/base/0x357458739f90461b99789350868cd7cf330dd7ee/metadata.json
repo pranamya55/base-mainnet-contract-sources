@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x357458739f90461b99789350868cd7cf330dd7ee",
+  "labels_from_input": [
+    "Creates and validates Coinbase-backed attestations.\t0x357458739F90461b99789350868CD7CF330Dd7EE"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x82a2582e545c26e193cefcbb791d2c355e2bd47f",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 9,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x357458739f90461b99789350868cd7cf330dd7ee&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:29+00:00"
+}

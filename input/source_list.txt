@@ -1,0 +1,460 @@
+Asset	Chain	Description	Contracts
+DeployChain	Base	Preinstall deployment factory for creating chains.
+Manages chain initialization with precompiled contracts.	0xe8c6D9460Ce61D260260d27f30bde8b8d1a8341e
+SuperchainConfig	Base	Configuration contract for Superchain deployments.
+Controls global superchain settings and parameters.	0xc5b0B126fFD9D36084af85359a07Fb798A405aDc
+Basenames
+Asset	Chain	Description	Contracts
+OpenEdition721Mint	Base	ERC721 NFT minting contract for open edition collections.
+Enables unlimited minting of digital collectibles.	0x75D2eA122cC20B6e661775Ac18ffF0B4547B9fe6
+EARegistrarController	Base	ENS domain registration controller for Early Access users.
+Handles discounted domain registrations for qualifying addresses.	0xd3e6775Ed9B7dC12B205C8E608Dc3767B9e5eFdA
+L2Resolver	Base	ENS resolver for Base usernames with CCIP-read support.
+Manages name resolution and record storage for .base.eth domains.	0xC6d566A56A1aFf6508b41f6c90ff131615583BCD
+RegistrarController	Base	Main domain registration and renewal controller.
+Handles pricing, discounts, and domain lifecycle management.	0x4cCb0BB02FCABA27e82a56646E81d8c5bC4119a5
+CB1DiscountValidator	Base	Validates eligibility for CB1 holder discounts.
+Checks ownership of Coinbase One NFTs for domain registration discounts.	0x9de4Ab12320684cec803Edb72aA3a920250d392C
+BaseETHDiscountValidator	Base	Validates ETH-based discount eligibility on Base.
+Checks ETH balance thresholds for domain registration discounts.	0x55564490a44FDC2aEEa54B60eB1c79F124FD88b9
+CBIdDiscountValidator	Base	Validates Coinbase ID verification for discounts.
+Checks verified Coinbase account status for domain pricing benefits.	0x0A484e560946818787135EAD632771589523dE82
+VADiscountValidator	Base	Validates early access discount eligibility.
+Manages whitelist-based domain registration discounts for qualifying users.	0x012076854d030128dc72B34621287Bb585210315
+BNSDiscountValidator	Base	Validates eligibility for Basename NFT holder discounts.
+Checks ownership of early Basename NFTs for registration benefits.	0x20b433c640DFb8c2e3C6aBB0533314b2d7B9f2FF
+OCSNFTDiscountValidator	Base	Validates discounts for OnChain Summer NFT holders.
+Checks ownership of qualifying OnChain Summer NFTs for domain discounts.	0x55246A2AE466257B2fB54d4BB881Fb3f17D8e03e
+EAExponentialPremiumPriceOracle	Base	Early Access pricing oracle with exponential premium decay.
+Implements launch pricing with time-based premium reduction.	0x46114792Cc08Baf79006f25Ec9eE23AC64e119ca
+ExponentialPremiumPriceOracle	Base	Standard pricing oracle with exponential premium decay.
+Calculates domain prices with time-based premium reduction after expiry.	0x508CFE43aa84b8048cB6d39037cE0dc96d8aDc75
+BaseRegistrar	Base	Core domain registration and ownership management contract.
+ERC721-based registrar for .base.eth domain ownership and transfers.	0x03c4738Ee98aE44591e1A4A4F3CaB6641d95DD9a
+EaMerkleDiscountValidator	Base	Early Access merkle proof discount validator.
+Validates whitelist eligibility using merkle tree proofs for domain discounts.	0x6E89d99643DB1223697C77A9F8B2Cb07E898e743
+ReverseRegistrar	Base	Manages reverse ENS lookups for addresses.
+Allows setting primary names for addresses for reverse resolution.	0x79EA96012eEa67A83431F1701B3dFf7e37F9E282
+DevfolioDiscountValidator	Base	Validates discounts for Devfolio platform users.
+Checks eligibility for developer-focused domain registration discounts.	0xB635802085b405A9C8BA7225ae866f60b63d8503
+LaunchAuctionPriceOracle	Base	Auction-based pricing oracle for launch phase.
+Implements Dutch auction pricing for premium domain name launches.	0xd53B558e1F07289acedf028d226974AbBa258312
+Registry	Base	Core ENS registry for .base.eth domains.
+Central registry managing domain ownership and resolver assignments.	0xB94704422c2a1E396835A571837Aa5AE53285a95
+L1Resolver	Ethereum	Layer 1 ENS resolver for cross-chain resolution.
+Handles ENS resolution queries on Ethereum for Base domains.	0xde9049636F4a1dfE0a64d1bFe3155C0A14C54F31
+L1Resolver	Ethereum	Layer 1 ENS resolver for cross-chain resolution.
+Handles ENS resolution queries on Ethereum for Base domains.	0x480F8F2FfE823Dc70F499Cc2542C42a3a6aD3f20
+Coinbase Attestations
+Asset	Chain	Description	Contracts
+EAS	Base	Ethereum Attestation Service for creating on-chain attestations.
+Enables verifiable claims and credentials infrastructure.	0x4200000000000000000000000000000000000021
+SchemaRegistry	Base	Registry for managing attestation schemas and templates.
+Defines structure for different types of attestations.	0x4200000000000000000000000000000000000020
+CoinbaseIndexer	Base	Coinbase indexing service for attestation data aggregation.
+Provides efficient querying and discovery of attestations.	0x2c7eE1E5f416dfF40054c27A62f7B357C4E8619C
+CoinbaseAttester	Base	Official Coinbase attestation authority and issuer.
+Creates and validates Coinbase-backed attestations.	0x357458739F90461b99789350868CD7CF330Dd7EE
+CoinbaseResolver	Base	Resolver for processing and validating Coinbase attestations.
+Handles attestation verification and resolution logic.	0xD867CbEd445c37b0F95Cc956fe6B539BdEf7F32f
+Coinbase Smart Wallet infrastructure
+Asset	Chain	Description	Contracts
+CoinbaseSmartWalletValidator	Ethereum	Validator contract for Coinbase Smart Wallet transactions.
+Provides signature verification and security validation.	0x79A33f950b90C7d07E66950daedf868BD0cDcF96
+Optimism	0x79A33f950b90C7d07E66950daedf868BD0cDcF96
+Arbitrum	0x79A33f950b90C7d07E66950daedf868BD0cDcF96
+Base	0x79A33f950b90C7d07E66950daedf868BD0cDcF96
+DefaultReceiver	Ethereum	Default fallback receiver for smart wallet transactions.
+Handles ETH and token transfers when no specific handler exists.	0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9
+Base	0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9
+Arbitrum	0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9
+Optimism	0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9
+MagicSpend	Base	ERC-4337 paymaster contract with gasless transaction support.
+Enables sponsored transactions and flexible payment methods.	0x736b661a643B57F11d131CB3Ae6129C22ea02843
+Base	0xe1D39a19Af4319eBA972fd70A5280CA0aE7cA0AC
+Base	0xF7F64baDcbf64A1DbcAE29C223BE1387F8a301A0
+Base	0x485B2544745786FA2dD95B8C239f6CB3a63D198d
+Base	0xa5b50A9ed69811aFA07151b3B98b8F6B58C5c28A
+Base	0x325A4Af669032B6b1296C3084f8070D04F9AD581
+Base	0xd27D5277215754dc84C8e0736D8fef2Ed39d92F3
+Base	0x53899E2B6C6202C5Eb4F229DA1294F17A0C3876e
+Base	0x7d334106dAa009Ef62CBd34C1624Bee2277bA735
+Base	0xfb1A43620c648A43eEE7bc112db5F2498e619DC5
+Base	0x1d3F02EF7D6881C5018863d740c026639aC7fa41
+Base	0xbd25CE451C24554f53D984b8C64B7A0aBC5FDbB5
+Base	0x5c77CF220dFA3dBBB052D9b4934E61d69cb393a5
+TokenFactory	Base	Factory contract for creating and deploying new tokens.
+Simplifies token creation with standard templates.	0x0000C479718a45e3D80b9A71C17b2E954CfA1515
+SmartWalletFactory	Base	Factory contract for deploying Coinbase Smart Wallets.
+Handles wallet creation and initialization logic.	0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a
+VerifyingPaymaster V7	Base	Latest version of verifying paymaster with enhanced security.
+Validates transactions before sponsoring gas fees.	0x2FAEB0760D4230Ef2aC21496Bb4F0b47D634FD4c
+VerifyingPaymaster V6	Base	Previous version of verifying paymaster for compatibility.
+Legacy gas sponsorship with basic verification.	0xa270ef92c1E11f1C1f95753C2E56801e8125fA83
+Coinbase's validator staking infrastructure
+Asset	Chain	Description	Contracts
+BatchDeposit	Ethereum	Batch staking deposit contract for efficiency.
+Allows multiple validator deposits in single transaction.	0x8eBda19DdEE719DAB78DEf3e22c3d37970e35217
+Commerce Payments
+Asset	Chain	Description	Contracts
+AuthCaptureEscrow	Base	Authorized payment capture and escrow management.
+Securely holds payments pending authorization.	0xBdEA0D1bcC5966192B070Fdf62aB4EF5b4420cff
+ERC3009PaymentCollector	Base	ERC-3009 compliant payment collection contract.
+Handles gasless payments using transferWithAuthorization.	0x0E3dF9510de65469C4518D7843919c0b8C7A7757
+Permit2PaymentCollector	Base	Uniswap Permit2 compatible payment collector.
+Enables gasless token transfers with signature-based permits.	0x992476B9Ee81d52a5BdA0622C333938D0Af0aB26
+PreApprovalPaymentCollector	Base	Pre-approved payment collection contract.
+Collects payments from pre-authorized token allowances.	0x1b77ABd71FCD21fbe2398AE821Aa27D1E6B94bC6
+SpendPermissionPaymentCollector	Base	Spend permission-based payment collector.
+Manages payments through spend permission authorization.	0x8d9F34934dc9619e5DC3Df27D0A40b4A744E7eAa
+OperatorRefundCollector	Base	Operator refund collection and processing contract.
+Handles automated refunds for failed payment operations.	0x934907bffd0901b6A21e398B9C53A4A38F02fa5d
+DEX Aggregator
+Asset	Chain	Description	Contracts
+ZeroExProxy	Ethereum	0x Protocol proxy contract for DEX aggregation.
+Routes trades through multiple decentralized exchanges.	0x564d6e3A879c007183fAd17beD9A70630F090651
+ZeroExProxy	Base	0x Protocol proxy contract for DEX aggregation.
+Routes trades through multiple decentralized exchanges.	0x29ef818a2A9d182Fa9A9D27d61881a239fa03E4B
+EIP-7702
+Asset	Chain	Description	Contracts
+EIP7702Proxy	Ethereum	EIP-7702 account abstraction proxy implementation.
+Enables externally owned accounts to delegate to smart contracts.	0x7702cb554e6bFb442cb743A7dF23154544a7176C
+Arbitrum	0x7702cb554e6bFb442cb743A7dF23154544a7176C
+NonceTracker	Ethereum	Nonce tracking for EIP-7702 implementations.
+Manages transaction nonces for account abstraction.	0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8
+Optimism	0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8
+Base	0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8
+Arbitrum	0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8
+Spend Permissions
+Asset	Chain	Description	Contracts
+SpendPermissionManager	Ethereum	Manages spending permissions for delegated transfers.
+Enables secure authorization of spending limits and approvals.	0xf85210B21cC50302F477BA56686d2019dC9b67Ad
+PublicERC6492Validator	Ethereum	ERC-6492 signature validation for smart contract wallets.
+Validates signatures for undeployed contracts and counterfactual addresses.	0xcfCE48B757601F3f351CB6f434CB0517aEEE293D
+SpendPermissionManager	Base	Manages spending permissions for delegated transfers.
+Enables secure authorization of spending limits and approvals.	0xf85210B21cC50302F477BA56686d2019dC9b67Ad
+PublicERC6492Validator	Base	ERC-6492 signature validation for smart contract wallets.
+Validates signatures for undeployed contracts and counterfactual addresses.	0xcfCE48B757601F3f351CB6f434CB0517aEEE293D
+SpendPermissionManager	Optimism	Manages spending permissions for delegated transfers.
+Enables secure authorization of spending limits and approvals.	0xf85210B21cC50302F477BA56686d2019dC9b67Ad
+PublicERC6492Validator	Optimism	ERC-6492 signature validation for smart contract wallets.
+Validates signatures for undeployed contracts and counterfactual addresses.	0xcfCE48B757601F3f351CB6f434CB0517aEEE293D
+SpendPermissionManager	Arbitrum	Manages spending permissions for delegated transfers.
+Enables secure authorization of spending limits and approvals.	0xf85210B21cC50302F477BA56686d2019dC9b67Ad
+PublicERC6492Validator	Arbitrum	ERC-6492 signature validation for smart contract wallets.
+Validates signatures for undeployed contracts and counterfactual addresses.	0xcfCE48B757601F3f351CB6f434CB0517aEEE293D
+SpendPermissionManager	Polygon	Manages spending permissions for delegated transfers.
+Enables secure authorization of spending limits and approvals.	0xf85210B21cC50302F477BA56686d2019dC9b67Ad
+PublicERC6492Validator	Polygon	ERC-6492 signature validation for smart contract wallets.
+Validates signatures for undeployed contracts and counterfactual addresses.	0xcfCE48B757601F3f351CB6f434CB0517aEEE293D
+Verified Pools
+Asset	Chain	Description	Contracts
+SignatureChecker	Base	Signature verification for pool operations.
+Validates signatures for authorized pool interactions.	0x2D04d1743BaB35B13841A466788479c591E01381
+VerifiedPoolsBasicHook	Base	Basic hook implementation for verified pools.
+Provides customizable pool behavior and validation logic.	0x5cd525c621AFCa515Bf58631D4733fbA7B72Aae4
+VerifiedPoolsPositionManager	Base	Position management for verified liquidity pools.
+Handles liquidity positions and fee collection for verified pools.	0x043ac8DBd2F0e932800210260f207806650C6145
+VerifiedPoolsPositionDescriptor	Base	NFT descriptor for verified pool positions.
+Generates metadata and visuals for liquidity position NFTs.	0x0705717527934a1E10e5328A0B92462c8eB1A28F
+RemoveLiquidityPolicy	Base	Policy contract for liquidity removal operations.
+Enforces rules and restrictions for withdrawing liquidity.	0x071fF6D93895c8E6537C572a6D40CF47c36aBed7
+BasicPolicy	Base	Basic policy implementation for pool operations.
+Defines standard rules for verified pool interactions.	0xcC7fE2Cf5B79F3EFaBF42caC8E223813242E1454
+Wrapped Token (ADA)
+Asset	Chain	Description	Contracts
+coinbase wrapped ada Mint Forwarder	Base	Mint forwarder for Coinbase wrapped Cardano (cbADA).
+Manages cross-chain minting and burning of wrapped ADA tokens.	0x8c44C6a9ee7e64a65F288714d1Bb8043Cf0f3C5C
+coinbase wrapped ada	Base	Coinbase wrapped Cardano token (cbADA).
+ERC20 representation of ADA bridged to Base network.	0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c
+Wrapped Token (DOGE)
+Asset	Chain	Description	Contracts
+coinbase wrapped doge Mint Forwarder	Base	Mint forwarder for Coinbase wrapped Dogecoin (cbDOGE).
+Manages cross-chain minting and burning of wrapped DOGE tokens.	0x0549899a89e661044f9E7a1B76A157d407D85163
+coinbase wrapped doge	Base	Coinbase wrapped Dogecoin token (cbDOGE).
+ERC20 representation of DOGE bridged to Base network.	0xcbD06E5A2B0C65597161de254AA074E489dEb510
+Wrapped Token (LTC)
+Asset	Chain	Description	Contracts
+coinbase wrapped ltc Mint Forwarder	Base	Mint forwarder for Coinbase wrapped Litecoin (cbLTC).
+Manages cross-chain minting and burning of wrapped LTC tokens.	0x423077A24c3019E3A291bE2D29a34A4D97AA2DeD
+coinbase wrapped ltc	Base	Coinbase wrapped Litecoin token (cbLTC).
+ERC20 representation of LTC bridged to Base network.	0xcb17C9Db87B595717C857a08468793f5bAb6445F
+Wrapped Token (XRP)
+Asset	Chain	Description	Contracts
+coinbase wrapped xrp Mint Forwarder	Base	Mint forwarder for Coinbase wrapped XRP (cbXRP).
+Manages cross-chain minting and burning of wrapped XRP tokens.	0x2ebDCFaCCB0c3B6039Dd8C7c30bF633ACE8c268C
+coinbase wrapped xrp	Base	Coinbase wrapped XRP token (cbXRP).
+ERC20 representation of XRP bridged to Base network.	0xcb585250f852C6c6bf90434AB21A00f02833a4af
+Wrapped Tokens
+Asset	Chain	Description	Contracts
+TokenFactory	Base	Factory contract for deploying wrapped token contracts.
+Creates standardized ERC20 tokens for cross-chain asset bridging.	0x0000D340e876e1De249CcA0FD91d91aE612741E8
+Base	0x00003f0f758054D91430AFC79b8666fbA06ccB2c
+Base	0x0000955334545d3c2bdECE50C7F3877054F4dCF7
+Base	0x000036624A21E2047D28449989A943c64b5210d0
+Base	0x00005721895c940fe1066B147358cE6d31A31378
+Base	0x0000B216f5011f882604D2cFa295A83d77025727
+Base	0x0000DfcD0263aC062b3fC7A17aBd1f0407f389A6
+Ethereum	0x00000000001c3dC9A681A014e2732bF1419aFAec
+Base	0x00000000001c3dC9A681A014e2732bF1419aFAec
+MintForwarderFactory	Base	Factory for deploying mint forwarder contracts.
+Creates proxy contracts that manage minting permissions and operations.	0x000054fCEAB4632B9c8B7fd20cE9790352426716
+Base	0x0000FF0b7Fdf0449c0761356680c0516fD76c0f5
+Base	0x0000F4E1b81A88A7b1732a4A5FdfaA4999F45075
+Base	0x00001962896d81F18Bca192a2Bc90f85b5478698
+Base	0x0000Bfaa45AA7352D7A5b151D34f4EFc096E9Cf6
+Base	0x0000Efa3D0485d3E0B6A48adE0d61a59451f648f
+Base	0x00002027199E51Ce5648E56F0F003759e3D7b16e
+Base	0x0000c1c5F00bD1843b6c1703eA1F457a2Bb5c457
+Ethereum	0x0000000000E552550beC95A36217A91CeBA099b0
+Base	0x0000000000E552550beC95A36217A91CeBA099b0
+BatchBlacklister	Base	Batch blacklisting of addresses on FiatToken contracts.
+Efficiently blacklists multiple addresses in a single transaction.	0x20F25adf31BD5Ed53367293C6926bF1AdfC7Ea54
+Base	0x76D62719c6A7766c8478B46f995E99AD4675d86a
+Base	0x17165086067fc58a04CB8E9dA5B6917B6f23f109
+Base	0xA9A4408db72F168c5b0bf413b369824450517126
+Base	0x4d5b3aca5968f7075F023d2A7AA830358C3c2b48
+Base	0xE3111D45733Efee14bFB1EbE2364D929eDBd9059
+Base	0xadab385DFD0bB2c21E292c5F586471a2878A101e
+Base	0x0C8B7E98b39aA7983D2444661805a628E8A041DB
+Base	0xF903f3A8B30a7b645e76DB8511b4121cc96160EB
+Ethereum	0xF903f3A8B30a7b645e76DB8511b4121cc96160EB
+BatchBlacklisterV2	Base	Enhanced batch blacklisting with additional features.
+Improved version with optimized gas usage and extended functionality.	0xa0BF66C54002cEb15aB6E8423EebB994E8b2f7FE
+Ethereum	0xE34Fd8e02815125aB0947434e42978a8A4e70906
+Arbitrum	0x63d7212C0503b04BdC2BCCe90fe26800859F2f81
+MintFactoryFree	Base	Free tier factory for token minting operations.
+No-fee deployment option for basic mintable token contracts.	0x5da05215acA9eDBE27CBDCE86888986E4b4c996F
+MintFactory	Base	Factory contract for deploying mintable token contracts.
+Manages creation and configuration of custom ERC20 tokens with minting capabilities.	0x20e26eD291B85A44A6Eb9b0D336512b53fd93092
+Base	0x560aa3207ae4b516A5489E04f2Fa2e2808CEa896
+MintFactoryCreator	Base	Meta-factory for creating MintFactory instances.
+Deploys and manages multiple mint factory contracts with custom configurations.	0xAeb73b6C8ed3776EA6b9284082588c55E35e1b27
+Base	0x52d443855E4d15dc47d323fA94e7d92342d3Eb57
+Liqufi
+Asset	Chain	Description	Contracts
+WeightedTokenVestingLockup	Ethereum	Token vesting contract with weighted release schedules.
+Supports time-based and milestone-based unlocking.	0xb7486B5bd2d14714950B082EafebE9822a1d96eE
+Arbitrum	0xaa861940DD2ED2fE4a3108E51f7f117bb6798E65
+Avalanche	0xB487A8739AA114178C5aA5608eF1D2fc26D17A9e
+Base	0x2A06274c976C4db9CbaF702B559E0B5765D07b0d
+Polygon	0x9efea6f63d583624E5a459D680D3A27Adf6C570d
+Optimism	0x16879Ca809e8CA2783d89C2Ee830671A8C348230
+WeightedTokenVestingLockupFactory	Ethereum	Factory contract for deploying WeightedTokenVestingLockup instances.
+Streamlines creation of new vesting schedules.	0x341251e680fB0FD4f47aD4dC1AD61C3bE5142d0e
+Arbitrum	0xD42eA6a51ec16c0Cb581695343F9F3d652d98945
+Avalanche	0x5bFd3bDFf68346909d352757055e98f2654a3c10
+Base	0x08c1820bA6A0B88eB1f3E3eC7C9B8cf85E63C6FC
+Polygon	0xc7284314593e952717b6a0b78766887b37fb1720
+Optimism	0x85F2A6BB58E52c9189fD8748790C5059508FBDc1
+WeightedVestingModule	Ethereum	Modular vesting component with customizable weight parameters.
+Enables complex vesting logic integration.	0xc76B81D835A6Ef88fb9b841C22Ed492473577aC3
+Arbitrum	0xF3D74Bc4E97aD56DDcB0576629c360fB40A871e2
+BNB Smart Chain	0x3065aa025a27B42B98E43a5fF7B3965c0174D1bD
+Avalanche	0xD85d9Cd1E453AeE54e448Cef4941F0718922a672
+Base	0xcc93eb838F061A375A37d0d65E8D68f15e9D07E5
+Polygon	0x595db8eCa8d64f28A57D5F240204FDc8AdbCb8c7
+Optimism	0x848E9743b6D0aC5614f6427d94fEd295Fe393b6d
+VestingModuleRegistry	Ethereum	Central registry for managing and discovering vesting modules.
+Enables governance and upgrade capabilities.	0x782F402C93E9b0d931197cD727e006356B55699d
+Arbitrum	0x6A46c2411e6FD9205D44b82C5B32B2Db7C150263
+BNB Smart Chain	0x208F9c3Ca561977ee49AB84E2243c1531a265bd1
+Avalanche	0xE57499B85448582a0bFd486283a0a023581D2778
+Base	0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F
+Polygon	0x00F849ca595cFa7CeCd052E77e9d152618333E8E
+Optimism	0xC34c1643c4C2488315Dc709FCB5ABc6b4E3dE6C7
+BatchPayments	Ethereum	Efficient batch payment processor for multiple recipients.
+Reduces gas costs for bulk token distributions.	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+Arbitrum	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+BNB Smart Chain	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+Avalanche	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+Base	0x834297cAF503d9455395A62336e653FCf2234962
+Polygon	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+Optimism	0x39C4B71D53Db0B6B647fe5013608eeA292db4A73
+WeightedTokenVesting (v1)	BNB Smart Chain	Legacy v1 token vesting contract with basic functionality.
+Superseded by newer lockup versions.	0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F
+WeightedTokenVestingFactory (v1)	BNB Smart Chain	Legacy v1 factory for creating basic vesting contracts.
+Superseded by newer factory versions.	0x834297cAF503d9455395A62336e653FCf2234962
+Base <> Solana Bridge
+Asset	Chain	Description	Contracts
+Bridge	Base	Core bridge contract for Base-Solana cross-chain messaging.
+Handles message passing and asset transfers between chains.	0x3eff766C76a1be2Ce1aCF2B69c78bCae257D5188
+BridgeValidator	Base	Validator contract for cross-chain message verification.
+Validates signatures and proofs from Solana.	0xAF24c1c24Ff3BF1e6D882518120fC25442d6794B
+CrossChainERC20Factory	Base	Factory for deploying cross-chain ERC20 tokens.
+Creates wrapped token representations of Solana assets on Base.	0xDD56781d0509650f8C2981231B6C917f2d5d7dF2
+Twin Beacon	Base	Beacon proxy for upgradeable twin token contracts.
+Manages implementation upgrades for cross-chain tokens.	0xb326c02150bb0De265Bb0eCeDA53531ab0163bf6
+Twin Implementation	Base	Implementation contract for twin tokens.
+Contains core logic for cross-chain token operations.	0xb0887e4793d944Cf7bA674B3b3FA5C15900ddaA7
+Solana Bridge Program	Solana	Core Solana program for Base-Solana bridging.
+Handles message validation and token custody on Solana.	HNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM
+Relayer	Solana	Relayer account for cross-chain message delivery.
+Submits transactions on Solana for bridged messages from Base.	g1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9
+Echo
+Asset	Chain	Description	Contracts
+DistributorFactory	Base	Factory contract for deploying token distributor proxies.
+Creates customizable distribution contracts for token vesting and airdrops.	0x3002aadad07ab12e5bb8098de3542bee2ad44fed
+BNB Smart Chain	0x985a20e7bec906778f811799aebf50f90d10f71b
+Ethereum	0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9
+Optimism	0x2fbdd01e44513302bb2789302e98749fb01c0e8d
+ZKSync Era	0xa9311c40e4038f6c9597aa07fddd643ae6147d08
+Distributor Implementation	Base	Core implementation contract for token distribution logic.
+Contains distribution rules, claim mechanisms, and vesting schedules.	0x1798D23f29968b4fff7A60A90645B0939d04f47E
+Base	0x1B4fA4F9BDd13Bfdec49DA85750Ab38387EE4DCF
+BNB Smart Chain	0x5cDf694C5bE8B9E83663e16eFA8a09FE284b3238
+BNB Smart Chain	0x103937F52B9E8Fdd370845E049F3601c2979890a
+Ethereum	0x900857be98cd16C97f270Ce450169761858eb559
+Optimism	0xF9456B2d7EA7CDD9accAa89771DD9E9709C5bB6a
+Optimism	0xB3678A158E83946D02eaBa654a1a6e8eA4d6889C
+ZKSync Era	0xAbf8fcD8954Af787A8f7c080D10E7AcD7BD1F5B5
+GenericRegistry	Base	Central registry for tracking deployed distributor contracts.
+Manages contract discovery and metadata across deployments.	0x73612914c81a9c072333ea9ea71a9b26a5b9a707
+BNB Smart Chain	0x198cbbf1232bb033268a7276ca91d1f3cd4cb896
+Ethereum	0xd643980ee0ef698d37217d8f0123b0f766adec71
+Optimism	0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f
+DealFactory	Base	Factory contract for deploying deal contracts.
+Creates OTC deal structures for token sales and agreements.	0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095
+Deal Implementation	Base	Core implementation for deal contract logic.
+Handles deal execution, escrow, and settlement mechanics.	0x65cDabC9EbF1DfB72600754aa98F90A2EA285Eba
+Settlement	Base	Settlement contract for finalizing deal transactions.
+Manages fund transfers and deal completion logic.	0x7263056963E131153927234e0Ce1457a32D888a4
+FunderIntegration	Base	Integration contract for funding operations.
+Connects external funding sources to distribution contracts.	0x5D09B26B148f9b9e341E9DB8116e3DFa7755CFd6
+ERC20PermitFundingConduit	Base	Funding conduit with ERC20 permit support.
+Enables gasless token approvals for funding operations.	0x29BEa561cb302FD2B85F5c0c6086BE8b1560F2df
+MultiChainWithdrawer	Base	Cross-chain withdrawal management contract.
+Handles token withdrawals across multiple blockchain networks.	0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67
+Linear Unlocker	Base	Linear token unlocking contract for vesting schedules.
+Releases tokens gradually over a defined time period.	0x166415114ef0f243e1bba193df3862b78c13521f
+Base	0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9
+Flywheel Protocol
+Asset	Chain	Description	Contracts
+Flywheel	Base	Core protocol orchestrator for modular rewards and attribution.
+Manages campaign lifecycle, payout operations (send, allocate, distribute, deallocate), and fund custody via isolated Campaign clones.	0x00000f14ad09382841db481403d1775adee1179f
+AdConversion	Base	Attribution-based advertising campaign hook.
+Processes publisher conversions with configurable attribution windows, publisher allowlists, and attribution provider fee structures.	0x5a178f113d9851c72c63e7f58255d4520c1a1d9d
+SimpleRewards	Base	Manager-controlled rewards hook with minimal validation.
+Supports send, allocate, deallocate, and distribute payout operations for flexible reward distribution.	0x58c5fa1e6e651320499ccfb2198ede481b35c87b
+BuilderCodes	Base	UUPS upgradeable publisher registry managing referral code identities as ERC721 NFTs.
+Maps publisher codes to payout addresses and controls all publisher payouts across the protocol.	0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80
+Recovery Signer
+Asset	Chain	Description	Contracts
+RecoverySignerFactory	Base	Factory for deploying per-user RecoverySigner contracts (EIP-1167 minimal clones).
+Guardian-based social recovery for Coinbase retail smart wallets. Each RecoverySigner is owned by a Coinbase K2 guardian key and can add/remove owners on the user's smart wallet.	0xf3Ef80A7664c286997B35b0D1a6d56A9008F9336 L2 Contract Addresses
+​
+Base Mainnet
+Name	Address
+WETH9	0x4200000000000000000000000000000000000006
+L2CrossDomainMessenger	0x4200000000000000000000000000000000000007
+L2StandardBridge	0x4200000000000000000000000000000000000010
+SequencerFeeVault	0x4200000000000000000000000000000000000011
+OptimismMintableERC20Factory	0xF10122D428B4bc8A9d050D06a2037259b4c4B83B
+GasPriceOracle	0x420000000000000000000000000000000000000F
+L1Block	0x4200000000000000000000000000000000000015
+L2ToL1MessagePasser	0x4200000000000000000000000000000000000016
+L2ERC721Bridge	0x4200000000000000000000000000000000000014
+OptimismMintableERC721Factory	0x4200000000000000000000000000000000000017
+ProxyAdmin	0x4200000000000000000000000000000000000018
+BaseFeeVault	0x4200000000000000000000000000000000000019
+L1FeeVault	0x420000000000000000000000000000000000001a
+EAS	0x4200000000000000000000000000000000000021
+EASSchemaRegistry	0x4200000000000000000000000000000000000020
+LegacyERC20ETH	0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000
+​
+Base Testnet (Sepolia)
+Name	Address
+WETH9	0x4200000000000000000000000000000000000006
+L2CrossDomainMessenger	0x4200000000000000000000000000000000000007
+L2StandardBridge	0x4200000000000000000000000000000000000010
+SequencerFeeVault	0x4200000000000000000000000000000000000011
+OptimismMintableERC20Factory	0x4200000000000000000000000000000000000012
+GasPriceOracle	0x420000000000000000000000000000000000000F
+L1Block	0x4200000000000000000000000000000000000015
+L2ToL1MessagePasser	0x4200000000000000000000000000000000000016
+L2ERC721Bridge	0x4200000000000000000000000000000000000014
+OptimismMintableERC721Factory	0x4200000000000000000000000000000000000017
+ProxyAdmin	0x4200000000000000000000000000000000000018
+BaseFeeVault	0x4200000000000000000000000000000000000019
+L1FeeVault	0x420000000000000000000000000000000000001a
+EAS	0x4200000000000000000000000000000000000021
+EASSchemaRegistry	0x4200000000000000000000000000000000000020
+LegacyERC20ETH	0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000
+*L2 contract addresses are the same on both mainnet and testnet.
+​
+L1 Contract Addresses
+​
+Ethereum Mainnet
+Name	Address
+AddressManager	0x8EfB6B5c4767B09Dc9AA6Af4eAA89F749522BaE2
+AnchorStateRegistryProxy	0x909f6cf47ed12f010A796527f562bFc26C7F4E72
+DelayedWETHProxy (FDG)	0x2453c1216e49704d84ea98a4dacd95738f2fc8ec
+DelayedWETHProxy (PDG)	0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d
+DisputeGameFactoryProxy	0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e
+FaultDisputeGame	0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499
+FaultDisputeGame (Kona)	0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499
+L1CrossDomainMessenger	0x866E82a600A1414e583f7F13623F1aC5d58b0Afa
+L1ERC721Bridge	0x608d94945A64503E642E6370Ec598e519a2C1E53
+L1StandardBridge	0x3154Cf16ccdb4C6d922629664174b904d80F2C35
+MIPS	0x6463dEE3828677F6270d83d45408044fc5eDB908
+OptimismMintableERC20Factory	0x05cc379EBD9B30BbA19C6fA282AB29218EC61D84
+OptimismPortal	0x49048044D57e1C92A77f79988d21Fa8fAF74E97e
+PermissionedDisputeGame	0x58bf355C5d4EdFc723eF89d99582ECCfd143266A
+PreimageOracle	0x1fb8cdFc6831fc866Ed9C51aF8817Da5c287aDD3
+ProxyAdmin	0x0475cBCAebd9CE8AfA5025828d5b98DFb67E059E
+SystemConfig	0x73a79Fab69143498Ed3712e519A88a918e1f4072
+SystemDictator	0x1fE3fdd1F0193Dd657C0a9AAC37314D6B479E557
+Unneeded contract addresses
+Certain contracts are mandatory according to the OP Stack SDK, despite not being utilized. For such contracts, you can simply assign the zero address:
+StateCommitmentChain
+CanonicalTransactionChain
+BondManager
+​
+Ethereum Testnet (Sepolia)
+Name	Address
+AddressManager	0x709c2B8ef4A9feFc629A8a2C1AF424Dc5BD6ad1B
+AnchorStateRegistryProxy	0x2fF5cC82dBf333Ea30D8ee462178ab1707315355
+DelayedWETHProxy (FDG)	0xd3683e4947A7769603Ab6418eC02f000CE3cF30b
+DelayedWETHProxy (PDG)	0x32cE910d9C6c8F78dc6779c1499aB05F281A054e
+DisputeGameFactoryProxy	0xd6E6dBf4F7EA0ac412fD8b65ED297e64BB7a06E1
+FaultDisputeGame	0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499
+FaultDisputeGame (Kona)	0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499
+L1CrossDomainMessenger	0xC34855F4De64F1840e5686e64278da901e261f20
+L1ERC721Bridge	0x21eFD066e581FA55Ef105170Cc04d74386a09190
+L1StandardBridge	0xfd0Bf71F60660E2f608ed56e1659C450eB113120
+L2OutputOracle	0x84457ca9D0163FbC4bbfe4Dfbb20ba46e48DF254
+MIPS	0x6463dEE3828677F6270d83d45408044fc5eDB908
+OptimismMintableERC20Factory	0xb1efB9650aD6d0CC1ed3Ac4a0B7f1D5732696D37
+OptimismPortal	0x49f53e41452C74589E85cA1677426Ba426459e85
+PermissionedDisputeGame	0x58bf355C5d4EdFc723eF89d99582ECCfd143266A
+PreimageOracle	0x1fb8cdFc6831fc866Ed9C51aF8817Da5c287aDD3
+ProxyAdmin	0x0389E59Aa0a41E4A413Ae70f0008e76CAA34b1F3
+SystemConfig	0xf272670eb55e895584501d564AfEB048bEd26194
+​
+Base Admin Addresses
+​
+Base Mainnet
+Admin Role	Address	Type of Key
+Batch Sender	0x5050f69a9786f081509234f1a7f4684b5e5b76c9	EOA managed by Coinbase Technologies
+Batch Inbox	0xff00000000000000000000000000000000008453	EOA (with no known private key)
+Output Proposer	0x642229f238fb9de03374be34b0ed8d9de80752c5	EOA managed by Coinbase Technologies
+Proxy Admin Owner (L1)	0x7bB41C3008B3f03FE483B28b8DB90e19Cf07595c	Gnosis Safe
+Challenger	0x8Ca1E12404d16373Aef756179B185F27b2994F3a	EOA managed by Coinbase Technologies
+SystemConfig owner	0x14536667Cd30e52C0b458BaACcB9faDA7046E056	Gnosis Safe
+Guardian	0x09f7150D8c019BeF34450d6920f6B3608ceFdAf2	Gnosis Safe
+​
+Base Testnet (Sepolia)
+Admin Role	Address	Type of Key
+Batch Sender	0x6CDEbe940BC0F26850285cacA097C11c33103E47	EOA managed by Coinbase Technologies
+Batch Inbox	0xff00000000000000000000000000000000084532	EOA (with no known private key)
+Output Proposer	0x037637067c1DbE6d2430616d8f54Cb774Daa5999	EOA managed by Coinbase Technologies
+Proxy Admin Owner (L1)	0x0fe884546476dDd290eC46318785046ef68a0BA9	Gnosis Safe
+Challenger	0x8b8c52B04A38f10515C52670fcb23f3C4C44474F	EOA managed by Coinbase Technologies
+SystemConfig owner	0x5dfEB066334B67355A15dc9b67317fD2a2e1f77f	Gnosis Safe
+Guardian	0x7a50f00e8D05b95F98fE38d8BeE366a7324dCf7E	EOA managed by Coinbase Technologies Base: 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf
+
+Ethereum: 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf
+
+Solana cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij
+
+Arbitrum 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf https://etherscan.io/token/0xbe9895146f7af43049ca1c1ae358b0541ea49704 if you need any more api keys let me know

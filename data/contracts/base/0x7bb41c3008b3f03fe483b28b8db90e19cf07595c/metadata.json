@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x7bb41c3008b3f03fe483b28b8db90e19cf07595c",
+  "labels_from_input": [
+    "Proxy Admin Owner (L1)\t0x7bB41C3008B3f03FE483B28b8DB90e19Cf07595c\tGnosis Safe"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x7bb41c3008b3f03fe483b28b8db90e19cf07595c&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:51+00:00"
+}

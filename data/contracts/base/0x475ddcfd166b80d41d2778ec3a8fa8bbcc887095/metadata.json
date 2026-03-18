@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095",
+  "labels_from_input": [
+    "Creates OTC deal structures for token sales and agreements.\t0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095"
+  ],
+  "contract_name": "DealFactory",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 36,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:37+00:00"
+}

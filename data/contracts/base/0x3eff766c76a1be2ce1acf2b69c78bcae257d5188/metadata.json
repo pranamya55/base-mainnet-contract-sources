@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x3eff766c76a1be2ce1acf2b69c78bcae257d5188",
+  "labels_from_input": [
+    "Handles message passing and asset transfers between chains.\t0x3eff766C76a1be2Ce1aCF2B69c78bCae257D5188"
+  ],
+  "contract_name": "Bridge",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "prague",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 24,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x3eff766c76a1be2ce1acf2b69c78bcae257d5188&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:30+00:00"
+}

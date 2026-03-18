@@ -1,0 +1,23 @@
+{
+  "chain": "arbitrum",
+  "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+  "labels_from_input": [
+    "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+  ],
+  "contract_name": "PublicERC6492Validator",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "cancun",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 2,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=42161&module=contract&action=getsourcecode&address=0xcfce48b757601f3f351cb6f434cb0517aeee293d&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:02+00:00"
+}

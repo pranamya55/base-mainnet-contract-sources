@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xcb17c9db87b595717c857a08468793f5bab6445f",
+  "labels_from_input": [
+    "ERC20 representation of LTC bridged to Base network.\t0xcb17C9Db87B595717C857a08468793f5bAb6445F"
+  ],
+  "contract_name": "FiatTokenProxy",
+  "compiler_version": "v0.6.12+commit.27d51765",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "istanbul",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 5,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xcb17c9db87b595717c857a08468793f5bab6445f&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:03+00:00"
+}

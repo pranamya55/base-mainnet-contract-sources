@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5",
+  "labels_from_input": [
+    "Base\t0xbd25CE451C24554f53D984b8C64B7A0aBC5FDbB5"
+  ],
+  "contract_name": "MagicSpend",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 11,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:01+00:00"
+}

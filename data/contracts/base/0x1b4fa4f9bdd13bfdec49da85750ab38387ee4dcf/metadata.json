@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf",
+  "labels_from_input": [
+    "Base\t0x1B4fA4F9BDd13Bfdec49DA85750Ab38387EE4DCF"
+  ],
+  "contract_name": "Distributor",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 31,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:22+00:00"
+}

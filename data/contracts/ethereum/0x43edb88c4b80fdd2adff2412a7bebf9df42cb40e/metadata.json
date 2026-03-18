@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e",
+  "labels_from_input": [
+    "DisputeGameFactoryProxy\t0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "london",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0xc040f392e52cb6970ca8e110c280fe24e07c5e2c",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 10,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:28+00:00"
+}

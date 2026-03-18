@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xf3ef80a7664c286997b35b0d1a6d56a9008f9336",
+  "labels_from_input": [
+    "Guardian-based social recovery for Coinbase retail smart wallets. Each RecoverySigner is owned by a Coinbase K2 guardian key and can add/remove owners on the user's smart wallet.\t0xf3Ef80A7664c286997B35b0D1a6d56A9008F9336 L2 Contract Addresses"
+  ],
+  "contract_name": "RecoverySignerFactory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 7,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xf3ef80a7664c286997b35b0d1a6d56a9008f9336&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:11+00:00"
+}

@@ -1,0 +1,4267 @@
+{
+  "generated_at": "2026-03-18T16:57:10+00:00",
+  "scope": "non-testnet entries from provided list",
+  "source_manifest": "data/input_manifest.json",
+  "initial_manifest_entry_count": 238,
+  "total_processed_keys": 273,
+  "total_fetched_entries": 273,
+  "proxy_edges": [
+    {
+      "chain": "arbitrum",
+      "proxy": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "implementation": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x00000000001c3dc9a681a014e2732bf1419afaec",
+      "implementation": "0x7458bfdc30034eb860b265e6068121d18fa5aa72",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80",
+      "implementation": "0x0000010080e4fe8932638049e7488bb4504baffb",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x0ba5ed0c6aa8c49038f819e587e2633c4a9f428a",
+      "implementation": "0x000100abaad02f1cfc8bbe32bd5a564817339e72",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x14536667cd30e52c0b458baaccb9fada7046e056",
+      "implementation": "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x2c7ee1e5f416dff40054c27a62f7b357c4e8619c",
+      "implementation": "0x3e918fd68b8801b9e2b12cd222a697b20d883aff",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x357458739f90461b99789350868cd7cf330dd7ee",
+      "implementation": "0x82a2582e545c26e193cefcbb791d2c355e2bd47f",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000007",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30007",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x420000000000000000000000000000000000000f",
+      "implementation": "0x93e57a196454cb919193fa9946f14943cf733845",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000010",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000011",
+      "implementation": "0xd53210ee20948ecff8b6b8180e29657e0ce8492d",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000014",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30014",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000015",
+      "implementation": "0x3ba4007f5c922fbb33c454b41ea7a1f11e83df2c",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000016",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30016",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000017",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30017",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000018",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30018",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000019",
+      "implementation": "0x4e207bdf8aece56de86821f5370b2b993d08c9e9",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x420000000000000000000000000000000000001a",
+      "implementation": "0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000020",
+      "implementation": "0x75505a97bd334e7bd3c476893285569c4136fa0f",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x4200000000000000000000000000000000000021",
+      "implementation": "0xbeb5fc579115071764c7423a4f12edde41f106ed",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6",
+      "implementation": "0x78fe41628abbc9f477186641d4b52d0c5d93ca20",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0xcb17c9db87b595717c857a08468793f5bab6445f",
+      "implementation": "0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+      "implementation": "0x1f72bf05b43e275e96bbccb0bc40f7e5c9656527",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+      "implementation": "0xca7658a2129b7957d3395061bd3398c2f997d47c",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+      "implementation": "0xa6d8dc0cda2589509bb75aa0c802f88642af5199",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "base",
+      "proxy": "0xd867cbed445c37b0f95cc956fe6b539bdef7f32f",
+      "implementation": "0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x05cc379ebd9b30bba19c6fa282ab29218ec61d84",
+      "implementation": "0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x1fe3fdd1f0193dd657c0a9aac37314d6b479e557",
+      "implementation": "0xb85fe401c98aa0d464c8f6bed4778ed61f2152b7",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x2453c1216e49704d84ea98a4dacd95738f2fc8ec",
+      "implementation": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "implementation": "0x61525eaacddb97d9184afc205827e6a4fd0bf62a",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e",
+      "implementation": "0xc040f392e52cb6970ca8e110c280fe24e07c5e2c",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+      "implementation": "0x97cebbf8959e2a5476fbe9b98a21806ec234609b",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x608d94945a64503e642e6370ec598e519a2c1e53",
+      "implementation": "0x74f1ac50eb0be98853805d381c884f5f9abdecf9",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d",
+      "implementation": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x73a79fab69143498ed3712e519a88a918e1f4072",
+      "implementation": "0x0507aaa21c678976fcdc7e804836acd6ebc17a44",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "implementation": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x866e82a600a1414e583f7f13623f1ac5d58b0afa",
+      "implementation": "0x5d5a095665886119693f0b41d8dfee78da033e8b",
+      "resolution": "explorer_field"
+    },
+    {
+      "chain": "ethereum",
+      "proxy": "0x909f6cf47ed12f010a796527f562bfc26c7f4e72",
+      "implementation": "0x36398155cd17cfe804f69b233edda800dd4d5aa5",
+      "resolution": "explorer_field"
+    }
+  ],
+  "unresolved_proxies": [
+    {
+      "chain": "base",
+      "address": "0x043ac8dbd2f0e932800210260f207806650c6145"
+    },
+    {
+      "chain": "base",
+      "address": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd"
+    }
+  ],
+  "failures": [],
+  "contracts": [
+    {
+      "chain": "arbitrum",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels_from_input": [
+        "Arbitrum\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "contract_name": "DefaultReceiver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/arbitrum/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/metadata.json",
+      "abi_path": "contracts/arbitrum/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/abi.json"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "Arbitrum\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x63d7212c0503b04bdc2bcce90fe26800859f2f81",
+      "labels_from_input": [
+        "Arbitrum\t0x63d7212C0503b04BdC2BCCe90fe26800859F2f81"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0x63d7212c0503b04bdc2bcce90fe26800859f2f81/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6a46c2411e6fd9205d44b82c5b32b2db7c150263",
+      "labels_from_input": [
+        "Arbitrum\t0x6A46c2411e6FD9205D44b82C5B32B2Db7C150263"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0x6a46c2411e6fd9205d44b82c5b32b2db7c150263/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "labels_from_input": [
+        "Arbitrum\t0x7702cb554e6bFb442cb743A7dF23154544a7176C"
+      ],
+      "contract_name": "EIP7702Proxy",
+      "proxy": "1",
+      "implementation": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 13,
+      "metadata_path": "contracts/arbitrum/0x7702cb554e6bfb442cb743a7df23154544a7176c/metadata.json",
+      "abi_path": "contracts/arbitrum/0x7702cb554e6bfb442cb743a7df23154544a7176c/abi.json"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels_from_input": [
+        "Arbitrum\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "contract_name": "CoinbaseSmartWalletValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 17,
+      "metadata_path": "contracts/arbitrum/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/metadata.json",
+      "abi_path": "contracts/arbitrum/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/abi.json"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xaa861940dd2ed2fe4a3108e51f7f117bb6798e65",
+      "labels_from_input": [
+        "Arbitrum\t0xaa861940DD2ED2fE4a3108E51f7f117bb6798E65"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0xaa861940dd2ed2fe4a3108e51f7f117bb6798e65/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels_from_input": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "contract_name": "PublicERC6492Validator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/arbitrum/0xcfce48b757601f3f351cb6f434cb0517aeee293d/metadata.json",
+      "abi_path": "contracts/arbitrum/0xcfce48b757601f3f351cb6f434cb0517aeee293d/abi.json"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels_from_input": [
+        "Arbitrum\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "contract_name": "NonceTracker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/arbitrum/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/metadata.json",
+      "abi_path": "contracts/arbitrum/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/abi.json"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd42ea6a51ec16c0cb581695343f9f3d652d98945",
+      "labels_from_input": [
+        "Arbitrum\t0xD42eA6a51ec16c0Cb581695343F9F3d652d98945"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0xd42ea6a51ec16c0cb581695343f9f3d652d98945/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf3d74bc4e97ad56ddcb0576629c360fb40a871e2",
+      "labels_from_input": [
+        "Arbitrum\t0xF3D74Bc4E97aD56DDcB0576629c360fB40A871e2"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0xf3d74bc4e97ad56ddcb0576629c360fb40a871e2/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels_from_input": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/arbitrum/0xf85210b21cc50302f477ba56686d2019dc9b67ad/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "Avalanche\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/avalanche/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x5bfd3bdff68346909d352757055e98f2654a3c10",
+      "labels_from_input": [
+        "Avalanche\t0x5bFd3bDFf68346909d352757055e98f2654a3c10"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/avalanche/0x5bfd3bdff68346909d352757055e98f2654a3c10/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xb487a8739aa114178c5aa5608ef1d2fc26d17a9e",
+      "labels_from_input": [
+        "Avalanche\t0xB487A8739AA114178C5aA5608eF1D2fc26D17A9e"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/avalanche/0xb487a8739aa114178c5aa5608ef1d2fc26d17a9e/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xd85d9cd1e453aee54e448cef4941f0718922a672",
+      "labels_from_input": [
+        "Avalanche\t0xD85d9Cd1E453AeE54e448Cef4941F0718922a672"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/avalanche/0xd85d9cd1e453aee54e448cef4941f0718922a672/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xe57499b85448582a0bfd486283a0a023581d2778",
+      "labels_from_input": [
+        "Avalanche\t0xE57499B85448582a0bFd486283a0a023581D2778"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/avalanche/0xe57499b85448582a0bfd486283a0a023581d2778/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x00000000001c3dc9a681a014e2732bf1419afaec",
+      "labels_from_input": [
+        "Base\t0x00000000001c3dC9A681A014e2732bF1419aFAec"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "1",
+      "implementation": "0x7458bfdc30034eb860b265e6068121d18fa5aa72",
+      "implementation_source": "explorer_field",
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x00000000001c3dc9a681a014e2732bf1419afaec/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000000000e552550bec95a36217a91ceba099b0",
+      "labels_from_input": [
+        "Base\t0x0000000000E552550beC95A36217A91CeBA099b0"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000000000e552550bec95a36217a91ceba099b0/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80",
+      "labels_from_input": [
+        "Maps publisher codes to payout addresses and controls all publisher payouts across the protocol.\t0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "1",
+      "implementation": "0x0000010080e4fe8932638049e7488bb4504baffb",
+      "implementation_source": "explorer_field",
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000010080e4fe8932638049e7488bb4504baffb",
+      "labels_from_input": [],
+      "contract_name": "BuilderCodes",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/base/0x0000010080e4fe8932638049e7488bb4504baffb/metadata.json",
+      "abi_path": "contracts/base/0x0000010080e4fe8932638049e7488bb4504baffb/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x00000f14ad09382841db481403d1775adee1179f",
+      "labels_from_input": [
+        "Manages campaign lifecycle, payout operations (send, allocate, distribute, deallocate), and fund custody via isolated Campaign clones.\t0x00000f14ad09382841db481403d1775adee1179f"
+      ],
+      "contract_name": "Flywheel",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 55,
+      "metadata_path": "contracts/base/0x00000f14ad09382841db481403d1775adee1179f/metadata.json",
+      "abi_path": "contracts/base/0x00000f14ad09382841db481403d1775adee1179f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x00001962896d81f18bca192a2bc90f85b5478698",
+      "labels_from_input": [
+        "Base\t0x00001962896d81F18Bca192a2Bc90f85b5478698"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x00001962896d81f18bca192a2bc90f85b5478698/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x00002027199e51ce5648e56f0f003759e3d7b16e",
+      "labels_from_input": [
+        "Base\t0x00002027199E51Ce5648E56F0F003759e3D7b16e"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x00002027199e51ce5648e56f0f003759e3d7b16e/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x000036624a21e2047d28449989a943c64b5210d0",
+      "labels_from_input": [
+        "Base\t0x000036624A21E2047D28449989A943c64b5210d0"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x000036624a21e2047d28449989a943c64b5210d0/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x00003f0f758054d91430afc79b8666fba06ccb2c",
+      "labels_from_input": [
+        "Base\t0x00003f0f758054D91430AFC79b8666fbA06ccB2c"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x00003f0f758054d91430afc79b8666fba06ccb2c/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x000054fceab4632b9c8b7fd20ce9790352426716",
+      "labels_from_input": [
+        "Creates proxy contracts that manage minting permissions and operations.\t0x000054fCEAB4632B9c8B7fd20cE9790352426716"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x000054fceab4632b9c8b7fd20ce9790352426716/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x00005721895c940fe1066b147358ce6d31a31378",
+      "labels_from_input": [
+        "Base\t0x00005721895c940fe1066B147358cE6d31A31378"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x00005721895c940fe1066b147358ce6d31a31378/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000955334545d3c2bdece50c7f3877054f4dcf7",
+      "labels_from_input": [
+        "Base\t0x0000955334545d3c2bdECE50C7F3877054F4dCF7"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000955334545d3c2bdece50c7f3877054f4dcf7/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000b216f5011f882604d2cfa295a83d77025727",
+      "labels_from_input": [
+        "Base\t0x0000B216f5011f882604D2cFa295A83d77025727"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000b216f5011f882604d2cfa295a83d77025727/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000bfaa45aa7352d7a5b151d34f4efc096e9cf6",
+      "labels_from_input": [
+        "Base\t0x0000Bfaa45AA7352D7A5b151D34f4EFc096E9Cf6"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000bfaa45aa7352d7a5b151d34f4efc096e9cf6/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000c1c5f00bd1843b6c1703ea1f457a2bb5c457",
+      "labels_from_input": [
+        "Base\t0x0000c1c5F00bD1843b6c1703eA1F457a2Bb5c457"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000c1c5f00bd1843b6c1703ea1f457a2bb5c457/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000c479718a45e3d80b9a71c17b2e954cfa1515",
+      "labels_from_input": [
+        "Simplifies token creation with standard templates.\t0x0000C479718a45e3D80b9A71C17b2E954CfA1515"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000c479718a45e3d80b9a71c17b2e954cfa1515/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000d340e876e1de249cca0fd91d91ae612741e8",
+      "labels_from_input": [
+        "Creates standardized ERC20 tokens for cross-chain asset bridging.\t0x0000D340e876e1De249CcA0FD91d91aE612741E8"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000d340e876e1de249cca0fd91d91ae612741e8/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000dfcd0263ac062b3fc7a17abd1f0407f389a6",
+      "labels_from_input": [
+        "Base\t0x0000DfcD0263aC062b3fC7A17aBd1f0407f389A6"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000dfcd0263ac062b3fc7a17abd1f0407f389a6/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000efa3d0485d3e0b6a48ade0d61a59451f648f",
+      "labels_from_input": [
+        "Base\t0x0000Efa3D0485d3E0B6A48adE0d61a59451f648f"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000efa3d0485d3e0b6a48ade0d61a59451f648f/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000f4e1b81a88a7b1732a4a5fdfaa4999f45075",
+      "labels_from_input": [
+        "Base\t0x0000F4E1b81A88A7b1732a4A5FdfaA4999F45075"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000f4e1b81a88a7b1732a4a5fdfaa4999f45075/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0000ff0b7fdf0449c0761356680c0516fd76c0f5",
+      "labels_from_input": [
+        "Base\t0x0000FF0b7Fdf0449c0761356680c0516fD76c0f5"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x0000ff0b7fdf0449c0761356680c0516fd76c0f5/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x000100abaad02f1cfc8bbe32bd5a564817339e72",
+      "labels_from_input": [],
+      "contract_name": "CoinbaseSmartWallet",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 14,
+      "metadata_path": "contracts/base/0x000100abaad02f1cfc8bbe32bd5a564817339e72/metadata.json",
+      "abi_path": "contracts/base/0x000100abaad02f1cfc8bbe32bd5a564817339e72/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x012076854d030128dc72b34621287bb585210315",
+      "labels_from_input": [
+        "Manages whitelist-based domain registration discounts for qualifying users.\t0x012076854d030128dc72B34621287Bb585210315"
+      ],
+      "contract_name": "AttestationValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0x012076854d030128dc72b34621287bb585210315/metadata.json",
+      "abi_path": "contracts/base/0x012076854d030128dc72b34621287bb585210315/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a",
+      "labels_from_input": [
+        "ERC721-based registrar for .base.eth domain ownership and transfers.\t0x03c4738Ee98aE44591e1A4A4F3CaB6641d95DD9a"
+      ],
+      "contract_name": "BaseRegistrar",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 9,
+      "metadata_path": "contracts/base/0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a/metadata.json",
+      "abi_path": "contracts/base/0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x043ac8dbd2f0e932800210260f207806650c6145",
+      "labels_from_input": [
+        "Handles liquidity positions and fee collection for verified pools.\t0x043ac8DBd2F0e932800210260f207806650C6145"
+      ],
+      "contract_name": "VerifiedPoolsPositionManager",
+      "proxy": "1",
+      "implementation": "0x043ac8dbd2f0e932800210260f207806650c6145",
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 75,
+      "metadata_path": "contracts/base/0x043ac8dbd2f0e932800210260f207806650c6145/metadata.json",
+      "abi_path": "contracts/base/0x043ac8dbd2f0e932800210260f207806650c6145/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0549899a89e661044f9e7a1b76a157d407d85163",
+      "labels_from_input": [
+        "Manages cross-chain minting and burning of wrapped DOGE tokens.\t0x0549899a89e661044f9E7a1B76A157d407D85163"
+      ],
+      "contract_name": "MintForwarder",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x0549899a89e661044f9e7a1b76a157d407d85163/metadata.json",
+      "abi_path": "contracts/base/0x0549899a89e661044f9e7a1b76a157d407d85163/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0705717527934a1e10e5328a0b92462c8eb1a28f",
+      "labels_from_input": [
+        "Generates metadata and visuals for liquidity position NFTs.\t0x0705717527934a1E10e5328A0B92462c8eB1A28F"
+      ],
+      "contract_name": "VerifiedPoolsPositionDescriptor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 51,
+      "metadata_path": "contracts/base/0x0705717527934a1e10e5328a0b92462c8eb1a28f/metadata.json",
+      "abi_path": "contracts/base/0x0705717527934a1e10e5328a0b92462c8eb1a28f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x071ff6d93895c8e6537c572a6d40cf47c36abed7",
+      "labels_from_input": [
+        "Enforces rules and restrictions for withdrawing liquidity.\t0x071fF6D93895c8E6537C572a6D40CF47c36aBed7"
+      ],
+      "contract_name": "RemoveLiquidityPolicy",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 12,
+      "metadata_path": "contracts/base/0x071ff6d93895c8e6537c572a6d40cf47c36abed7/metadata.json",
+      "abi_path": "contracts/base/0x071ff6d93895c8e6537c572a6d40cf47c36abed7/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x08c1820ba6a0b88eb1f3e3ec7c9b8cf85e63c6fc",
+      "labels_from_input": [
+        "Base\t0x08c1820bA6A0B88eB1f3E3eC7C9B8cf85E63C6FC"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x08c1820ba6a0b88eb1f3e3ec7c9b8cf85e63c6fc/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x09f7150d8c019bef34450d6920f6b3608cefdaf2",
+      "labels_from_input": [
+        "Guardian\t0x09f7150D8c019BeF34450d6920f6B3608ceFdAf2\tGnosis Safe"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x09f7150d8c019bef34450d6920f6b3608cefdaf2/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x0a484e560946818787135ead632771589523de82",
+      "labels_from_input": [
+        "Checks verified Coinbase account status for domain pricing benefits.\t0x0A484e560946818787135EAD632771589523dE82"
+      ],
+      "contract_name": "CBIdDiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x0a484e560946818787135ead632771589523de82/metadata.json",
+      "abi_path": "contracts/base/0x0a484e560946818787135ead632771589523de82/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0ba5ed0c6aa8c49038f819e587e2633c4a9f428a",
+      "labels_from_input": [
+        "Handles wallet creation and initialization logic.\t0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a"
+      ],
+      "contract_name": "CoinbaseSmartWalletFactory",
+      "proxy": "1",
+      "implementation": "0x000100abaad02f1cfc8bbe32bd5a564817339e72",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 16,
+      "metadata_path": "contracts/base/0x0ba5ed0c6aa8c49038f819e587e2633c4a9f428a/metadata.json",
+      "abi_path": "contracts/base/0x0ba5ed0c6aa8c49038f819e587e2633c4a9f428a/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0c8b7e98b39aa7983d2444661805a628e8a041db",
+      "labels_from_input": [
+        "Base\t0x0C8B7E98b39aA7983D2444661805a628E8A041DB"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x0c8b7e98b39aa7983d2444661805a628e8a041db/metadata.json",
+      "abi_path": "contracts/base/0x0c8b7e98b39aa7983d2444661805a628e8a041db/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc",
+      "labels_from_input": [],
+      "contract_name": "L1FeeVault",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 34,
+      "metadata_path": "contracts/base/0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc/metadata.json",
+      "abi_path": "contracts/base/0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x0e3df9510de65469c4518d7843919c0b8c7a7757",
+      "labels_from_input": [
+        "Handles gasless payments using transferWithAuthorization.\t0x0E3dF9510de65469C4518D7843919c0b8C7A7757"
+      ],
+      "contract_name": "ERC3009PaymentCollector",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 17,
+      "metadata_path": "contracts/base/0x0e3df9510de65469c4518d7843919c0b8c7a7757/metadata.json",
+      "abi_path": "contracts/base/0x0e3df9510de65469c4518d7843919c0b8c7a7757/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x14536667cd30e52c0b458baaccb9fada7046e056",
+      "labels_from_input": [
+        "SystemConfig owner\t0x14536667Cd30e52C0b458BaACcB9faDA7046E056\tGnosis Safe"
+      ],
+      "contract_name": "GnosisSafeProxy",
+      "proxy": "1",
+      "implementation": "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x14536667cd30e52c0b458baaccb9fada7046e056/metadata.json",
+      "abi_path": "contracts/base/0x14536667cd30e52c0b458baaccb9fada7046e056/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x166415114ef0f243e1bba193df3862b78c13521f",
+      "labels_from_input": [
+        "Releases tokens gradually over a defined time period.\t0x166415114ef0f243e1bba193df3862b78c13521f"
+      ],
+      "contract_name": "LinearUnlocker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0x166415114ef0f243e1bba193df3862b78c13521f/metadata.json",
+      "abi_path": "contracts/base/0x166415114ef0f243e1bba193df3862b78c13521f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x17165086067fc58a04cb8e9da5b6917b6f23f109",
+      "labels_from_input": [
+        "Base\t0x17165086067fc58a04CB8E9dA5B6917B6f23f109"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x17165086067fc58a04cb8e9da5b6917b6f23f109/metadata.json",
+      "abi_path": "contracts/base/0x17165086067fc58a04cb8e9da5b6917b6f23f109/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x1798d23f29968b4fff7a60a90645b0939d04f47e",
+      "labels_from_input": [
+        "Contains distribution rules, claim mechanisms, and vesting schedules.\t0x1798D23f29968b4fff7A60A90645B0939d04f47E"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/base/0x1798d23f29968b4fff7a60a90645b0939d04f47e/metadata.json",
+      "abi_path": "contracts/base/0x1798d23f29968b4fff7a60a90645b0939d04f47e/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf",
+      "labels_from_input": [
+        "Base\t0x1B4fA4F9BDd13Bfdec49DA85750Ab38387EE4DCF"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/base/0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf/metadata.json",
+      "abi_path": "contracts/base/0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x1b77abd71fcd21fbe2398ae821aa27d1e6b94bc6",
+      "labels_from_input": [
+        "Collects payments from pre-authorized token allowances.\t0x1b77ABd71FCD21fbe2398AE821Aa27D1E6B94bC6"
+      ],
+      "contract_name": "PreApprovalPaymentCollector",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 14,
+      "metadata_path": "contracts/base/0x1b77abd71fcd21fbe2398ae821aa27d1e6b94bc6/metadata.json",
+      "abi_path": "contracts/base/0x1b77abd71fcd21fbe2398ae821aa27d1e6b94bc6/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x1d3f02ef7d6881c5018863d740c026639ac7fa41",
+      "labels_from_input": [
+        "Base\t0x1d3F02EF7D6881C5018863d740c026639aC7fa41"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x1d3f02ef7d6881c5018863d740c026639ac7fa41/metadata.json",
+      "abi_path": "contracts/base/0x1d3f02ef7d6881c5018863d740c026639ac7fa41/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x1f72bf05b43e275e96bbccb0bc40f7e5c9656527",
+      "labels_from_input": [],
+      "contract_name": "FiatTokenV2_2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0x1f72bf05b43e275e96bbccb0bc40f7e5c9656527/metadata.json",
+      "abi_path": "contracts/base/0x1f72bf05b43e275e96bbccb0bc40f7e5c9656527/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff",
+      "labels_from_input": [
+        "Checks ownership of early Basename NFTs for registration benefits.\t0x20b433c640DFb8c2e3C6aBB0533314b2d7B9f2FF"
+      ],
+      "contract_name": "CBIdDiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff/metadata.json",
+      "abi_path": "contracts/base/0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x20e26ed291b85a44a6eb9b0d336512b53fd93092",
+      "labels_from_input": [
+        "Manages creation and configuration of custom ERC20 tokens with minting capabilities.\t0x20e26eD291B85A44A6Eb9b0D336512b53fd93092"
+      ],
+      "contract_name": "MintFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 28,
+      "metadata_path": "contracts/base/0x20e26ed291b85a44a6eb9b0d336512b53fd93092/metadata.json",
+      "abi_path": "contracts/base/0x20e26ed291b85a44a6eb9b0d336512b53fd93092/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x20f25adf31bd5ed53367293c6926bf1adfc7ea54",
+      "labels_from_input": [
+        "Efficiently blacklists multiple addresses in a single transaction.\t0x20F25adf31BD5Ed53367293C6926bF1AdfC7Ea54"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x20f25adf31bd5ed53367293c6926bf1adfc7ea54/metadata.json",
+      "abi_path": "contracts/base/0x20f25adf31bd5ed53367293c6926bf1adfc7ea54/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x29bea561cb302fd2b85f5c0c6086be8b1560f2df",
+      "labels_from_input": [
+        "Enables gasless token approvals for funding operations.\t0x29BEa561cb302FD2B85F5c0c6086BE8b1560F2df"
+      ],
+      "contract_name": "ERC20FundingConduit",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 29,
+      "metadata_path": "contracts/base/0x29bea561cb302fd2b85f5c0c6086be8b1560f2df/metadata.json",
+      "abi_path": "contracts/base/0x29bea561cb302fd2b85f5c0c6086be8b1560f2df/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x29ef818a2a9d182fa9a9d27d61881a239fa03e4b",
+      "labels_from_input": [
+        "Routes trades through multiple decentralized exchanges.\t0x29ef818a2A9d182Fa9A9D27d61881a239fa03E4B"
+      ],
+      "contract_name": "ZeroExProxy",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 12,
+      "metadata_path": "contracts/base/0x29ef818a2a9d182fa9a9d27d61881a239fa03e4b/metadata.json",
+      "abi_path": "contracts/base/0x29ef818a2a9d182fa9a9d27d61881a239fa03e4b/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x2a06274c976c4db9cbaf702b559e0b5765d07b0d",
+      "labels_from_input": [
+        "Base\t0x2A06274c976C4db9CbaF702B559E0B5765D07b0d"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x2a06274c976c4db9cbaf702b559e0b5765d07b0d/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels_from_input": [
+        "Base\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "contract_name": "DefaultReceiver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/metadata.json",
+      "abi_path": "contracts/base/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x2c7ee1e5f416dff40054c27a62f7b357c4e8619c",
+      "labels_from_input": [
+        "Provides efficient querying and discovery of attestations.\t0x2c7eE1E5f416dfF40054c27A62f7B357C4E8619C"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x3e918fd68b8801b9e2b12cd222a697b20d883aff",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 9,
+      "metadata_path": "contracts/base/0x2c7ee1e5f416dff40054c27a62f7b357c4e8619c/metadata.json",
+      "abi_path": "contracts/base/0x2c7ee1e5f416dff40054c27a62f7b357c4e8619c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x2d04d1743bab35b13841a466788479c591e01381",
+      "labels_from_input": [
+        "Validates signatures for authorized pool interactions.\t0x2D04d1743BaB35B13841A466788479c591E01381"
+      ],
+      "contract_name": "SignatureChecker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 3,
+      "metadata_path": "contracts/base/0x2d04d1743bab35b13841a466788479c591e01381/metadata.json",
+      "abi_path": "contracts/base/0x2d04d1743bab35b13841a466788479c591e01381/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x2ebdcfaccb0c3b6039dd8c7c30bf633ace8c268c",
+      "labels_from_input": [
+        "Manages cross-chain minting and burning of wrapped XRP tokens.\t0x2ebDCFaCCB0c3B6039Dd8C7c30bF633ACE8c268C"
+      ],
+      "contract_name": "MintForwarder",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x2ebdcfaccb0c3b6039dd8c7c30bf633ace8c268c/metadata.json",
+      "abi_path": "contracts/base/0x2ebdcfaccb0c3b6039dd8c7c30bf633ace8c268c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c",
+      "labels_from_input": [
+        "Validates transactions before sponsoring gas fees.\t0x2FAEB0760D4230Ef2aC21496Bb4F0b47D634FD4c"
+      ],
+      "contract_name": "VerifyingPaymaster",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 19,
+      "metadata_path": "contracts/base/0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c/metadata.json",
+      "abi_path": "contracts/base/0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x3002aadad07ab12e5bb8098de3542bee2ad44fed",
+      "labels_from_input": [
+        "Creates customizable distribution contracts for token vesting and airdrops.\t0x3002aadad07ab12e5bb8098de3542bee2ad44fed"
+      ],
+      "contract_name": "DistributorFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 49,
+      "metadata_path": "contracts/base/0x3002aadad07ab12e5bb8098de3542bee2ad44fed/metadata.json",
+      "abi_path": "contracts/base/0x3002aadad07ab12e5bb8098de3542bee2ad44fed/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x325a4af669032b6b1296c3084f8070d04f9ad581",
+      "labels_from_input": [
+        "Base\t0x325A4Af669032B6b1296C3084f8070D04F9AD581"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x325a4af669032b6b1296c3084f8070d04f9ad581/metadata.json",
+      "abi_path": "contracts/base/0x325a4af669032b6b1296c3084f8070d04f9ad581/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x357458739f90461b99789350868cd7cf330dd7ee",
+      "labels_from_input": [
+        "Creates and validates Coinbase-backed attestations.\t0x357458739F90461b99789350868CD7CF330Dd7EE"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x82a2582e545c26e193cefcbb791d2c355e2bd47f",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 9,
+      "metadata_path": "contracts/base/0x357458739f90461b99789350868cd7cf330dd7ee/metadata.json",
+      "abi_path": "contracts/base/0x357458739f90461b99789350868cd7cf330dd7ee/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x3ba4007f5c922fbb33c454b41ea7a1f11e83df2c",
+      "labels_from_input": [],
+      "contract_name": "L1Block",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x3ba4007f5c922fbb33c454b41ea7a1f11e83df2c/metadata.json",
+      "abi_path": "contracts/base/0x3ba4007f5c922fbb33c454b41ea7a1f11e83df2c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x3e918fd68b8801b9e2b12cd222a697b20d883aff",
+      "labels_from_input": [],
+      "contract_name": "AttestationIndexer",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 26,
+      "metadata_path": "contracts/base/0x3e918fd68b8801b9e2b12cd222a697b20d883aff/metadata.json",
+      "abi_path": "contracts/base/0x3e918fd68b8801b9e2b12cd222a697b20d883aff/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x3eff766c76a1be2ce1acf2b69c78bcae257d5188",
+      "labels_from_input": [
+        "Handles message passing and asset transfers between chains.\t0x3eff766C76a1be2Ce1aCF2B69c78bCae257D5188"
+      ],
+      "contract_name": "Bridge",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 24,
+      "metadata_path": "contracts/base/0x3eff766c76a1be2ce1acf2b69c78bcae257d5188/metadata.json",
+      "abi_path": "contracts/base/0x3eff766c76a1be2ce1acf2b69c78bcae257d5188/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000006",
+      "labels_from_input": [
+        "WETH9\t0x4200000000000000000000000000000000000006"
+      ],
+      "contract_name": "WETH9",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000006/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000006/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000007",
+      "labels_from_input": [
+        "L2CrossDomainMessenger\t0x4200000000000000000000000000000000000007"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30007",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000007/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000007/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x420000000000000000000000000000000000000f",
+      "labels_from_input": [
+        "GasPriceOracle\t0x420000000000000000000000000000000000000F"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x93e57a196454cb919193fa9946f14943cf733845",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x420000000000000000000000000000000000000f/metadata.json",
+      "abi_path": "contracts/base/0x420000000000000000000000000000000000000f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000010",
+      "labels_from_input": [
+        "L2StandardBridge\t0x4200000000000000000000000000000000000010"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000010/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000010/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000011",
+      "labels_from_input": [
+        "SequencerFeeVault\t0x4200000000000000000000000000000000000011"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xd53210ee20948ecff8b6b8180e29657e0ce8492d",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000011/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000011/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000014",
+      "labels_from_input": [
+        "L2ERC721Bridge\t0x4200000000000000000000000000000000000014"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30014",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000014/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000014/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000015",
+      "labels_from_input": [
+        "L1Block\t0x4200000000000000000000000000000000000015"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x3ba4007f5c922fbb33c454b41ea7a1f11e83df2c",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000015/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000015/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000016",
+      "labels_from_input": [
+        "L2ToL1MessagePasser\t0x4200000000000000000000000000000000000016"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30016",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000016/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000016/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000017",
+      "labels_from_input": [
+        "OptimismMintableERC721Factory\t0x4200000000000000000000000000000000000017"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30017",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000017/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000017/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000018",
+      "labels_from_input": [
+        "ProxyAdmin\t0x4200000000000000000000000000000000000018"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30018",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000018/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000018/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000019",
+      "labels_from_input": [
+        "BaseFeeVault\t0x4200000000000000000000000000000000000019"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x4e207bdf8aece56de86821f5370b2b993d08c9e9",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000019/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000019/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x420000000000000000000000000000000000001a",
+      "labels_from_input": [
+        "L1FeeVault\t0x420000000000000000000000000000000000001a"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x420000000000000000000000000000000000001a/metadata.json",
+      "abi_path": "contracts/base/0x420000000000000000000000000000000000001a/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000020",
+      "labels_from_input": [
+        "Defines structure for different types of attestations.\t0x4200000000000000000000000000000000000020",
+        "EASSchemaRegistry\t0x4200000000000000000000000000000000000020"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x75505a97bd334e7bd3c476893285569c4136fa0f",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000020/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000020/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000021",
+      "labels_from_input": [
+        "EAS\t0x4200000000000000000000000000000000000021",
+        "Enables verifiable claims and credentials infrastructure.\t0x4200000000000000000000000000000000000021"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xbeb5fc579115071764c7423a4f12edde41f106ed",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0x4200000000000000000000000000000000000021/metadata.json",
+      "abi_path": "contracts/base/0x4200000000000000000000000000000000000021/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x423077a24c3019e3a291be2d29a34a4d97aa2ded",
+      "labels_from_input": [
+        "Manages cross-chain minting and burning of wrapped LTC tokens.\t0x423077A24c3019E3A291bE2D29a34A4D97AA2DeD"
+      ],
+      "contract_name": "MintForwarder",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x423077a24c3019e3a291be2d29a34a4d97aa2ded/metadata.json",
+      "abi_path": "contracts/base/0x423077a24c3019e3a291be2d29a34a4d97aa2ded/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x46114792cc08baf79006f25ec9ee23ac64e119ca",
+      "labels_from_input": [
+        "Implements launch pricing with time-based premium reduction.\t0x46114792Cc08Baf79006f25Ec9eE23AC64e119ca"
+      ],
+      "contract_name": "ExponentialPremiumPriceOracle",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x46114792cc08baf79006f25ec9ee23ac64e119ca/metadata.json",
+      "abi_path": "contracts/base/0x46114792cc08baf79006f25ec9ee23ac64e119ca/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095",
+      "labels_from_input": [
+        "Creates OTC deal structures for token sales and agreements.\t0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095"
+      ],
+      "contract_name": "DealFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/base/0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095/metadata.json",
+      "abi_path": "contracts/base/0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x485b2544745786fa2dd95b8c239f6cb3a63d198d",
+      "labels_from_input": [
+        "Base\t0x485B2544745786FA2dD95B8C239f6CB3a63D198d"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x485b2544745786fa2dd95b8c239f6cb3a63d198d/metadata.json",
+      "abi_path": "contracts/base/0x485b2544745786fa2dd95b8c239f6cb3a63d198d/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5",
+      "labels_from_input": [
+        "Handles pricing, discounts, and domain lifecycle management.\t0x4cCb0BB02FCABA27e82a56646E81d8c5bC4119a5"
+      ],
+      "contract_name": "RegistrarController",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 47,
+      "metadata_path": "contracts/base/0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5/metadata.json",
+      "abi_path": "contracts/base/0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4d5b3aca5968f7075f023d2a7aa830358c3c2b48",
+      "labels_from_input": [
+        "Base\t0x4d5b3aca5968f7075F023d2A7AA830358C3c2b48"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x4d5b3aca5968f7075f023d2a7aa830358c3c2b48/metadata.json",
+      "abi_path": "contracts/base/0x4d5b3aca5968f7075f023d2a7aa830358c3c2b48/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x4e207bdf8aece56de86821f5370b2b993d08c9e9",
+      "labels_from_input": [],
+      "contract_name": "BaseFeeVault",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 34,
+      "metadata_path": "contracts/base/0x4e207bdf8aece56de86821f5370b2b993d08c9e9/metadata.json",
+      "abi_path": "contracts/base/0x4e207bdf8aece56de86821f5370b2b993d08c9e9/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5050f69a9786f081509234f1a7f4684b5e5b76c9",
+      "labels_from_input": [
+        "Batch Sender\t0x5050f69a9786f081509234f1a7f4684b5e5b76c9\tEOA managed by Coinbase Technologies"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x5050f69a9786f081509234f1a7f4684b5e5b76c9/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x508cfe43aa84b8048cb6d39037ce0dc96d8adc75",
+      "labels_from_input": [
+        "Calculates domain prices with time-based premium reduction after expiry.\t0x508CFE43aa84b8048cB6d39037cE0dc96d8aDc75"
+      ],
+      "contract_name": "ExponentialPremiumPriceOracle",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x508cfe43aa84b8048cb6d39037ce0dc96d8adc75/metadata.json",
+      "abi_path": "contracts/base/0x508cfe43aa84b8048cb6d39037ce0dc96d8adc75/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x52d443855e4d15dc47d323fa94e7d92342d3eb57",
+      "labels_from_input": [
+        "Base\t0x52d443855E4d15dc47d323fA94e7d92342d3Eb57"
+      ],
+      "contract_name": "MintFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 28,
+      "metadata_path": "contracts/base/0x52d443855e4d15dc47d323fa94e7d92342d3eb57/metadata.json",
+      "abi_path": "contracts/base/0x52d443855e4d15dc47d323fa94e7d92342d3eb57/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x53899e2b6c6202c5eb4f229da1294f17a0c3876e",
+      "labels_from_input": [
+        "Base\t0x53899E2B6C6202C5Eb4F229DA1294F17A0C3876e"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x53899e2b6c6202c5eb4f229da1294f17a0c3876e/metadata.json",
+      "abi_path": "contracts/base/0x53899e2b6c6202c5eb4f229da1294f17a0c3876e/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x55246a2ae466257b2fb54d4bb881fb3f17d8e03e",
+      "labels_from_input": [
+        "Checks ownership of qualifying OnChain Summer NFTs for domain discounts.\t0x55246A2AE466257B2fB54d4BB881Fb3f17D8e03e"
+      ],
+      "contract_name": "ERC1155DiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x55246a2ae466257b2fb54d4bb881fb3f17d8e03e/metadata.json",
+      "abi_path": "contracts/base/0x55246a2ae466257b2fb54d4bb881fb3f17d8e03e/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x55564490a44fdc2aeea54b60eb1c79f124fd88b9",
+      "labels_from_input": [
+        "Checks ETH balance thresholds for domain registration discounts.\t0x55564490a44FDC2aEEa54B60eB1c79F124FD88b9"
+      ],
+      "contract_name": "CBIdDiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x55564490a44fdc2aeea54b60eb1c79f124fd88b9/metadata.json",
+      "abi_path": "contracts/base/0x55564490a44fdc2aeea54b60eb1c79f124fd88b9/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x560aa3207ae4b516a5489e04f2fa2e2808cea896",
+      "labels_from_input": [
+        "Base\t0x560aa3207ae4b516A5489E04f2Fa2e2808CEa896"
+      ],
+      "contract_name": "MintFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 28,
+      "metadata_path": "contracts/base/0x560aa3207ae4b516a5489e04f2fa2e2808cea896/metadata.json",
+      "abi_path": "contracts/base/0x560aa3207ae4b516a5489e04f2fa2e2808cea896/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72",
+      "labels_from_input": [],
+      "contract_name": "FiatTokenV2_2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72/metadata.json",
+      "abi_path": "contracts/base/0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x58c5fa1e6e651320499ccfb2198ede481b35c87b",
+      "labels_from_input": [
+        "Supports send, allocate, deallocate, and distribute payout operations for flexible reward distribution.\t0x58c5fa1e6e651320499ccfb2198ede481b35c87b"
+      ],
+      "contract_name": "SimpleRewards",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 55,
+      "metadata_path": "contracts/base/0x58c5fa1e6e651320499ccfb2198ede481b35c87b/metadata.json",
+      "abi_path": "contracts/base/0x58c5fa1e6e651320499ccfb2198ede481b35c87b/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5a178f113d9851c72c63e7f58255d4520c1a1d9d",
+      "labels_from_input": [
+        "Processes publisher conversions with configurable attribution windows, publisher allowlists, and attribution provider fee structures.\t0x5a178f113d9851c72c63e7f58255d4520c1a1d9d"
+      ],
+      "contract_name": "AdConversion",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 55,
+      "metadata_path": "contracts/base/0x5a178f113d9851c72c63e7f58255d4520c1a1d9d/metadata.json",
+      "abi_path": "contracts/base/0x5a178f113d9851c72c63e7f58255d4520c1a1d9d/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5c77cf220dfa3dbbb052d9b4934e61d69cb393a5",
+      "labels_from_input": [
+        "Base\t0x5c77CF220dFA3dBBB052D9b4934E61d69cb393a5"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x5c77cf220dfa3dbbb052d9b4934e61d69cb393a5/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x5cd525c621afca515bf58631d4733fba7b72aae4",
+      "labels_from_input": [
+        "Provides customizable pool behavior and validation logic.\t0x5cd525c621AFCa515Bf58631D4733fbA7B72Aae4"
+      ],
+      "contract_name": "VerifiedPoolsBasicHook",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/base/0x5cd525c621afca515bf58631d4733fba7b72aae4/metadata.json",
+      "abi_path": "contracts/base/0x5cd525c621afca515bf58631d4733fba7b72aae4/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6",
+      "labels_from_input": [
+        "Connects external funding sources to distribution contracts.\t0x5D09B26B148f9b9e341E9DB8116e3DFa7755CFd6"
+      ],
+      "contract_name": "TransparentUpgradeableProxy",
+      "proxy": "1",
+      "implementation": "0x78fe41628abbc9f477186641d4b52d0c5d93ca20",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6/metadata.json",
+      "abi_path": "contracts/base/0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5da05215aca9edbe27cbdce86888986e4b4c996f",
+      "labels_from_input": [
+        "No-fee deployment option for basic mintable token contracts.\t0x5da05215acA9eDBE27CBDCE86888986E4b4c996F"
+      ],
+      "contract_name": "MintFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 28,
+      "metadata_path": "contracts/base/0x5da05215aca9edbe27cbdce86888986e4b4c996f/metadata.json",
+      "abi_path": "contracts/base/0x5da05215aca9edbe27cbdce86888986e4b4c996f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67",
+      "labels_from_input": [
+        "Handles token withdrawals across multiple blockchain networks.\t0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67"
+      ],
+      "contract_name": "MultiChainWithdrawer",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 16,
+      "metadata_path": "contracts/base/0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67/metadata.json",
+      "abi_path": "contracts/base/0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x642229f238fb9de03374be34b0ed8d9de80752c5",
+      "labels_from_input": [
+        "Output Proposer\t0x642229f238fb9de03374be34b0ed8d9de80752c5\tEOA managed by Coinbase Technologies"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x642229f238fb9de03374be34b0ed8d9de80752c5/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x65cdabc9ebf1dfb72600754aa98f90a2ea285eba",
+      "labels_from_input": [
+        "Handles deal execution, escrow, and settlement mechanics.\t0x65cDabC9EbF1DfB72600754aa98F90A2EA285Eba"
+      ],
+      "contract_name": "Deal",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0x65cdabc9ebf1dfb72600754aa98f90a2ea285eba/metadata.json",
+      "abi_path": "contracts/base/0x65cdabc9ebf1dfb72600754aa98f90a2ea285eba/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f",
+      "labels_from_input": [
+        "Base\t0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x6e89d99643db1223697c77a9f8b2cb07e898e743",
+      "labels_from_input": [
+        "Validates whitelist eligibility using merkle tree proofs for domain discounts.\t0x6E89d99643DB1223697C77A9F8B2Cb07E898e743"
+      ],
+      "contract_name": "CBIdDiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0x6e89d99643db1223697c77a9f8b2cb07e898e743/metadata.json",
+      "abi_path": "contracts/base/0x6e89d99643db1223697c77a9f8b2cb07e898e743/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x7263056963e131153927234e0ce1457a32d888a4",
+      "labels_from_input": [
+        "Manages fund transfers and deal completion logic.\t0x7263056963E131153927234e0Ce1457a32D888a4"
+      ],
+      "contract_name": "Settlement",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 26,
+      "metadata_path": "contracts/base/0x7263056963e131153927234e0ce1457a32d888a4/metadata.json",
+      "abi_path": "contracts/base/0x7263056963e131153927234e0ce1457a32d888a4/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x73612914c81a9c072333ea9ea71a9b26a5b9a707",
+      "labels_from_input": [
+        "Manages contract discovery and metadata across deployments.\t0x73612914c81a9c072333ea9ea71a9b26a5b9a707"
+      ],
+      "contract_name": "GenericRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/base/0x73612914c81a9c072333ea9ea71a9b26a5b9a707/metadata.json",
+      "abi_path": "contracts/base/0x73612914c81a9c072333ea9ea71a9b26a5b9a707/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x736b661a643b57f11d131cb3ae6129c22ea02843",
+      "labels_from_input": [
+        "Enables sponsored transactions and flexible payment methods.\t0x736b661a643B57F11d131CB3Ae6129C22ea02843"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x736b661a643b57f11d131cb3ae6129c22ea02843/metadata.json",
+      "abi_path": "contracts/base/0x736b661a643b57f11d131cb3ae6129c22ea02843/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x7458bfdc30034eb860b265e6068121d18fa5aa72",
+      "labels_from_input": [],
+      "contract_name": "FiatTokenV2_1",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 19,
+      "metadata_path": "contracts/base/0x7458bfdc30034eb860b265e6068121d18fa5aa72/metadata.json",
+      "abi_path": "contracts/base/0x7458bfdc30034eb860b265e6068121d18fa5aa72/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x75505a97bd334e7bd3c476893285569c4136fa0f",
+      "labels_from_input": [],
+      "contract_name": "SchemaRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x75505a97bd334e7bd3c476893285569c4136fa0f/metadata.json",
+      "abi_path": "contracts/base/0x75505a97bd334e7bd3c476893285569c4136fa0f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x75d2ea122cc20b6e661775ac18fff0b4547b9fe6",
+      "labels_from_input": [
+        "Enables unlimited minting of digital collectibles.\t0x75D2eA122cC20B6e661775Ac18ffF0B4547B9fe6"
+      ],
+      "contract_name": "OpenEdition721Mint",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 18,
+      "metadata_path": "contracts/base/0x75d2ea122cc20b6e661775ac18fff0b4547b9fe6/metadata.json",
+      "abi_path": "contracts/base/0x75d2ea122cc20b6e661775ac18fff0b4547b9fe6/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x76d62719c6a7766c8478b46f995e99ad4675d86a",
+      "labels_from_input": [
+        "Base\t0x76D62719c6A7766c8478B46f995E99AD4675d86a"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0x76d62719c6a7766c8478b46f995e99ad4675d86a/metadata.json",
+      "abi_path": "contracts/base/0x76d62719c6a7766c8478b46f995e99ad4675d86a/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x78fe41628abbc9f477186641d4b52d0c5d93ca20",
+      "labels_from_input": [],
+      "contract_name": "FunderIntegrationRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 16,
+      "metadata_path": "contracts/base/0x78fe41628abbc9f477186641d4b52d0c5d93ca20/metadata.json",
+      "abi_path": "contracts/base/0x78fe41628abbc9f477186641d4b52d0c5d93ca20/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels_from_input": [
+        "Base\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "contract_name": "CoinbaseSmartWalletValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 17,
+      "metadata_path": "contracts/base/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/metadata.json",
+      "abi_path": "contracts/base/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x79ea96012eea67a83431f1701b3dff7e37f9e282",
+      "labels_from_input": [
+        "Allows setting primary names for addresses for reverse resolution.\t0x79EA96012eEa67A83431F1701B3dFf7e37F9E282"
+      ],
+      "contract_name": "ReverseRegistrar",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x79ea96012eea67a83431f1701b3dff7e37f9e282/metadata.json",
+      "abi_path": "contracts/base/0x79ea96012eea67a83431f1701b3dff7e37f9e282/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x7bb41c3008b3f03fe483b28b8db90e19cf07595c",
+      "labels_from_input": [
+        "Proxy Admin Owner (L1)\t0x7bB41C3008B3f03FE483B28b8DB90e19Cf07595c\tGnosis Safe"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x7bb41c3008b3f03fe483b28b8db90e19cf07595c/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x7d334106daa009ef62cbd34c1624bee2277ba735",
+      "labels_from_input": [
+        "Base\t0x7d334106dAa009Ef62CBd34C1624Bee2277bA735"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0x7d334106daa009ef62cbd34c1624bee2277ba735/metadata.json",
+      "abi_path": "contracts/base/0x7d334106daa009ef62cbd34c1624bee2277ba735/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x82a2582e545c26e193cefcbb791d2c355e2bd47f",
+      "labels_from_input": [],
+      "contract_name": "StaticAttester",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0x82a2582e545c26e193cefcbb791d2c355e2bd47f/metadata.json",
+      "abi_path": "contracts/base/0x82a2582e545c26e193cefcbb791d2c355e2bd47f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x834297caf503d9455395a62336e653fcf2234962",
+      "labels_from_input": [
+        "Base\t0x834297cAF503d9455395A62336e653FCf2234962"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x834297caf503d9455395a62336e653fcf2234962/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x8c44c6a9ee7e64a65f288714d1bb8043cf0f3c5c",
+      "labels_from_input": [
+        "Manages cross-chain minting and burning of wrapped ADA tokens.\t0x8c44C6a9ee7e64a65F288714d1Bb8043Cf0f3C5C"
+      ],
+      "contract_name": "MintForwarder",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0x8c44c6a9ee7e64a65f288714d1bb8043cf0f3c5c/metadata.json",
+      "abi_path": "contracts/base/0x8c44c6a9ee7e64a65f288714d1bb8043cf0f3c5c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x8ca1e12404d16373aef756179b185f27b2994f3a",
+      "labels_from_input": [
+        "Challenger\t0x8Ca1E12404d16373Aef756179B185F27b2994F3a\tEOA managed by Coinbase Technologies"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x8ca1e12404d16373aef756179b185f27b2994f3a/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x8d9f34934dc9619e5dc3df27d0a40b4a744e7eaa",
+      "labels_from_input": [
+        "Manages payments through spend permission authorization.\t0x8d9F34934dc9619e5DC3Df27D0A40b4A744E7eAa"
+      ],
+      "contract_name": "SpendPermissionPaymentCollector",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 43,
+      "metadata_path": "contracts/base/0x8d9f34934dc9619e5dc3df27d0a40b4a744e7eaa/metadata.json",
+      "abi_path": "contracts/base/0x8d9f34934dc9619e5dc3df27d0a40b4a744e7eaa/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x934907bffd0901b6a21e398b9c53a4a38f02fa5d",
+      "labels_from_input": [
+        "Handles automated refunds for failed payment operations.\t0x934907bffd0901b6A21e398B9C53A4A38F02fa5d"
+      ],
+      "contract_name": "OperatorRefundCollector",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 14,
+      "metadata_path": "contracts/base/0x934907bffd0901b6a21e398b9c53a4a38f02fa5d/metadata.json",
+      "abi_path": "contracts/base/0x934907bffd0901b6a21e398b9c53a4a38f02fa5d/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x93e57a196454cb919193fa9946f14943cf733845",
+      "labels_from_input": [],
+      "contract_name": "GasPriceOracle",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/base/0x93e57a196454cb919193fa9946f14943cf733845/metadata.json",
+      "abi_path": "contracts/base/0x93e57a196454cb919193fa9946f14943cf733845/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654",
+      "labels_from_input": [],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0x992476b9ee81d52a5bda0622c333938d0af0ab26",
+      "labels_from_input": [
+        "Enables gasless token transfers with signature-based permits.\t0x992476B9Ee81d52a5BdA0622C333938D0Af0aB26"
+      ],
+      "contract_name": "Permit2PaymentCollector",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 18,
+      "metadata_path": "contracts/base/0x992476b9ee81d52a5bda0622c333938d0af0ab26/metadata.json",
+      "abi_path": "contracts/base/0x992476b9ee81d52a5bda0622c333938d0af0ab26/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0x9de4ab12320684cec803edb72aa3a920250d392c",
+      "labels_from_input": [
+        "Checks ownership of Coinbase One NFTs for domain registration discounts.\t0x9de4Ab12320684cec803Edb72aA3a920250d392C"
+      ],
+      "contract_name": "AttestationValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0x9de4ab12320684cec803edb72aa3a920250d392c/metadata.json",
+      "abi_path": "contracts/base/0x9de4ab12320684cec803edb72aa3a920250d392c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xa0bf66c54002ceb15ab6e8423eebb994e8b2f7fe",
+      "labels_from_input": [
+        "Improved version with optimized gas usage and extended functionality.\t0xa0BF66C54002cEb15aB6E8423EebB994E8b2f7FE"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0xa0bf66c54002ceb15ab6e8423eebb994e8b2f7fe/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0xa270ef92c1e11f1c1f95753c2e56801e8125fa83",
+      "labels_from_input": [
+        "Legacy gas sponsorship with basic verification.\t0xa270ef92c1E11f1C1f95753C2E56801e8125fA83"
+      ],
+      "contract_name": "LimitingPaymaster",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0xa270ef92c1e11f1c1f95753c2e56801e8125fa83/metadata.json",
+      "abi_path": "contracts/base/0xa270ef92c1e11f1c1f95753c2e56801e8125fa83/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xa5b50a9ed69811afa07151b3b98b8f6b58c5c28a",
+      "labels_from_input": [
+        "Base\t0xa5b50A9ed69811aFA07151b3B98b8F6B58C5c28A"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xa5b50a9ed69811afa07151b3b98b8f6b58c5c28a/metadata.json",
+      "abi_path": "contracts/base/0xa5b50a9ed69811afa07151b3b98b8f6b58c5c28a/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xa6d8dc0cda2589509bb75aa0c802f88642af5199",
+      "labels_from_input": [],
+      "contract_name": "FiatTokenV2_2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0xa6d8dc0cda2589509bb75aa0c802f88642af5199/metadata.json",
+      "abi_path": "contracts/base/0xa6d8dc0cda2589509bb75aa0c802f88642af5199/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xa9a4408db72f168c5b0bf413b369824450517126",
+      "labels_from_input": [
+        "Base\t0xA9A4408db72F168c5b0bf413b369824450517126"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xa9a4408db72f168c5b0bf413b369824450517126/metadata.json",
+      "abi_path": "contracts/base/0xa9a4408db72f168c5b0bf413b369824450517126/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xadab385dfd0bb2c21e292c5f586471a2878a101e",
+      "labels_from_input": [
+        "Base\t0xadab385DFD0bB2c21E292c5F586471a2878A101e"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xadab385dfd0bb2c21e292c5f586471a2878a101e/metadata.json",
+      "abi_path": "contracts/base/0xadab385dfd0bb2c21e292c5f586471a2878a101e/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xaeb73b6c8ed3776ea6b9284082588c55e35e1b27",
+      "labels_from_input": [
+        "Deploys and manages multiple mint factory contracts with custom configurations.\t0xAeb73b6C8ed3776EA6b9284082588c55E35e1b27"
+      ],
+      "contract_name": "MintFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 28,
+      "metadata_path": "contracts/base/0xaeb73b6c8ed3776ea6b9284082588c55e35e1b27/metadata.json",
+      "abi_path": "contracts/base/0xaeb73b6c8ed3776ea6b9284082588c55e35e1b27/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xaf24c1c24ff3bf1e6d882518120fc25442d6794b",
+      "labels_from_input": [
+        "Validates signatures and proofs from Solana.\t0xAF24c1c24Ff3BF1e6D882518120fC25442d6794B"
+      ],
+      "contract_name": "BridgeValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 24,
+      "metadata_path": "contracts/base/0xaf24c1c24ff3bf1e6d882518120fc25442d6794b/metadata.json",
+      "abi_path": "contracts/base/0xaf24c1c24ff3bf1e6d882518120fc25442d6794b/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7",
+      "labels_from_input": [
+        "Contains core logic for cross-chain token operations.\t0xb0887e4793d944Cf7bA674B3b3FA5C15900ddaA7"
+      ],
+      "contract_name": "Twin",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7/metadata.json",
+      "abi_path": "contracts/base/0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xb326c02150bb0de265bb0eceda53531ab0163bf6",
+      "labels_from_input": [
+        "Manages implementation upgrades for cross-chain tokens.\t0xb326c02150bb0De265Bb0eCeDA53531ab0163bf6"
+      ],
+      "contract_name": "UpgradeableBeacon",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0xb326c02150bb0de265bb0eceda53531ab0163bf6/metadata.json",
+      "abi_path": "contracts/base/0xb326c02150bb0de265bb0eceda53531ab0163bf6/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xb635802085b405a9c8ba7225ae866f60b63d8503",
+      "labels_from_input": [
+        "Checks eligibility for developer-focused domain registration discounts.\t0xB635802085b405A9C8BA7225ae866f60b63d8503"
+      ],
+      "contract_name": "ERC721DiscountValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/base/0xb635802085b405a9c8ba7225ae866f60b63d8503/metadata.json",
+      "abi_path": "contracts/base/0xb635802085b405a9c8ba7225ae866f60b63d8503/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xb94704422c2a1e396835a571837aa5ae53285a95",
+      "labels_from_input": [
+        "Central registry managing domain ownership and resolver assignments.\t0xB94704422c2a1E396835A571837Aa5AE53285a95"
+      ],
+      "contract_name": "Registry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xb94704422c2a1e396835a571837aa5ae53285a95/metadata.json",
+      "abi_path": "contracts/base/0xb94704422c2a1e396835a571837aa5ae53285a95/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9",
+      "labels_from_input": [
+        "Base\t0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9"
+      ],
+      "contract_name": "LinearUnlocker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9/metadata.json",
+      "abi_path": "contracts/base/0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5",
+      "labels_from_input": [
+        "Base\t0xbd25CE451C24554f53D984b8C64B7A0aBC5FDbB5"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5/metadata.json",
+      "abi_path": "contracts/base/0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xbdea0d1bcc5966192b070fdf62ab4ef5b4420cff",
+      "labels_from_input": [
+        "Securely holds payments pending authorization.\t0xBdEA0D1bcC5966192B070Fdf62aB4EF5b4420cff"
+      ],
+      "contract_name": "AuthCaptureEscrow",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 13,
+      "metadata_path": "contracts/base/0xbdea0d1bcc5966192b070fdf62ab4ef5b4420cff/metadata.json",
+      "abi_path": "contracts/base/0xbdea0d1bcc5966192b070fdf62ab4ef5b4420cff/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xbeb5fc579115071764c7423a4f12edde41f106ed",
+      "labels_from_input": [],
+      "contract_name": "EAS",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 12,
+      "metadata_path": "contracts/base/0xbeb5fc579115071764c7423a4f12edde41f106ed/metadata.json",
+      "abi_path": "contracts/base/0xbeb5fc579115071764c7423a4f12edde41f106ed/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30007",
+      "labels_from_input": [],
+      "contract_name": "L2CrossDomainMessenger",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30007/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30007/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010",
+      "labels_from_input": [],
+      "contract_name": "L2StandardBridge",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 32,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30010/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30014",
+      "labels_from_input": [],
+      "contract_name": "L2ERC721Bridge",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 91,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30014/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30014/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30016",
+      "labels_from_input": [],
+      "contract_name": "L2ToL1MessagePasser",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 91,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30016/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30016/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30017",
+      "labels_from_input": [],
+      "contract_name": "OptimismMintableERC721Factory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30017/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30017/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30018",
+      "labels_from_input": [],
+      "contract_name": "ProxyAdmin",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 91,
+      "metadata_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30018/metadata.json",
+      "abi_path": "contracts/base/0xc0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d3c0d30018/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc5b0b126ffd9d36084af85359a07fb798a405adc",
+      "labels_from_input": [
+        "Controls global superchain settings and parameters.\t0xc5b0B126fFD9D36084af85359a07Fb798A405aDc"
+      ],
+      "contract_name": "SuperchainConfig",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 5,
+      "metadata_path": "contracts/base/0xc5b0b126ffd9d36084af85359a07fb798a405adc/metadata.json",
+      "abi_path": "contracts/base/0xc5b0b126ffd9d36084af85359a07fb798a405adc/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd",
+      "labels_from_input": [
+        "Manages name resolution and record storage for .base.eth domains.\t0xC6d566A56A1aFf6508b41f6c90ff131615583BCD"
+      ],
+      "contract_name": "L2Resolver",
+      "proxy": "1",
+      "implementation": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd",
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 33,
+      "metadata_path": "contracts/base/0xc6d566a56a1aff6508b41f6c90ff131615583bcd/metadata.json",
+      "abi_path": "contracts/base/0xc6d566a56a1aff6508b41f6c90ff131615583bcd/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xca7658a2129b7957d3395061bd3398c2f997d47c",
+      "labels_from_input": [],
+      "contract_name": "FiatTokenV2_2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/base/0xca7658a2129b7957d3395061bd3398c2f997d47c/metadata.json",
+      "abi_path": "contracts/base/0xca7658a2129b7957d3395061bd3398c2f997d47c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcb17c9db87b595717c857a08468793f5bab6445f",
+      "labels_from_input": [
+        "ERC20 representation of LTC bridged to Base network.\t0xcb17C9Db87B595717C857a08468793f5bAb6445F"
+      ],
+      "contract_name": "FiatTokenProxy",
+      "proxy": "1",
+      "implementation": "0x5807ba3cb82b7c5ebff648b7e2000b1c64610c72",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 5,
+      "metadata_path": "contracts/base/0xcb17c9db87b595717c857a08468793f5bab6445f/metadata.json",
+      "abi_path": "contracts/base/0xcb17c9db87b595717c857a08468793f5bab6445f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+      "labels_from_input": [
+        "ERC20 representation of XRP bridged to Base network.\t0xcb585250f852C6c6bf90434AB21A00f02833a4af"
+      ],
+      "contract_name": "FiatTokenProxy",
+      "proxy": "1",
+      "implementation": "0x1f72bf05b43e275e96bbccb0bc40f7e5c9656527",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 5,
+      "metadata_path": "contracts/base/0xcb585250f852c6c6bf90434ab21a00f02833a4af/metadata.json",
+      "abi_path": "contracts/base/0xcb585250f852c6c6bf90434ab21a00f02833a4af/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+      "labels_from_input": [
+        "ERC20 representation of ADA bridged to Base network.\t0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c"
+      ],
+      "contract_name": "FiatTokenProxy",
+      "proxy": "1",
+      "implementation": "0xca7658a2129b7957d3395061bd3398c2f997d47c",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 5,
+      "metadata_path": "contracts/base/0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c/metadata.json",
+      "abi_path": "contracts/base/0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+      "labels_from_input": [
+        "ERC20 representation of DOGE bridged to Base network.\t0xcbD06E5A2B0C65597161de254AA074E489dEb510"
+      ],
+      "contract_name": "FiatTokenProxy",
+      "proxy": "1",
+      "implementation": "0xa6d8dc0cda2589509bb75aa0c802f88642af5199",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 5,
+      "metadata_path": "contracts/base/0xcbd06e5a2b0c65597161de254aa074e489deb510/metadata.json",
+      "abi_path": "contracts/base/0xcbd06e5a2b0c65597161de254aa074e489deb510/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcc7fe2cf5b79f3efabf42cac8e223813242e1454",
+      "labels_from_input": [
+        "Defines standard rules for verified pool interactions.\t0xcC7fE2Cf5B79F3EFaBF42caC8E223813242E1454"
+      ],
+      "contract_name": "BasicPolicy",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 27,
+      "metadata_path": "contracts/base/0xcc7fe2cf5b79f3efabf42cac8e223813242e1454/metadata.json",
+      "abi_path": "contracts/base/0xcc7fe2cf5b79f3efabf42cac8e223813242e1454/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xcc93eb838f061a375a37d0d65e8d68f15e9d07e5",
+      "labels_from_input": [
+        "Base\t0xcc93eb838F061A375A37d0d65E8D68f15e9D07E5"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0xcc93eb838f061a375a37d0d65e8d68f15e9d07e5/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels_from_input": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "contract_name": "PublicERC6492Validator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xcfce48b757601f3f351cb6f434cb0517aeee293d/metadata.json",
+      "abi_path": "contracts/base/0xcfce48b757601f3f351cb6f434cb0517aeee293d/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels_from_input": [
+        "Base\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "contract_name": "NonceTracker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/base/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/metadata.json",
+      "abi_path": "contracts/base/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd27d5277215754dc84c8e0736d8fef2ed39d92f3",
+      "labels_from_input": [
+        "Base\t0xd27D5277215754dc84C8e0736D8fef2Ed39d92F3"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xd27d5277215754dc84c8e0736d8fef2ed39d92f3/metadata.json",
+      "abi_path": "contracts/base/0xd27d5277215754dc84c8e0736d8fef2ed39d92f3/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd3e6775ed9b7dc12b205c8e608dc3767b9e5efda",
+      "labels_from_input": [
+        "Handles discounted domain registrations for qualifying addresses.\t0xd3e6775Ed9B7dC12B205C8E608Dc3767B9e5eFdA"
+      ],
+      "contract_name": "EARegistrarController",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 47,
+      "metadata_path": "contracts/base/0xd3e6775ed9b7dc12b205c8e608dc3767b9e5efda/metadata.json",
+      "abi_path": "contracts/base/0xd3e6775ed9b7dc12b205c8e608dc3767b9e5efda/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd53210ee20948ecff8b6b8180e29657e0ce8492d",
+      "labels_from_input": [],
+      "contract_name": "SequencerFeeVault",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 34,
+      "metadata_path": "contracts/base/0xd53210ee20948ecff8b6b8180e29657e0ce8492d/metadata.json",
+      "abi_path": "contracts/base/0xd53210ee20948ecff8b6b8180e29657e0ce8492d/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd53b558e1f07289acedf028d226974abba258312",
+      "labels_from_input": [
+        "Implements Dutch auction pricing for premium domain name launches.\t0xd53B558e1F07289acedf028d226974AbBa258312"
+      ],
+      "contract_name": "LaunchAuctionPriceOracle",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/base/0xd53b558e1f07289acedf028d226974abba258312/metadata.json",
+      "abi_path": "contracts/base/0xd53b558e1f07289acedf028d226974abba258312/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd867cbed445c37b0f95cc956fe6b539bdef7f32f",
+      "labels_from_input": [
+        "Handles attestation verification and resolution logic.\t0xD867CbEd445c37b0F95Cc956fe6B539BdEf7F32f"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x94a8e9d0adc7e1c4698ca9ab20e77d6741bf9654",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 9,
+      "metadata_path": "contracts/base/0xd867cbed445c37b0f95cc956fe6b539bdef7f32f/metadata.json",
+      "abi_path": "contracts/base/0xd867cbed445c37b0f95cc956fe6b539bdef7f32f/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "labels_from_input": [],
+      "contract_name": "GnosisSafe",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 43,
+      "metadata_path": "contracts/base/0xd9db270c1b5e3bd161e8c8503c55ceabee709552/metadata.json",
+      "abi_path": "contracts/base/0xd9db270c1b5e3bd161e8c8503c55ceabee709552/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xdd56781d0509650f8c2981231b6c917f2d5d7df2",
+      "labels_from_input": [
+        "Creates wrapped token representations of Solana assets on Base.\t0xDD56781d0509650f8C2981231B6C917f2d5d7dF2"
+      ],
+      "contract_name": "CrossChainERC20Factory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/base/0xdd56781d0509650f8c2981231b6c917f2d5d7df2/metadata.json",
+      "abi_path": "contracts/base/0xdd56781d0509650f8c2981231b6c917f2d5d7df2/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+      "labels_from_input": [
+        "LegacyERC20ETH\t0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0xe1d39a19af4319eba972fd70a5280ca0ae7ca0ac",
+      "labels_from_input": [
+        "Base\t0xe1D39a19Af4319eBA972fd70A5280CA0aE7cA0AC"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xe1d39a19af4319eba972fd70a5280ca0ae7ca0ac/metadata.json",
+      "abi_path": "contracts/base/0xe1d39a19af4319eba972fd70a5280ca0ae7ca0ac/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xe3111d45733efee14bfb1ebe2364d929edbd9059",
+      "labels_from_input": [
+        "Base\t0xE3111D45733Efee14bFB1EbE2364D929eDBd9059"
+      ],
+      "contract_name": "BatchBlacklister",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/base/0xe3111d45733efee14bfb1ebe2364d929edbd9059/metadata.json",
+      "abi_path": "contracts/base/0xe3111d45733efee14bfb1ebe2364d929edbd9059/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e",
+      "labels_from_input": [
+        "Manages chain initialization with precompiled contracts.\t0xe8c6D9460Ce61D260260d27f30bde8b8d1a8341e"
+      ],
+      "contract_name": "DeployChain",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 90,
+      "metadata_path": "contracts/base/0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e/metadata.json",
+      "abi_path": "contracts/base/0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xf10122d428b4bc8a9d050d06a2037259b4c4b83b",
+      "labels_from_input": [
+        "OptimismMintableERC20Factory\t0xF10122D428B4bc8A9d050D06a2037259b4c4B83B"
+      ],
+      "contract_name": "ERC20Factory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 12,
+      "metadata_path": "contracts/base/0xf10122d428b4bc8a9d050d06a2037259b4c4b83b/metadata.json",
+      "abi_path": "contracts/base/0xf10122d428b4bc8a9d050d06a2037259b4c4b83b/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xf3ef80a7664c286997b35b0d1a6d56a9008f9336",
+      "labels_from_input": [
+        "Guardian-based social recovery for Coinbase retail smart wallets. Each RecoverySigner is owned by a Coinbase K2 guardian key and can add/remove owners on the user's smart wallet.\t0xf3Ef80A7664c286997B35b0D1a6d56A9008F9336 L2 Contract Addresses"
+      ],
+      "contract_name": "RecoverySignerFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 7,
+      "metadata_path": "contracts/base/0xf3ef80a7664c286997b35b0d1a6d56a9008f9336/metadata.json",
+      "abi_path": "contracts/base/0xf3ef80a7664c286997b35b0d1a6d56a9008f9336/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xf7f64badcbf64a1dbcae29c223be1387f8a301a0",
+      "labels_from_input": [
+        "Base\t0xF7F64baDcbf64A1DbcAE29C223BE1387F8a301A0"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xf7f64badcbf64a1dbcae29c223be1387f8a301a0/metadata.json",
+      "abi_path": "contracts/base/0xf7f64badcbf64a1dbcae29c223be1387f8a301a0/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels_from_input": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "contract_name": "SpendPermissionManager",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/base/0xf85210b21cc50302f477ba56686d2019dc9b67ad/metadata.json",
+      "abi_path": "contracts/base/0xf85210b21cc50302f477ba56686d2019dc9b67ad/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xf903f3a8b30a7b645e76db8511b4121cc96160eb",
+      "labels_from_input": [
+        "Base\t0xF903f3A8B30a7b645e76DB8511b4121cc96160EB"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0xf903f3a8b30a7b645e76db8511b4121cc96160eb/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "base",
+      "address": "0xfb1a43620c648a43eee7bc112db5f2498e619dc5",
+      "labels_from_input": [
+        "Base\t0xfb1A43620c648A43eEE7bc112db5F2498e619DC5"
+      ],
+      "contract_name": "MagicSpend",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 11,
+      "metadata_path": "contracts/base/0xfb1a43620c648a43eee7bc112db5f2498e619dc5/metadata.json",
+      "abi_path": "contracts/base/0xfb1a43620c648a43eee7bc112db5f2498e619dc5/abi.json"
+    },
+    {
+      "chain": "base",
+      "address": "0xff00000000000000000000000000000000008453",
+      "labels_from_input": [
+        "Batch Inbox\t0xff00000000000000000000000000000000008453\tEOA (with no known private key)"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/base/0xff00000000000000000000000000000000008453/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x103937f52b9e8fdd370845e049f3601c2979890a",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x103937F52B9E8Fdd370845E049F3601c2979890a"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/bsc/0x103937f52b9e8fdd370845e049f3601c2979890a/metadata.json",
+      "abi_path": "contracts/bsc/0x103937f52b9e8fdd370845e049f3601c2979890a/abi.json"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x198cbbf1232bb033268a7276ca91d1f3cd4cb896",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x198cbbf1232bb033268a7276ca91d1f3cd4cb896"
+      ],
+      "contract_name": "GenericRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/bsc/0x198cbbf1232bb033268a7276ca91d1f3cd4cb896/metadata.json",
+      "abi_path": "contracts/bsc/0x198cbbf1232bb033268a7276ca91d1f3cd4cb896/abi.json"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x208f9c3ca561977ee49ab84e2243c1531a265bd1",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x208F9c3Ca561977ee49AB84E2243c1531a265bd1"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/bsc/0x208f9c3ca561977ee49ab84e2243c1531a265bd1/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3065aa025a27b42b98e43a5ff7b3965c0174d1bd",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x3065aa025a27B42B98E43a5fF7B3965c0174D1bD"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/bsc/0x3065aa025a27b42b98e43a5ff7b3965c0174d1bd/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/bsc/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5cdf694c5be8b9e83663e16efa8a09fe284b3238",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x5cDf694C5bE8B9E83663e16eFA8a09FE284b3238"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/bsc/0x5cdf694c5be8b9e83663e16efa8a09fe284b3238/metadata.json",
+      "abi_path": "contracts/bsc/0x5cdf694c5be8b9e83663e16efa8a09fe284b3238/abi.json"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f",
+      "labels_from_input": [
+        "Superseded by newer lockup versions.\t0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/bsc/0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x834297caf503d9455395a62336e653fcf2234962",
+      "labels_from_input": [
+        "Superseded by newer factory versions.\t0x834297cAF503d9455395A62336e653FCf2234962"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/bsc/0x834297caf503d9455395a62336e653fcf2234962/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x985a20e7bec906778f811799aebf50f90d10f71b",
+      "labels_from_input": [
+        "BNB Smart Chain\t0x985a20e7bec906778f811799aebf50f90d10f71b"
+      ],
+      "contract_name": "DistributorFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 46,
+      "metadata_path": "contracts/bsc/0x985a20e7bec906778f811799aebf50f90d10f71b/metadata.json",
+      "abi_path": "contracts/bsc/0x985a20e7bec906778f811799aebf50f90d10f71b/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x00000000001c3dc9a681a014e2732bf1419afaec",
+      "labels_from_input": [
+        "Ethereum\t0x00000000001c3dC9A681A014e2732bF1419aFAec"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0x00000000001c3dc9a681a014e2732bf1419afaec/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0000000000e552550bec95a36217a91ceba099b0",
+      "labels_from_input": [
+        "Ethereum\t0x0000000000E552550beC95A36217A91CeBA099b0"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0x0000000000e552550bec95a36217a91ceba099b0/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0475cbcaebd9ce8afa5025828d5b98dfb67e059e",
+      "labels_from_input": [
+        "ProxyAdmin\t0x0475cBCAebd9CE8AfA5025828d5b98DFb67E059E"
+      ],
+      "contract_name": "ProxyAdmin",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/ethereum/0x0475cbcaebd9ce8afa5025828d5b98dfb67e059e/metadata.json",
+      "abi_path": "contracts/ethereum/0x0475cbcaebd9ce8afa5025828d5b98dfb67e059e/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0507aaa21c678976fcdc7e804836acd6ebc17a44",
+      "labels_from_input": [],
+      "contract_name": "SystemConfig",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x0507aaa21c678976fcdc7e804836acd6ebc17a44/metadata.json",
+      "abi_path": "contracts/ethereum/0x0507aaa21c678976fcdc7e804836acd6ebc17a44/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x05cc379ebd9b30bba19c6fa282ab29218ec61d84",
+      "labels_from_input": [
+        "OptimismMintableERC20Factory\t0x05cc379EBD9B30BbA19C6fA282AB29218EC61D84"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x05cc379ebd9b30bba19c6fa282ab29218ec61d84/metadata.json",
+      "abi_path": "contracts/ethereum/0x05cc379ebd9b30bba19c6fa282ab29218ec61d84/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1fb8cdfc6831fc866ed9c51af8817da5c287add3",
+      "labels_from_input": [
+        "PreimageOracle\t0x1fb8cdFc6831fc866Ed9C51aF8817Da5c287aDD3"
+      ],
+      "contract_name": "PreimageOracle",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 6,
+      "metadata_path": "contracts/ethereum/0x1fb8cdfc6831fc866ed9c51af8817da5c287add3/metadata.json",
+      "abi_path": "contracts/ethereum/0x1fb8cdfc6831fc866ed9c51af8817da5c287add3/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1fe3fdd1f0193dd657c0a9aac37314d6b479e557",
+      "labels_from_input": [
+        "SystemDictator\t0x1fE3fdd1F0193Dd657C0a9AAC37314D6B479E557"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xb85fe401c98aa0d464c8f6bed4778ed61f2152b7",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x1fe3fdd1f0193dd657c0a9aac37314d6b479e557/metadata.json",
+      "abi_path": "contracts/ethereum/0x1fe3fdd1f0193dd657c0a9aac37314d6b479e557/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2453c1216e49704d84ea98a4dacd95738f2fc8ec",
+      "labels_from_input": [
+        "DelayedWETHProxy (FDG)\t0x2453c1216e49704d84ea98a4dacd95738f2fc8ec"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/ethereum/0x2453c1216e49704d84ea98a4dacd95738f2fc8ec/metadata.json",
+      "abi_path": "contracts/ethereum/0x2453c1216e49704d84ea98a4dacd95738f2fc8ec/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels_from_input": [
+        "Handles ETH and token transfers when no specific handler exists.\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "contract_name": "DefaultReceiver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/ethereum/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/metadata.json",
+      "abi_path": "contracts/ethereum/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "labels_from_input": [
+        "L1StandardBridge\t0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+      ],
+      "contract_name": "L1ChugSplashProxy",
+      "proxy": "1",
+      "implementation": "0x61525eaacddb97d9184afc205827e6a4fd0bf62a",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x3154cf16ccdb4c6d922629664174b904d80f2c35/metadata.json",
+      "abi_path": "contracts/ethereum/0x3154cf16ccdb4c6d922629664174b904d80f2c35/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+      "labels_from_input": [],
+      "contract_name": "DelayedWETH",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 16,
+      "metadata_path": "contracts/ethereum/0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998/metadata.json",
+      "abi_path": "contracts/ethereum/0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x341251e680fb0fd4f47ad4dc1ad61c3be5142d0e",
+      "labels_from_input": [
+        "Streamlines creation of new vesting schedules.\t0x341251e680fB0FD4f47aD4dC1AD61C3bE5142d0e"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0x341251e680fb0fd4f47ad4dc1ad61c3be5142d0e/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x36398155cd17cfe804f69b233edda800dd4d5aa5",
+      "labels_from_input": [],
+      "contract_name": "AnchorStateRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 30,
+      "metadata_path": "contracts/ethereum/0x36398155cd17cfe804f69b233edda800dd4d5aa5/metadata.json",
+      "abi_path": "contracts/ethereum/0x36398155cd17cfe804f69b233edda800dd4d5aa5/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "Reduces gas costs for bulk token distributions.\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e",
+      "labels_from_input": [
+        "DisputeGameFactoryProxy\t0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0xc040f392e52cb6970ca8e110c280fe24e07c5e2c",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/ethereum/0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e/metadata.json",
+      "abi_path": "contracts/ethereum/0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20",
+      "labels_from_input": [
+        "Handles ENS resolution queries on Ethereum for Base domains.\t0x480F8F2FfE823Dc70F499Cc2542C42a3a6aD3f20"
+      ],
+      "contract_name": "L1Resolver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 8,
+      "metadata_path": "contracts/ethereum/0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20/metadata.json",
+      "abi_path": "contracts/ethereum/0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+      "labels_from_input": [
+        "OptimismPortal\t0x49048044D57e1C92A77f79988d21Fa8fAF74E97e"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x97cebbf8959e2a5476fbe9b98a21806ec234609b",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x49048044d57e1c92a77f79988d21fa8faf74e97e/metadata.json",
+      "abi_path": "contracts/ethereum/0x49048044d57e1c92a77f79988d21fa8faf74e97e/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x564d6e3a879c007183fad17bed9a70630f090651",
+      "labels_from_input": [
+        "Routes trades through multiple decentralized exchanges.\t0x564d6e3A879c007183fAd17beD9A70630F090651"
+      ],
+      "contract_name": "ZeroExProxy",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 12,
+      "metadata_path": "contracts/ethereum/0x564d6e3a879c007183fad17bed9a70630f090651/metadata.json",
+      "abi_path": "contracts/ethereum/0x564d6e3a879c007183fad17bed9a70630f090651/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58bf355c5d4edfc723ef89d99582eccfd143266a",
+      "labels_from_input": [
+        "PermissionedDisputeGame\t0x58bf355C5d4EdFc723eF89d99582ECCfd143266A"
+      ],
+      "contract_name": "PermissionedDisputeGameV2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 34,
+      "metadata_path": "contracts/ethereum/0x58bf355c5d4edfc723ef89d99582eccfd143266a/metadata.json",
+      "abi_path": "contracts/ethereum/0x58bf355c5d4edfc723ef89d99582eccfd143266a/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5d5a095665886119693f0b41d8dfee78da033e8b",
+      "labels_from_input": [],
+      "contract_name": "L1CrossDomainMessenger",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 23,
+      "metadata_path": "contracts/ethereum/0x5d5a095665886119693f0b41d8dfee78da033e8b/metadata.json",
+      "abi_path": "contracts/ethereum/0x5d5a095665886119693f0b41d8dfee78da033e8b/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x608d94945a64503e642e6370ec598e519a2c1e53",
+      "labels_from_input": [
+        "L1ERC721Bridge\t0x608d94945A64503E642E6370Ec598e519a2C1E53"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x74f1ac50eb0be98853805d381c884f5f9abdecf9",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x608d94945a64503e642e6370ec598e519a2c1e53/metadata.json",
+      "abi_path": "contracts/ethereum/0x608d94945a64503e642e6370ec598e519a2c1e53/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61525eaacddb97d9184afc205827e6a4fd0bf62a",
+      "labels_from_input": [],
+      "contract_name": "L1StandardBridge",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 29,
+      "metadata_path": "contracts/ethereum/0x61525eaacddb97d9184afc205827e6a4fd0bf62a/metadata.json",
+      "abi_path": "contracts/ethereum/0x61525eaacddb97d9184afc205827e6a4fd0bf62a/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6463dee3828677f6270d83d45408044fc5edb908",
+      "labels_from_input": [
+        "MIPS\t0x6463dEE3828677F6270d83d45408044fc5eDB908"
+      ],
+      "contract_name": "MIPS64",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 15,
+      "metadata_path": "contracts/ethereum/0x6463dee3828677f6270d83d45408044fc5edb908/metadata.json",
+      "abi_path": "contracts/ethereum/0x6463dee3828677f6270d83d45408044fc5edb908/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d",
+      "labels_from_input": [
+        "DelayedWETHProxy (PDG)\t0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/ethereum/0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d/metadata.json",
+      "abi_path": "contracts/ethereum/0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6ddba09bc4ccb0d6ca9fc5350580f74165707499",
+      "labels_from_input": [
+        "FaultDisputeGame\t0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499",
+        "FaultDisputeGame (Kona)\t0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499"
+      ],
+      "contract_name": "FaultDisputeGameV2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 33,
+      "metadata_path": "contracts/ethereum/0x6ddba09bc4ccb0d6ca9fc5350580f74165707499/metadata.json",
+      "abi_path": "contracts/ethereum/0x6ddba09bc4ccb0d6ca9fc5350580f74165707499/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x73a79fab69143498ed3712e519a88a918e1f4072",
+      "labels_from_input": [
+        "SystemConfig\t0x73a79Fab69143498Ed3712e519A88a918e1f4072"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x0507aaa21c678976fcdc7e804836acd6ebc17a44",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0x73a79fab69143498ed3712e519a88a918e1f4072/metadata.json",
+      "abi_path": "contracts/ethereum/0x73a79fab69143498ed3712e519a88a918e1f4072/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x74f1ac50eb0be98853805d381c884f5f9abdecf9",
+      "labels_from_input": [],
+      "contract_name": "L1ERC721Bridge",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 25,
+      "metadata_path": "contracts/ethereum/0x74f1ac50eb0be98853805d381c884f5f9abdecf9/metadata.json",
+      "abi_path": "contracts/ethereum/0x74f1ac50eb0be98853805d381c884f5f9abdecf9/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "labels_from_input": [
+        "Enables externally owned accounts to delegate to smart contracts.\t0x7702cb554e6bFb442cb743A7dF23154544a7176C"
+      ],
+      "contract_name": "EIP7702Proxy",
+      "proxy": "1",
+      "implementation": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 13,
+      "metadata_path": "contracts/ethereum/0x7702cb554e6bfb442cb743a7df23154544a7176c/metadata.json",
+      "abi_path": "contracts/ethereum/0x7702cb554e6bfb442cb743a7df23154544a7176c/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x782f402c93e9b0d931197cd727e006356b55699d",
+      "labels_from_input": [
+        "Enables governance and upgrade capabilities.\t0x782F402C93E9b0d931197cD727e006356B55699d"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0x782f402c93e9b0d931197cd727e006356b55699d/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels_from_input": [
+        "Provides signature verification and security validation.\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "contract_name": "CoinbaseSmartWalletValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 17,
+      "metadata_path": "contracts/ethereum/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/metadata.json",
+      "abi_path": "contracts/ethereum/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x866e82a600a1414e583f7f13623f1ac5d58b0afa",
+      "labels_from_input": [
+        "L1CrossDomainMessenger\t0x866E82a600A1414e583f7F13623F1aC5d58b0Afa"
+      ],
+      "contract_name": "ResolvedDelegateProxy",
+      "proxy": "1",
+      "implementation": "0x5d5a095665886119693f0b41d8dfee78da033e8b",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 4,
+      "metadata_path": "contracts/ethereum/0x866e82a600a1414e583f7f13623f1ac5d58b0afa/metadata.json",
+      "abi_path": "contracts/ethereum/0x866e82a600a1414e583f7f13623f1ac5d58b0afa/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8ebda19ddee719dab78def3e22c3d37970e35217",
+      "labels_from_input": [
+        "Allows multiple validator deposits in single transaction.\t0x8eBda19DdEE719DAB78DEf3e22c3d37970e35217"
+      ],
+      "contract_name": "BatchDeposit",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 3,
+      "metadata_path": "contracts/ethereum/0x8ebda19ddee719dab78def3e22c3d37970e35217/metadata.json",
+      "abi_path": "contracts/ethereum/0x8ebda19ddee719dab78def3e22c3d37970e35217/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb",
+      "labels_from_input": [],
+      "contract_name": "OptimismMintableERC20Factory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 20,
+      "metadata_path": "contracts/ethereum/0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb/metadata.json",
+      "abi_path": "contracts/ethereum/0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8efb6b5c4767b09dc9aa6af4eaa89f749522bae2",
+      "labels_from_input": [
+        "AddressManager\t0x8EfB6B5c4767B09Dc9AA6Af4eAA89F749522BaE2"
+      ],
+      "contract_name": "AddressManager",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 3,
+      "metadata_path": "contracts/ethereum/0x8efb6b5c4767b09dc9aa6af4eaa89f749522bae2/metadata.json",
+      "abi_path": "contracts/ethereum/0x8efb6b5c4767b09dc9aa6af4eaa89f749522bae2/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x900857be98cd16c97f270ce450169761858eb559",
+      "labels_from_input": [
+        "Ethereum\t0x900857be98cd16C97f270Ce450169761858eb559"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/ethereum/0x900857be98cd16c97f270ce450169761858eb559/metadata.json",
+      "abi_path": "contracts/ethereum/0x900857be98cd16c97f270ce450169761858eb559/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x909f6cf47ed12f010a796527f562bfc26c7f4e72",
+      "labels_from_input": [
+        "AnchorStateRegistryProxy\t0x909f6cf47ed12f010A796527f562bFc26C7F4E72"
+      ],
+      "contract_name": "Proxy",
+      "proxy": "1",
+      "implementation": "0x36398155cd17cfe804f69b233edda800dd4d5aa5",
+      "implementation_source": "explorer_field",
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/ethereum/0x909f6cf47ed12f010a796527f562bfc26c7f4e72/metadata.json",
+      "abi_path": "contracts/ethereum/0x909f6cf47ed12f010a796527f562bfc26c7f4e72/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x97cebbf8959e2a5476fbe9b98a21806ec234609b",
+      "labels_from_input": [],
+      "contract_name": "OptimismPortal2",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 50,
+      "metadata_path": "contracts/ethereum/0x97cebbf8959e2a5476fbe9b98a21806ec234609b/metadata.json",
+      "abi_path": "contracts/ethereum/0x97cebbf8959e2a5476fbe9b98a21806ec234609b/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb7486b5bd2d14714950b082eafebe9822a1d96ee",
+      "labels_from_input": [
+        "Supports time-based and milestone-based unlocking.\t0xb7486B5bd2d14714950B082EafebE9822a1d96eE"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0xb7486b5bd2d14714950b082eafebe9822a1d96ee/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb85fe401c98aa0d464c8f6bed4778ed61f2152b7",
+      "labels_from_input": [],
+      "contract_name": "SystemDictator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 57,
+      "metadata_path": "contracts/ethereum/0xb85fe401c98aa0d464c8f6bed4778ed61f2152b7/metadata.json",
+      "abi_path": "contracts/ethereum/0xb85fe401c98aa0d464c8f6bed4778ed61f2152b7/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc040f392e52cb6970ca8e110c280fe24e07c5e2c",
+      "labels_from_input": [],
+      "contract_name": "DisputeGameFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 21,
+      "metadata_path": "contracts/ethereum/0xc040f392e52cb6970ca8e110c280fe24e07c5e2c/metadata.json",
+      "abi_path": "contracts/ethereum/0xc040f392e52cb6970ca8e110c280fe24e07c5e2c/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc76b81d835a6ef88fb9b841c22ed492473577ac3",
+      "labels_from_input": [
+        "Enables complex vesting logic integration.\t0xc76B81D835A6Ef88fb9b841C22Ed492473577aC3"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0xc76b81d835a6ef88fb9b841c22ed492473577ac3/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels_from_input": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "contract_name": "PublicERC6492Validator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/ethereum/0xcfce48b757601f3f351cb6f434cb0517aeee293d/metadata.json",
+      "abi_path": "contracts/ethereum/0xcfce48b757601f3f351cb6f434cb0517aeee293d/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels_from_input": [
+        "Manages transaction nonces for account abstraction.\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "contract_name": "NonceTracker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/ethereum/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/metadata.json",
+      "abi_path": "contracts/ethereum/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd643980ee0ef698d37217d8f0123b0f766adec71",
+      "labels_from_input": [
+        "Ethereum\t0xd643980ee0ef698d37217d8f0123b0f766adec71"
+      ],
+      "contract_name": "GenericRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/ethereum/0xd643980ee0ef698d37217d8f0123b0f766adec71/metadata.json",
+      "abi_path": "contracts/ethereum/0xd643980ee0ef698d37217d8f0123b0f766adec71/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9",
+      "labels_from_input": [
+        "Ethereum\t0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9"
+      ],
+      "contract_name": "DistributorFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 46,
+      "metadata_path": "contracts/ethereum/0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9/metadata.json",
+      "abi_path": "contracts/ethereum/0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xde9049636f4a1dfe0a64d1bfe3155c0a14c54f31",
+      "labels_from_input": [
+        "Handles ENS resolution queries on Ethereum for Base domains.\t0xde9049636F4a1dfE0a64d1bFe3155C0A14C54F31"
+      ],
+      "contract_name": "L1Resolver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 8,
+      "metadata_path": "contracts/ethereum/0xde9049636f4a1dfe0a64d1bfe3155c0a14c54f31/metadata.json",
+      "abi_path": "contracts/ethereum/0xde9049636f4a1dfe0a64d1bfe3155c0a14c54f31/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe34fd8e02815125ab0947434e42978a8a4e70906",
+      "labels_from_input": [
+        "Ethereum\t0xE34Fd8e02815125aB0947434e42978a8A4e70906"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0xe34fd8e02815125ab0947434e42978a8a4e70906/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels_from_input": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "contract_name": "SpendPermissionManager",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/ethereum/0xf85210b21cc50302f477ba56686d2019dc9b67ad/metadata.json",
+      "abi_path": "contracts/ethereum/0xf85210b21cc50302f477ba56686d2019dc9b67ad/abi.json"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf903f3a8b30a7b645e76db8511b4121cc96160eb",
+      "labels_from_input": [
+        "Ethereum\t0xF903f3A8B30a7b645e76DB8511b4121cc96160EB"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/ethereum/0xf903f3a8b30a7b645e76db8511b4121cc96160eb/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x16879ca809e8ca2783d89c2ee830671a8c348230",
+      "labels_from_input": [
+        "Optimism\t0x16879Ca809e8CA2783d89C2Ee830671A8C348230"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/optimism/0x16879ca809e8ca2783d89c2ee830671a8c348230/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels_from_input": [
+        "Optimism\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "contract_name": "DefaultReceiver",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/optimism/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/metadata.json",
+      "abi_path": "contracts/optimism/0x2a8010a9d71d2a5aea19d040f8b4797789a194a9/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x2fbdd01e44513302bb2789302e98749fb01c0e8d",
+      "labels_from_input": [
+        "Optimism\t0x2fbdd01e44513302bb2789302e98749fb01c0e8d"
+      ],
+      "contract_name": "DistributorFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 46,
+      "metadata_path": "contracts/optimism/0x2fbdd01e44513302bb2789302e98749fb01c0e8d/metadata.json",
+      "abi_path": "contracts/optimism/0x2fbdd01e44513302bb2789302e98749fb01c0e8d/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "Optimism\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/optimism/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels_from_input": [
+        "Optimism\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "contract_name": "CoinbaseSmartWalletValidator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 17,
+      "metadata_path": "contracts/optimism/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/metadata.json",
+      "abi_path": "contracts/optimism/0x79a33f950b90c7d07e66950daedf868bd0cdcf96/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f",
+      "labels_from_input": [
+        "Optimism\t0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f"
+      ],
+      "contract_name": "GenericRegistry",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 10,
+      "metadata_path": "contracts/optimism/0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f/metadata.json",
+      "abi_path": "contracts/optimism/0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x848e9743b6d0ac5614f6427d94fed295fe393b6d",
+      "labels_from_input": [
+        "Optimism\t0x848E9743b6D0aC5614f6427d94fEd295Fe393b6d"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/optimism/0x848e9743b6d0ac5614f6427d94fed295fe393b6d/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x85f2a6bb58e52c9189fd8748790c5059508fbdc1",
+      "labels_from_input": [
+        "Optimism\t0x85F2A6BB58E52c9189fD8748790C5059508FBDc1"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/optimism/0x85f2a6bb58e52c9189fd8748790c5059508fbdc1/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0xb3678a158e83946d02eaba654a1a6e8ea4d6889c",
+      "labels_from_input": [
+        "Optimism\t0xB3678A158E83946D02eaBa654a1a6e8eA4d6889C"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/optimism/0xb3678a158e83946d02eaba654a1a6e8ea4d6889c/metadata.json",
+      "abi_path": "contracts/optimism/0xb3678a158e83946d02eaba654a1a6e8ea4d6889c/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xc34c1643c4c2488315dc709fcb5abc6b4e3de6c7",
+      "labels_from_input": [
+        "Optimism\t0xC34c1643c4C2488315Dc709FCB5ABc6b4E3dE6C7"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/optimism/0xc34c1643c4c2488315dc709fcb5abc6b4e3de6c7/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels_from_input": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "contract_name": "PublicERC6492Validator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/optimism/0xcfce48b757601f3f351cb6f434cb0517aeee293d/metadata.json",
+      "abi_path": "contracts/optimism/0xcfce48b757601f3f351cb6f434cb0517aeee293d/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels_from_input": [
+        "Optimism\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "contract_name": "NonceTracker",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 1,
+      "metadata_path": "contracts/optimism/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/metadata.json",
+      "abi_path": "contracts/optimism/0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels_from_input": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "contract_name": "SpendPermissionManager",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/optimism/0xf85210b21cc50302f477ba56686d2019dc9b67ad/metadata.json",
+      "abi_path": "contracts/optimism/0xf85210b21cc50302f477ba56686d2019dc9b67ad/abi.json"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf9456b2d7ea7cdd9accaa89771dd9e9709c5bb6a",
+      "labels_from_input": [
+        "Optimism\t0xF9456B2d7EA7CDD9accAa89771DD9E9709C5bB6a"
+      ],
+      "contract_name": "Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/optimism/0xf9456b2d7ea7cdd9accaa89771dd9e9709c5bb6a/metadata.json",
+      "abi_path": "contracts/optimism/0xf9456b2d7ea7cdd9accaa89771dd9e9709c5bb6a/abi.json"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x00f849ca595cfa7cecd052e77e9d152618333e8e",
+      "labels_from_input": [
+        "Polygon\t0x00F849ca595cFa7CeCd052E77e9d152618333E8E"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/polygon/0x00f849ca595cfa7cecd052e77e9d152618333e8e/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels_from_input": [
+        "Polygon\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/polygon/0x39c4b71d53db0b6b647fe5013608eea292db4a73/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0x595db8eca8d64f28a57d5f240204fdc8adbcb8c7",
+      "labels_from_input": [
+        "Polygon\t0x595db8eCa8d64f28A57D5F240204FDc8AdbCb8c7"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/polygon/0x595db8eca8d64f28a57d5f240204fdc8adbcb8c7/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0x9efea6f63d583624e5a459d680d3a27adf6c570d",
+      "labels_from_input": [
+        "Polygon\t0x9efea6f63d583624E5a459D680D3A27Adf6C570d"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/polygon/0x9efea6f63d583624e5a459d680d3a27adf6c570d/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0xc7284314593e952717b6a0b78766887b37fb1720",
+      "labels_from_input": [
+        "Polygon\t0xc7284314593e952717b6a0b78766887b37fb1720"
+      ],
+      "contract_name": "UnknownContract",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": false,
+      "source_file_count": 0,
+      "metadata_path": "contracts/polygon/0xc7284314593e952717b6a0b78766887b37fb1720/metadata.json",
+      "abi_path": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels_from_input": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "contract_name": "PublicERC6492Validator",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 2,
+      "metadata_path": "contracts/polygon/0xcfce48b757601f3f351cb6f434cb0517aeee293d/metadata.json",
+      "abi_path": "contracts/polygon/0xcfce48b757601f3f351cb6f434cb0517aeee293d/abi.json"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels_from_input": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "contract_name": "SpendPermissionManager",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 36,
+      "metadata_path": "contracts/polygon/0xf85210b21cc50302f477ba56686d2019dc9b67ad/metadata.json",
+      "abi_path": "contracts/polygon/0xf85210b21cc50302f477ba56686d2019dc9b67ad/abi.json"
+    },
+    {
+      "chain": "solana",
+      "address": "HNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM",
+      "labels_from_input": [
+        "Handles message validation and token custody on Solana.\tHNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM"
+      ],
+      "source_verified": false,
+      "metadata_path": "contracts/solana/HNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM/metadata.json"
+    },
+    {
+      "chain": "solana",
+      "address": "g1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9",
+      "labels_from_input": [
+        "Submits transactions on Solana for bridged messages from Base.\tg1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9"
+      ],
+      "source_verified": false,
+      "metadata_path": "contracts/solana/g1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9/metadata.json"
+    },
+    {
+      "chain": "zksync",
+      "address": "0xa9311c40e4038f6c9597aa07fddd643ae6147d08",
+      "labels_from_input": [
+        "ZKSync Era\t0xa9311c40e4038f6c9597aa07fddd643ae6147d08"
+      ],
+      "contract_name": "src/unlock/v1/DistributorFactory.sol:DistributorFactory",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 46,
+      "metadata_path": "contracts/zksync/0xa9311c40e4038f6c9597aa07fddd643ae6147d08/metadata.json",
+      "abi_path": "contracts/zksync/0xa9311c40e4038f6c9597aa07fddd643ae6147d08/abi.json"
+    },
+    {
+      "chain": "zksync",
+      "address": "0xabf8fcd8954af787a8f7c080d10e7acd7bd1f5b5",
+      "labels_from_input": [
+        "ZKSync Era\t0xAbf8fcD8954Af787A8f7c080D10E7AcD7BD1F5B5"
+      ],
+      "contract_name": "src/unlock/v1/Distributor.sol:Distributor",
+      "proxy": "0",
+      "implementation": null,
+      "implementation_source": null,
+      "source_verified": true,
+      "source_file_count": 31,
+      "metadata_path": "contracts/zksync/0xabf8fcd8954af787a8f7c080d10e7acd7bd1f5b5/metadata.json",
+      "abi_path": "contracts/zksync/0xabf8fcd8954af787a8f7c080d10e7acd7bd1f5b5/abi.json"
+    }
+  ]
+}

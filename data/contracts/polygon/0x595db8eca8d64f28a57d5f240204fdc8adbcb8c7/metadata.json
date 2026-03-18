@@ -1,0 +1,23 @@
+{
+  "chain": "polygon",
+  "address": "0x595db8eca8d64f28a57d5f240204fdc8adbcb8c7",
+  "labels_from_input": [
+    "Polygon\t0x595db8eCa8d64f28A57D5F240204FDc8AdbCb8c7"
+  ],
+  "contract_name": "UnknownContract",
+  "compiler_version": "",
+  "optimization_used": "",
+  "runs": "",
+  "evm_version": "Default",
+  "license_type": "Unknown",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": false,
+  "source_file_count": 0,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=137&module=contract&action=getsourcecode&address=0x595db8eca8d64f28a57d5f240204fdc8adbcb8c7&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:48+00:00"
+}

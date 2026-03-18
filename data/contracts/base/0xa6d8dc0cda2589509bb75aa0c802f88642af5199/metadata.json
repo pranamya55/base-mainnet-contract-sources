@@ -1,0 +1,21 @@
+{
+  "chain": "base",
+  "address": "0xa6d8dc0cda2589509bb75aa0c802f88642af5199",
+  "labels_from_input": [],
+  "contract_name": "FiatTokenV2_2",
+  "compiler_version": "v0.6.12+commit.27d51765",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "istanbul",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 23,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xa6d8dc0cda2589509bb75aa0c802f88642af5199&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:57:04+00:00"
+}

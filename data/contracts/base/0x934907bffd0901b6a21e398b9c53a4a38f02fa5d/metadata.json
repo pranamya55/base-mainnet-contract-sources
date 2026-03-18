@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x934907bffd0901b6a21e398b9c53a4a38f02fa5d",
+  "labels_from_input": [
+    "Handles automated refunds for failed payment operations.\t0x934907bffd0901b6A21e398B9C53A4A38F02fa5d"
+  ],
+  "contract_name": "OperatorRefundCollector",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "optimization_used": "1",
+  "runs": "100000",
+  "evm_version": "cancun",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 14,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x934907bffd0901b6a21e398b9c53a4a38f02fa5d&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:54+00:00"
+}

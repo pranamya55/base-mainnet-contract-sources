@@ -1,0 +1,23 @@
+{
+  "chain": "optimism",
+  "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+  "labels_from_input": [
+    "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+  ],
+  "contract_name": "SpendPermissionManager",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "cancun",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 36,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=10&module=contract&action=getsourcecode&address=0xf85210b21cc50302f477ba56686d2019dc9b67ad&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:46+00:00"
+}

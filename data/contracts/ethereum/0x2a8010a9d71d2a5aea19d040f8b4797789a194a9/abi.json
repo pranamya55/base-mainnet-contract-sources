@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "FnSelectorNotRecognized",
+    "type": "error"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "fallback"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
+  }
+]

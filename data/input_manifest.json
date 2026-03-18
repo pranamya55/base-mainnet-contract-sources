@@ -1,0 +1,2392 @@
+{
+  "source": "input/source_list.txt",
+  "scope": "non-testnet entries from provided list",
+  "entries": [
+    {
+      "chain": "arbitrum",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels": [
+        "Arbitrum\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "source_lines": [
+        70
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "Arbitrum\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        268
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x63d7212c0503b04bdc2bcce90fe26800859f2f81",
+      "labels": [
+        "Arbitrum\t0x63d7212C0503b04BdC2BCCe90fe26800859F2f81"
+      ],
+      "source_lines": [
+        225
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6a46c2411e6fd9205d44b82c5b32b2db7c150263",
+      "labels": [
+        "Arbitrum\t0x6A46c2411e6FD9205D44b82C5B32B2Db7C150263"
+      ],
+      "source_lines": [
+        260
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "labels": [
+        "Arbitrum\t0x7702cb554e6bFb442cb743A7dF23154544a7176C"
+      ],
+      "source_lines": [
+        122
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels": [
+        "Arbitrum\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "source_lines": [
+        65
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xaa861940dd2ed2fe4a3108e51f7f117bb6798e65",
+      "labels": [
+        "Arbitrum\t0xaa861940DD2ED2fE4a3108E51f7f117bb6798E65"
+      ],
+      "source_lines": [
+        238
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "source_lines": [
+        145
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels": [
+        "Arbitrum\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "source_lines": [
+        127
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd42ea6a51ec16c0cb581695343f9f3d652d98945",
+      "labels": [
+        "Arbitrum\t0xD42eA6a51ec16c0Cb581695343F9F3d652d98945"
+      ],
+      "source_lines": [
+        245
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf3d74bc4e97ad56ddcb0576629c360fb40a871e2",
+      "labels": [
+        "Arbitrum\t0xF3D74Bc4E97aD56DDcB0576629c360fB40A871e2"
+      ],
+      "source_lines": [
+        252
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "source_lines": [
+        143
+      ]
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "Avalanche\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        270
+      ]
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x5bfd3bdff68346909d352757055e98f2654a3c10",
+      "labels": [
+        "Avalanche\t0x5bFd3bDFf68346909d352757055e98f2654a3c10"
+      ],
+      "source_lines": [
+        246
+      ]
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xb487a8739aa114178c5aa5608ef1d2fc26d17a9e",
+      "labels": [
+        "Avalanche\t0xB487A8739AA114178C5aA5608eF1D2fc26D17A9e"
+      ],
+      "source_lines": [
+        239
+      ]
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xd85d9cd1e453aee54e448cef4941f0718922a672",
+      "labels": [
+        "Avalanche\t0xD85d9Cd1E453AeE54e448Cef4941F0718922a672"
+      ],
+      "source_lines": [
+        254
+      ]
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xe57499b85448582a0bfd486283a0a023581d2778",
+      "labels": [
+        "Avalanche\t0xE57499B85448582a0bFd486283a0a023581D2778"
+      ],
+      "source_lines": [
+        262
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00000000001c3dc9a681a014e2732bf1419afaec",
+      "labels": [
+        "Base\t0x00000000001c3dC9A681A014e2732bF1419aFAec"
+      ],
+      "source_lines": [
+        199
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000000000e552550bec95a36217a91ceba099b0",
+      "labels": [
+        "Base\t0x0000000000E552550beC95A36217A91CeBA099b0"
+      ],
+      "source_lines": [
+        210
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80",
+      "labels": [
+        "Maps publisher codes to payout addresses and controls all publisher payouts across the protocol.\t0x000000bc7e6457e610fe52dcc0ca5b3ce59c8e80"
+      ],
+      "source_lines": [
+        340
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00000f14ad09382841db481403d1775adee1179f",
+      "labels": [
+        "Manages campaign lifecycle, payout operations (send, allocate, distribute, deallocate), and fund custody via isolated Campaign clones.\t0x00000f14ad09382841db481403d1775adee1179f"
+      ],
+      "source_lines": [
+        334
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00001962896d81f18bca192a2bc90f85b5478698",
+      "labels": [
+        "Base\t0x00001962896d81F18Bca192a2Bc90f85b5478698"
+      ],
+      "source_lines": [
+        204
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00002027199e51ce5648e56f0f003759e3d7b16e",
+      "labels": [
+        "Base\t0x00002027199E51Ce5648E56F0F003759e3D7b16e"
+      ],
+      "source_lines": [
+        207
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x000036624a21e2047d28449989a943c64b5210d0",
+      "labels": [
+        "Base\t0x000036624A21E2047D28449989A943c64b5210d0"
+      ],
+      "source_lines": [
+        194
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00003f0f758054d91430afc79b8666fba06ccb2c",
+      "labels": [
+        "Base\t0x00003f0f758054D91430AFC79b8666fbA06ccB2c"
+      ],
+      "source_lines": [
+        192
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x000054fceab4632b9c8b7fd20ce9790352426716",
+      "labels": [
+        "Creates proxy contracts that manage minting permissions and operations.\t0x000054fCEAB4632B9c8B7fd20cE9790352426716"
+      ],
+      "source_lines": [
+        201
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x00005721895c940fe1066b147358ce6d31a31378",
+      "labels": [
+        "Base\t0x00005721895c940fe1066B147358cE6d31A31378"
+      ],
+      "source_lines": [
+        195
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000955334545d3c2bdece50c7f3877054f4dcf7",
+      "labels": [
+        "Base\t0x0000955334545d3c2bdECE50C7F3877054F4dCF7"
+      ],
+      "source_lines": [
+        193
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000b216f5011f882604d2cfa295a83d77025727",
+      "labels": [
+        "Base\t0x0000B216f5011f882604D2cFa295A83d77025727"
+      ],
+      "source_lines": [
+        196
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000bfaa45aa7352d7a5b151d34f4efc096e9cf6",
+      "labels": [
+        "Base\t0x0000Bfaa45AA7352D7A5b151D34f4EFc096E9Cf6"
+      ],
+      "source_lines": [
+        205
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000c1c5f00bd1843b6c1703ea1f457a2bb5c457",
+      "labels": [
+        "Base\t0x0000c1c5F00bD1843b6c1703eA1F457a2Bb5c457"
+      ],
+      "source_lines": [
+        208
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000c479718a45e3d80b9a71c17b2e954cfa1515",
+      "labels": [
+        "Simplifies token creation with standard templates.\t0x0000C479718a45e3D80b9A71C17b2E954CfA1515"
+      ],
+      "source_lines": [
+        87
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000d340e876e1de249cca0fd91d91ae612741e8",
+      "labels": [
+        "Creates standardized ERC20 tokens for cross-chain asset bridging.\t0x0000D340e876e1De249CcA0FD91d91aE612741E8"
+      ],
+      "source_lines": [
+        191
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000dfcd0263ac062b3fc7a17abd1f0407f389a6",
+      "labels": [
+        "Base\t0x0000DfcD0263aC062b3fC7A17aBd1f0407f389A6"
+      ],
+      "source_lines": [
+        197
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000efa3d0485d3e0b6a48ade0d61a59451f648f",
+      "labels": [
+        "Base\t0x0000Efa3D0485d3E0B6A48adE0d61a59451f648f"
+      ],
+      "source_lines": [
+        206
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000f4e1b81a88a7b1732a4a5fdfaa4999f45075",
+      "labels": [
+        "Base\t0x0000F4E1b81A88A7b1732a4A5FdfaA4999F45075"
+      ],
+      "source_lines": [
+        203
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0000ff0b7fdf0449c0761356680c0516fd76c0f5",
+      "labels": [
+        "Base\t0x0000FF0b7Fdf0449c0761356680c0516fD76c0f5"
+      ],
+      "source_lines": [
+        202
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x012076854d030128dc72b34621287bb585210315",
+      "labels": [
+        "Manages whitelist-based domain registration discounts for qualifying users.\t0x012076854d030128dc72B34621287Bb585210315"
+      ],
+      "source_lines": [
+        23
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a",
+      "labels": [
+        "ERC721-based registrar for .base.eth domain ownership and transfers.\t0x03c4738Ee98aE44591e1A4A4F3CaB6641d95DD9a"
+      ],
+      "source_lines": [
+        33
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x043ac8dbd2f0e932800210260f207806650c6145",
+      "labels": [
+        "Handles liquidity positions and fee collection for verified pools.\t0x043ac8DBd2F0e932800210260f207806650C6145"
+      ],
+      "source_lines": [
+        157
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0549899a89e661044f9e7a1b76a157d407d85163",
+      "labels": [
+        "Manages cross-chain minting and burning of wrapped DOGE tokens.\t0x0549899a89e661044f9E7a1B76A157d407D85163"
+      ],
+      "source_lines": [
+        173
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0705717527934a1e10e5328a0b92462c8eb1a28f",
+      "labels": [
+        "Generates metadata and visuals for liquidity position NFTs.\t0x0705717527934a1E10e5328A0B92462c8eB1A28F"
+      ],
+      "source_lines": [
+        159
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x071ff6d93895c8e6537c572a6d40cf47c36abed7",
+      "labels": [
+        "Enforces rules and restrictions for withdrawing liquidity.\t0x071fF6D93895c8E6537C572a6D40CF47c36aBed7"
+      ],
+      "source_lines": [
+        161
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x08c1820ba6a0b88eb1f3e3ec7c9b8cf85e63c6fc",
+      "labels": [
+        "Base\t0x08c1820bA6A0B88eB1f3E3eC7C9B8cf85E63C6FC"
+      ],
+      "source_lines": [
+        247
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x09f7150d8c019bef34450d6920f6b3608cefdaf2",
+      "labels": [
+        "Guardian\t0x09f7150D8c019BeF34450d6920f6B3608ceFdAf2\tGnosis Safe"
+      ],
+      "source_lines": [
+        444
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0a484e560946818787135ead632771589523de82",
+      "labels": [
+        "Checks verified Coinbase account status for domain pricing benefits.\t0x0A484e560946818787135EAD632771589523dE82"
+      ],
+      "source_lines": [
+        21
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0ba5ed0c6aa8c49038f819e587e2633c4a9f428a",
+      "labels": [
+        "Handles wallet creation and initialization logic.\t0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a"
+      ],
+      "source_lines": [
+        89
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0c8b7e98b39aa7983d2444661805a628e8a041db",
+      "labels": [
+        "Base\t0x0C8B7E98b39aA7983D2444661805a628E8A041DB"
+      ],
+      "source_lines": [
+        219
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0e3df9510de65469c4518d7843919c0b8c7a7757",
+      "labels": [
+        "Handles gasless payments using transferWithAuthorization.\t0x0E3dF9510de65469C4518D7843919c0b8C7A7757"
+      ],
+      "source_lines": [
+        103
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x14536667cd30e52c0b458baaccb9fada7046e056",
+      "labels": [
+        "SystemConfig owner\t0x14536667Cd30e52C0b458BaACcB9faDA7046E056\tGnosis Safe"
+      ],
+      "source_lines": [
+        443
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x166415114ef0f243e1bba193df3862b78c13521f",
+      "labels": [
+        "Releases tokens gradually over a defined time period.\t0x166415114ef0f243e1bba193df3862b78c13521f"
+      ],
+      "source_lines": [
+        329
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x17165086067fc58a04cb8e9da5b6917b6f23f109",
+      "labels": [
+        "Base\t0x17165086067fc58a04CB8E9dA5B6917B6f23f109"
+      ],
+      "source_lines": [
+        214
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x1798d23f29968b4fff7a60a90645b0939d04f47e",
+      "labels": [
+        "Contains distribution rules, claim mechanisms, and vesting schedules.\t0x1798D23f29968b4fff7A60A90645B0939d04f47E"
+      ],
+      "source_lines": [
+        303
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x1b4fa4f9bdd13bfdec49da85750ab38387ee4dcf",
+      "labels": [
+        "Base\t0x1B4fA4F9BDd13Bfdec49DA85750Ab38387EE4DCF"
+      ],
+      "source_lines": [
+        304
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x1b77abd71fcd21fbe2398ae821aa27d1e6b94bc6",
+      "labels": [
+        "Collects payments from pre-authorized token allowances.\t0x1b77ABd71FCD21fbe2398AE821Aa27D1E6B94bC6"
+      ],
+      "source_lines": [
+        107
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x1d3f02ef7d6881c5018863d740c026639ac7fa41",
+      "labels": [
+        "Base\t0x1d3F02EF7D6881C5018863d740c026639aC7fa41"
+      ],
+      "source_lines": [
+        83
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff",
+      "labels": [
+        "Checks ownership of early Basename NFTs for registration benefits.\t0x20b433c640DFb8c2e3C6aBB0533314b2d7B9f2FF"
+      ],
+      "source_lines": [
+        25
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x20e26ed291b85a44a6eb9b0d336512b53fd93092",
+      "labels": [
+        "Manages creation and configuration of custom ERC20 tokens with minting capabilities.\t0x20e26eD291B85A44A6Eb9b0D336512b53fd93092"
+      ],
+      "source_lines": [
+        229
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x20f25adf31bd5ed53367293c6926bf1adfc7ea54",
+      "labels": [
+        "Efficiently blacklists multiple addresses in a single transaction.\t0x20F25adf31BD5Ed53367293C6926bF1AdfC7Ea54"
+      ],
+      "source_lines": [
+        212
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x29bea561cb302fd2b85f5c0c6086be8b1560f2df",
+      "labels": [
+        "Enables gasless token approvals for funding operations.\t0x29BEa561cb302FD2B85F5c0c6086BE8b1560F2df"
+      ],
+      "source_lines": [
+        325
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x29ef818a2a9d182fa9a9d27d61881a239fa03e4b",
+      "labels": [
+        "Routes trades through multiple decentralized exchanges.\t0x29ef818a2A9d182Fa9A9D27d61881a239fa03E4B"
+      ],
+      "source_lines": [
+        117
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2a06274c976c4db9cbaf702b559e0b5765d07b0d",
+      "labels": [
+        "Base\t0x2A06274c976C4db9CbaF702B559E0B5765D07b0d"
+      ],
+      "source_lines": [
+        240
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels": [
+        "Base\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "source_lines": [
+        69
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2c7ee1e5f416dff40054c27a62f7b357c4e8619c",
+      "labels": [
+        "Provides efficient querying and discovery of attestations.\t0x2c7eE1E5f416dfF40054c27A62f7B357C4E8619C"
+      ],
+      "source_lines": [
+        55
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2d04d1743bab35b13841a466788479c591e01381",
+      "labels": [
+        "Validates signatures for authorized pool interactions.\t0x2D04d1743BaB35B13841A466788479c591E01381"
+      ],
+      "source_lines": [
+        153
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2ebdcfaccb0c3b6039dd8c7c30bf633ace8c268c",
+      "labels": [
+        "Manages cross-chain minting and burning of wrapped XRP tokens.\t0x2ebDCFaCCB0c3B6039Dd8C7c30bF633ACE8c268C"
+      ],
+      "source_lines": [
+        185
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c",
+      "labels": [
+        "Validates transactions before sponsoring gas fees.\t0x2FAEB0760D4230Ef2aC21496Bb4F0b47D634FD4c"
+      ],
+      "source_lines": [
+        91
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x3002aadad07ab12e5bb8098de3542bee2ad44fed",
+      "labels": [
+        "Creates customizable distribution contracts for token vesting and airdrops.\t0x3002aadad07ab12e5bb8098de3542bee2ad44fed"
+      ],
+      "source_lines": [
+        297
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x325a4af669032b6b1296c3084f8070d04f9ad581",
+      "labels": [
+        "Base\t0x325A4Af669032B6b1296C3084f8070D04F9AD581"
+      ],
+      "source_lines": [
+        78
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x357458739f90461b99789350868cd7cf330dd7ee",
+      "labels": [
+        "Creates and validates Coinbase-backed attestations.\t0x357458739F90461b99789350868CD7CF330Dd7EE"
+      ],
+      "source_lines": [
+        57
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x3eff766c76a1be2ce1acf2b69c78bcae257d5188",
+      "labels": [
+        "Handles message passing and asset transfers between chains.\t0x3eff766C76a1be2Ce1aCF2B69c78bCae257D5188"
+      ],
+      "source_lines": [
+        281
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000006",
+      "labels": [
+        "WETH9\t0x4200000000000000000000000000000000000006"
+      ],
+      "source_lines": [
+        348
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000007",
+      "labels": [
+        "L2CrossDomainMessenger\t0x4200000000000000000000000000000000000007"
+      ],
+      "source_lines": [
+        349
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x420000000000000000000000000000000000000f",
+      "labels": [
+        "GasPriceOracle\t0x420000000000000000000000000000000000000F"
+      ],
+      "source_lines": [
+        353
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000010",
+      "labels": [
+        "L2StandardBridge\t0x4200000000000000000000000000000000000010"
+      ],
+      "source_lines": [
+        350
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000011",
+      "labels": [
+        "SequencerFeeVault\t0x4200000000000000000000000000000000000011"
+      ],
+      "source_lines": [
+        351
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000014",
+      "labels": [
+        "L2ERC721Bridge\t0x4200000000000000000000000000000000000014"
+      ],
+      "source_lines": [
+        356
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000015",
+      "labels": [
+        "L1Block\t0x4200000000000000000000000000000000000015"
+      ],
+      "source_lines": [
+        354
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000016",
+      "labels": [
+        "L2ToL1MessagePasser\t0x4200000000000000000000000000000000000016"
+      ],
+      "source_lines": [
+        355
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000017",
+      "labels": [
+        "OptimismMintableERC721Factory\t0x4200000000000000000000000000000000000017"
+      ],
+      "source_lines": [
+        357
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000018",
+      "labels": [
+        "ProxyAdmin\t0x4200000000000000000000000000000000000018"
+      ],
+      "source_lines": [
+        358
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000019",
+      "labels": [
+        "BaseFeeVault\t0x4200000000000000000000000000000000000019"
+      ],
+      "source_lines": [
+        359
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x420000000000000000000000000000000000001a",
+      "labels": [
+        "L1FeeVault\t0x420000000000000000000000000000000000001a"
+      ],
+      "source_lines": [
+        360
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000020",
+      "labels": [
+        "Defines structure for different types of attestations.\t0x4200000000000000000000000000000000000020",
+        "EASSchemaRegistry\t0x4200000000000000000000000000000000000020"
+      ],
+      "source_lines": [
+        53,
+        362
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4200000000000000000000000000000000000021",
+      "labels": [
+        "EAS\t0x4200000000000000000000000000000000000021",
+        "Enables verifiable claims and credentials infrastructure.\t0x4200000000000000000000000000000000000021"
+      ],
+      "source_lines": [
+        51,
+        361
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x423077a24c3019e3a291be2d29a34a4d97aa2ded",
+      "labels": [
+        "Manages cross-chain minting and burning of wrapped LTC tokens.\t0x423077A24c3019E3A291bE2D29a34A4D97AA2DeD"
+      ],
+      "source_lines": [
+        179
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x46114792cc08baf79006f25ec9ee23ac64e119ca",
+      "labels": [
+        "Implements launch pricing with time-based premium reduction.\t0x46114792Cc08Baf79006f25Ec9eE23AC64e119ca"
+      ],
+      "source_lines": [
+        29
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095",
+      "labels": [
+        "Creates OTC deal structures for token sales and agreements.\t0x475ddcfd166b80d41d2778ec3a8fa8bbcc887095"
+      ],
+      "source_lines": [
+        317
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x485b2544745786fa2dd95b8c239f6cb3a63d198d",
+      "labels": [
+        "Base\t0x485B2544745786FA2dD95B8C239f6CB3a63D198d"
+      ],
+      "source_lines": [
+        76
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5",
+      "labels": [
+        "Handles pricing, discounts, and domain lifecycle management.\t0x4cCb0BB02FCABA27e82a56646E81d8c5bC4119a5"
+      ],
+      "source_lines": [
+        15
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4d5b3aca5968f7075f023d2a7aa830358c3c2b48",
+      "labels": [
+        "Base\t0x4d5b3aca5968f7075F023d2A7AA830358C3c2b48"
+      ],
+      "source_lines": [
+        216
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5050f69a9786f081509234f1a7f4684b5e5b76c9",
+      "labels": [
+        "Batch Sender\t0x5050f69a9786f081509234f1a7f4684b5e5b76c9\tEOA managed by Coinbase Technologies"
+      ],
+      "source_lines": [
+        438
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x508cfe43aa84b8048cb6d39037ce0dc96d8adc75",
+      "labels": [
+        "Calculates domain prices with time-based premium reduction after expiry.\t0x508CFE43aa84b8048cB6d39037cE0dc96d8aDc75"
+      ],
+      "source_lines": [
+        31
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x52d443855e4d15dc47d323fa94e7d92342d3eb57",
+      "labels": [
+        "Base\t0x52d443855E4d15dc47d323fA94e7d92342d3Eb57"
+      ],
+      "source_lines": [
+        233
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x53899e2b6c6202c5eb4f229da1294f17a0c3876e",
+      "labels": [
+        "Base\t0x53899E2B6C6202C5Eb4F229DA1294F17A0C3876e"
+      ],
+      "source_lines": [
+        80
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x55246a2ae466257b2fb54d4bb881fb3f17d8e03e",
+      "labels": [
+        "Checks ownership of qualifying OnChain Summer NFTs for domain discounts.\t0x55246A2AE466257B2fB54d4BB881Fb3f17D8e03e"
+      ],
+      "source_lines": [
+        27
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x55564490a44fdc2aeea54b60eb1c79f124fd88b9",
+      "labels": [
+        "Checks ETH balance thresholds for domain registration discounts.\t0x55564490a44FDC2aEEa54B60eB1c79F124FD88b9"
+      ],
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x560aa3207ae4b516a5489e04f2fa2e2808cea896",
+      "labels": [
+        "Base\t0x560aa3207ae4b516A5489E04f2Fa2e2808CEa896"
+      ],
+      "source_lines": [
+        230
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x58c5fa1e6e651320499ccfb2198ede481b35c87b",
+      "labels": [
+        "Supports send, allocate, deallocate, and distribute payout operations for flexible reward distribution.\t0x58c5fa1e6e651320499ccfb2198ede481b35c87b"
+      ],
+      "source_lines": [
+        338
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5a178f113d9851c72c63e7f58255d4520c1a1d9d",
+      "labels": [
+        "Processes publisher conversions with configurable attribution windows, publisher allowlists, and attribution provider fee structures.\t0x5a178f113d9851c72c63e7f58255d4520c1a1d9d"
+      ],
+      "source_lines": [
+        336
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5c77cf220dfa3dbbb052d9b4934e61d69cb393a5",
+      "labels": [
+        "Base\t0x5c77CF220dFA3dBBB052D9b4934E61d69cb393a5"
+      ],
+      "source_lines": [
+        85
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5cd525c621afca515bf58631d4733fba7b72aae4",
+      "labels": [
+        "Provides customizable pool behavior and validation logic.\t0x5cd525c621AFCa515Bf58631D4733fbA7B72Aae4"
+      ],
+      "source_lines": [
+        155
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5d09b26b148f9b9e341e9db8116e3dfa7755cfd6",
+      "labels": [
+        "Connects external funding sources to distribution contracts.\t0x5D09B26B148f9b9e341E9DB8116e3DFa7755CFd6"
+      ],
+      "source_lines": [
+        323
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5da05215aca9edbe27cbdce86888986e4b4c996f",
+      "labels": [
+        "No-fee deployment option for basic mintable token contracts.\t0x5da05215acA9eDBE27CBDCE86888986E4b4c996F"
+      ],
+      "source_lines": [
+        227
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67",
+      "labels": [
+        "Handles token withdrawals across multiple blockchain networks.\t0x5fd109945d80fd2e54ffa331ebfe18ca301f2a67"
+      ],
+      "source_lines": [
+        327
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x642229f238fb9de03374be34b0ed8d9de80752c5",
+      "labels": [
+        "Output Proposer\t0x642229f238fb9de03374be34b0ed8d9de80752c5\tEOA managed by Coinbase Technologies"
+      ],
+      "source_lines": [
+        440
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x65cdabc9ebf1dfb72600754aa98f90a2ea285eba",
+      "labels": [
+        "Handles deal execution, escrow, and settlement mechanics.\t0x65cDabC9EbF1DfB72600754aa98F90A2EA285Eba"
+      ],
+      "source_lines": [
+        319
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f",
+      "labels": [
+        "Base\t0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F"
+      ],
+      "source_lines": [
+        263
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x6e89d99643db1223697c77a9f8b2cb07e898e743",
+      "labels": [
+        "Validates whitelist eligibility using merkle tree proofs for domain discounts.\t0x6E89d99643DB1223697C77A9F8B2Cb07E898e743"
+      ],
+      "source_lines": [
+        35
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x7263056963e131153927234e0ce1457a32d888a4",
+      "labels": [
+        "Manages fund transfers and deal completion logic.\t0x7263056963E131153927234e0Ce1457a32D888a4"
+      ],
+      "source_lines": [
+        321
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x73612914c81a9c072333ea9ea71a9b26a5b9a707",
+      "labels": [
+        "Manages contract discovery and metadata across deployments.\t0x73612914c81a9c072333ea9ea71a9b26a5b9a707"
+      ],
+      "source_lines": [
+        312
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x736b661a643b57f11d131cb3ae6129c22ea02843",
+      "labels": [
+        "Enables sponsored transactions and flexible payment methods.\t0x736b661a643B57F11d131CB3Ae6129C22ea02843"
+      ],
+      "source_lines": [
+        73
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x75d2ea122cc20b6e661775ac18fff0b4547b9fe6",
+      "labels": [
+        "Enables unlimited minting of digital collectibles.\t0x75D2eA122cC20B6e661775Ac18ffF0B4547B9fe6"
+      ],
+      "source_lines": [
+        9
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x76d62719c6a7766c8478b46f995e99ad4675d86a",
+      "labels": [
+        "Base\t0x76D62719c6A7766c8478B46f995E99AD4675d86a"
+      ],
+      "source_lines": [
+        213
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels": [
+        "Base\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "source_lines": [
+        66
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x79ea96012eea67a83431f1701b3dff7e37f9e282",
+      "labels": [
+        "Allows setting primary names for addresses for reverse resolution.\t0x79EA96012eEa67A83431F1701B3dFf7e37F9E282"
+      ],
+      "source_lines": [
+        37
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x7bb41c3008b3f03fe483b28b8db90e19cf07595c",
+      "labels": [
+        "Proxy Admin Owner (L1)\t0x7bB41C3008B3f03FE483B28b8DB90e19Cf07595c\tGnosis Safe"
+      ],
+      "source_lines": [
+        441
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x7d334106daa009ef62cbd34c1624bee2277ba735",
+      "labels": [
+        "Base\t0x7d334106dAa009Ef62CBd34C1624Bee2277bA735"
+      ],
+      "source_lines": [
+        81
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x834297caf503d9455395a62336e653fcf2234962",
+      "labels": [
+        "Base\t0x834297cAF503d9455395A62336e653FCf2234962"
+      ],
+      "source_lines": [
+        271
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x8c44c6a9ee7e64a65f288714d1bb8043cf0f3c5c",
+      "labels": [
+        "Manages cross-chain minting and burning of wrapped ADA tokens.\t0x8c44C6a9ee7e64a65F288714d1Bb8043Cf0f3C5C"
+      ],
+      "source_lines": [
+        167
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x8ca1e12404d16373aef756179b185f27b2994f3a",
+      "labels": [
+        "Challenger\t0x8Ca1E12404d16373Aef756179B185F27b2994F3a\tEOA managed by Coinbase Technologies"
+      ],
+      "source_lines": [
+        442
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x8d9f34934dc9619e5dc3df27d0a40b4a744e7eaa",
+      "labels": [
+        "Manages payments through spend permission authorization.\t0x8d9F34934dc9619e5DC3Df27D0A40b4A744E7eAa"
+      ],
+      "source_lines": [
+        109
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x934907bffd0901b6a21e398b9c53a4a38f02fa5d",
+      "labels": [
+        "Handles automated refunds for failed payment operations.\t0x934907bffd0901b6A21e398B9C53A4A38F02fa5d"
+      ],
+      "source_lines": [
+        111
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x992476b9ee81d52a5bda0622c333938d0af0ab26",
+      "labels": [
+        "Enables gasless token transfers with signature-based permits.\t0x992476B9Ee81d52a5BdA0622C333938D0Af0aB26"
+      ],
+      "source_lines": [
+        105
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x9de4ab12320684cec803edb72aa3a920250d392c",
+      "labels": [
+        "Checks ownership of Coinbase One NFTs for domain registration discounts.\t0x9de4Ab12320684cec803Edb72aA3a920250d392C"
+      ],
+      "source_lines": [
+        17
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xa0bf66c54002ceb15ab6e8423eebb994e8b2f7fe",
+      "labels": [
+        "Improved version with optimized gas usage and extended functionality.\t0xa0BF66C54002cEb15aB6E8423EebB994E8b2f7FE"
+      ],
+      "source_lines": [
+        223
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xa270ef92c1e11f1c1f95753c2e56801e8125fa83",
+      "labels": [
+        "Legacy gas sponsorship with basic verification.\t0xa270ef92c1E11f1C1f95753C2E56801e8125fA83"
+      ],
+      "source_lines": [
+        93
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xa5b50a9ed69811afa07151b3b98b8f6b58c5c28a",
+      "labels": [
+        "Base\t0xa5b50A9ed69811aFA07151b3B98b8F6B58C5c28A"
+      ],
+      "source_lines": [
+        77
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xa9a4408db72f168c5b0bf413b369824450517126",
+      "labels": [
+        "Base\t0xA9A4408db72F168c5b0bf413b369824450517126"
+      ],
+      "source_lines": [
+        215
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xadab385dfd0bb2c21e292c5f586471a2878a101e",
+      "labels": [
+        "Base\t0xadab385DFD0bB2c21E292c5F586471a2878A101e"
+      ],
+      "source_lines": [
+        218
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xaeb73b6c8ed3776ea6b9284082588c55e35e1b27",
+      "labels": [
+        "Deploys and manages multiple mint factory contracts with custom configurations.\t0xAeb73b6C8ed3776EA6b9284082588c55E35e1b27"
+      ],
+      "source_lines": [
+        232
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xaf24c1c24ff3bf1e6d882518120fc25442d6794b",
+      "labels": [
+        "Validates signatures and proofs from Solana.\t0xAF24c1c24Ff3BF1e6D882518120fC25442d6794B"
+      ],
+      "source_lines": [
+        283
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7",
+      "labels": [
+        "Contains core logic for cross-chain token operations.\t0xb0887e4793d944Cf7bA674B3b3FA5C15900ddaA7"
+      ],
+      "source_lines": [
+        289
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xb326c02150bb0de265bb0eceda53531ab0163bf6",
+      "labels": [
+        "Manages implementation upgrades for cross-chain tokens.\t0xb326c02150bb0De265Bb0eCeDA53531ab0163bf6"
+      ],
+      "source_lines": [
+        287
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xb635802085b405a9c8ba7225ae866f60b63d8503",
+      "labels": [
+        "Checks eligibility for developer-focused domain registration discounts.\t0xB635802085b405A9C8BA7225ae866f60b63d8503"
+      ],
+      "source_lines": [
+        39
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xb94704422c2a1e396835a571837aa5ae53285a95",
+      "labels": [
+        "Central registry managing domain ownership and resolver assignments.\t0xB94704422c2a1E396835A571837Aa5AE53285a95"
+      ],
+      "source_lines": [
+        43
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9",
+      "labels": [
+        "Base\t0xbceb8401e7a6b3b35ab15d94c369aa7863b550a9"
+      ],
+      "source_lines": [
+        330
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xbd25ce451c24554f53d984b8c64b7a0abc5fdbb5",
+      "labels": [
+        "Base\t0xbd25CE451C24554f53D984b8C64B7A0aBC5FDbB5"
+      ],
+      "source_lines": [
+        84
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xbdea0d1bcc5966192b070fdf62ab4ef5b4420cff",
+      "labels": [
+        "Securely holds payments pending authorization.\t0xBdEA0D1bcC5966192B070Fdf62aB4EF5b4420cff"
+      ],
+      "source_lines": [
+        101
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xc5b0b126ffd9d36084af85359a07fb798a405adc",
+      "labels": [
+        "Controls global superchain settings and parameters.\t0xc5b0B126fFD9D36084af85359a07Fb798A405aDc"
+      ],
+      "source_lines": [
+        5
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xc6d566a56a1aff6508b41f6c90ff131615583bcd",
+      "labels": [
+        "Manages name resolution and record storage for .base.eth domains.\t0xC6d566A56A1aFf6508b41f6c90ff131615583BCD"
+      ],
+      "source_lines": [
+        13
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcb17c9db87b595717c857a08468793f5bab6445f",
+      "labels": [
+        "ERC20 representation of LTC bridged to Base network.\t0xcb17C9Db87B595717C857a08468793f5bAb6445F"
+      ],
+      "source_lines": [
+        181
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+      "labels": [
+        "ERC20 representation of XRP bridged to Base network.\t0xcb585250f852C6c6bf90434AB21A00f02833a4af"
+      ],
+      "source_lines": [
+        187
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+      "labels": [
+        "ERC20 representation of ADA bridged to Base network.\t0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c"
+      ],
+      "source_lines": [
+        169
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+      "labels": [
+        "ERC20 representation of DOGE bridged to Base network.\t0xcbD06E5A2B0C65597161de254AA074E489dEb510"
+      ],
+      "source_lines": [
+        175
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcc7fe2cf5b79f3efabf42cac8e223813242e1454",
+      "labels": [
+        "Defines standard rules for verified pool interactions.\t0xcC7fE2Cf5B79F3EFaBF42caC8E223813242E1454"
+      ],
+      "source_lines": [
+        163
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcc93eb838f061a375a37d0d65e8d68f15e9d07e5",
+      "labels": [
+        "Base\t0xcc93eb838F061A375A37d0d65E8D68f15e9D07E5"
+      ],
+      "source_lines": [
+        255
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "source_lines": [
+        137
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels": [
+        "Base\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "source_lines": [
+        126
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd27d5277215754dc84c8e0736d8fef2ed39d92f3",
+      "labels": [
+        "Base\t0xd27D5277215754dc84C8e0736D8fef2Ed39d92F3"
+      ],
+      "source_lines": [
+        79
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd3e6775ed9b7dc12b205c8e608dc3767b9e5efda",
+      "labels": [
+        "Handles discounted domain registrations for qualifying addresses.\t0xd3e6775Ed9B7dC12B205C8E608Dc3767B9e5eFdA"
+      ],
+      "source_lines": [
+        11
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd53b558e1f07289acedf028d226974abba258312",
+      "labels": [
+        "Implements Dutch auction pricing for premium domain name launches.\t0xd53B558e1F07289acedf028d226974AbBa258312"
+      ],
+      "source_lines": [
+        41
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd867cbed445c37b0f95cc956fe6b539bdef7f32f",
+      "labels": [
+        "Handles attestation verification and resolution logic.\t0xD867CbEd445c37b0F95Cc956fe6B539BdEf7F32f"
+      ],
+      "source_lines": [
+        59
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xdd56781d0509650f8c2981231b6c917f2d5d7df2",
+      "labels": [
+        "Creates wrapped token representations of Solana assets on Base.\t0xDD56781d0509650f8C2981231B6C917f2d5d7dF2"
+      ],
+      "source_lines": [
+        285
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+      "labels": [
+        "LegacyERC20ETH\t0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+      ],
+      "source_lines": [
+        363
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xe1d39a19af4319eba972fd70a5280ca0ae7ca0ac",
+      "labels": [
+        "Base\t0xe1D39a19Af4319eBA972fd70A5280CA0aE7cA0AC"
+      ],
+      "source_lines": [
+        74
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xe3111d45733efee14bfb1ebe2364d929edbd9059",
+      "labels": [
+        "Base\t0xE3111D45733Efee14bFB1EbE2364D929eDBd9059"
+      ],
+      "source_lines": [
+        217
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xe8c6d9460ce61d260260d27f30bde8b8d1a8341e",
+      "labels": [
+        "Manages chain initialization with precompiled contracts.\t0xe8c6D9460Ce61D260260d27f30bde8b8d1a8341e"
+      ],
+      "source_lines": [
+        3
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf10122d428b4bc8a9d050d06a2037259b4c4b83b",
+      "labels": [
+        "OptimismMintableERC20Factory\t0xF10122D428B4bc8A9d050D06a2037259b4c4B83B"
+      ],
+      "source_lines": [
+        352
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf3ef80a7664c286997b35b0d1a6d56a9008f9336",
+      "labels": [
+        "Guardian-based social recovery for Coinbase retail smart wallets. Each RecoverySigner is owned by a Coinbase K2 guardian key and can add/remove owners on the user's smart wallet.\t0xf3Ef80A7664c286997B35b0D1a6d56A9008F9336 L2 Contract Addresses"
+      ],
+      "source_lines": [
+        344
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf7f64badcbf64a1dbcae29c223be1387f8a301a0",
+      "labels": [
+        "Base\t0xF7F64baDcbf64A1DbcAE29C223BE1387F8a301A0"
+      ],
+      "source_lines": [
+        75
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "source_lines": [
+        135
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf903f3a8b30a7b645e76db8511b4121cc96160eb",
+      "labels": [
+        "Base\t0xF903f3A8B30a7b645e76DB8511b4121cc96160EB"
+      ],
+      "source_lines": [
+        220
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xfb1a43620c648a43eee7bc112db5f2498e619dc5",
+      "labels": [
+        "Base\t0xfb1A43620c648A43eEE7bc112db5F2498e619DC5"
+      ],
+      "source_lines": [
+        82
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xff00000000000000000000000000000000008453",
+      "labels": [
+        "Batch Inbox\t0xff00000000000000000000000000000000008453\tEOA (with no known private key)"
+      ],
+      "source_lines": [
+        439
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x103937f52b9e8fdd370845e049f3601c2979890a",
+      "labels": [
+        "BNB Smart Chain\t0x103937F52B9E8Fdd370845E049F3601c2979890a"
+      ],
+      "source_lines": [
+        306
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x198cbbf1232bb033268a7276ca91d1f3cd4cb896",
+      "labels": [
+        "BNB Smart Chain\t0x198cbbf1232bb033268a7276ca91d1f3cd4cb896"
+      ],
+      "source_lines": [
+        313
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x208f9c3ca561977ee49ab84e2243c1531a265bd1",
+      "labels": [
+        "BNB Smart Chain\t0x208F9c3Ca561977ee49AB84E2243c1531a265bd1"
+      ],
+      "source_lines": [
+        261
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3065aa025a27b42b98e43a5ff7b3965c0174d1bd",
+      "labels": [
+        "BNB Smart Chain\t0x3065aa025a27B42B98E43a5fF7B3965c0174D1bD"
+      ],
+      "source_lines": [
+        253
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "BNB Smart Chain\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        269
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5cdf694c5be8b9e83663e16efa8a09fe284b3238",
+      "labels": [
+        "BNB Smart Chain\t0x5cDf694C5bE8B9E83663e16eFA8a09FE284b3238"
+      ],
+      "source_lines": [
+        305
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x674a3ab5d2be0da09bf1662e1f9827bdda3d103f",
+      "labels": [
+        "Superseded by newer lockup versions.\t0x674A3Ab5d2be0dA09bF1662E1f9827bdDA3d103F"
+      ],
+      "source_lines": [
+        275
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x834297caf503d9455395a62336e653fcf2234962",
+      "labels": [
+        "Superseded by newer factory versions.\t0x834297cAF503d9455395A62336e653FCf2234962"
+      ],
+      "source_lines": [
+        277
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x985a20e7bec906778f811799aebf50f90d10f71b",
+      "labels": [
+        "BNB Smart Chain\t0x985a20e7bec906778f811799aebf50f90d10f71b"
+      ],
+      "source_lines": [
+        298
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x00000000001c3dc9a681a014e2732bf1419afaec",
+      "labels": [
+        "Ethereum\t0x00000000001c3dC9A681A014e2732bF1419aFAec"
+      ],
+      "source_lines": [
+        198
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0000000000e552550bec95a36217a91ceba099b0",
+      "labels": [
+        "Ethereum\t0x0000000000E552550beC95A36217A91CeBA099b0"
+      ],
+      "source_lines": [
+        209
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0475cbcaebd9ce8afa5025828d5b98dfb67e059e",
+      "labels": [
+        "ProxyAdmin\t0x0475cBCAebd9CE8AfA5025828d5b98DFb67E059E"
+      ],
+      "source_lines": [
+        404
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x05cc379ebd9b30bba19c6fa282ab29218ec61d84",
+      "labels": [
+        "OptimismMintableERC20Factory\t0x05cc379EBD9B30BbA19C6fA282AB29218EC61D84"
+      ],
+      "source_lines": [
+        400
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1fb8cdfc6831fc866ed9c51af8817da5c287add3",
+      "labels": [
+        "PreimageOracle\t0x1fb8cdFc6831fc866Ed9C51aF8817Da5c287aDD3"
+      ],
+      "source_lines": [
+        403
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1fe3fdd1f0193dd657c0a9aac37314d6b479e557",
+      "labels": [
+        "SystemDictator\t0x1fE3fdd1F0193Dd657C0a9AAC37314D6B479E557"
+      ],
+      "source_lines": [
+        406
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2453c1216e49704d84ea98a4dacd95738f2fc8ec",
+      "labels": [
+        "DelayedWETHProxy (FDG)\t0x2453c1216e49704d84ea98a4dacd95738f2fc8ec"
+      ],
+      "source_lines": [
+        391
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels": [
+        "Handles ETH and token transfers when no specific handler exists.\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "source_lines": [
+        68
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "labels": [
+        "L1StandardBridge\t0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+      ],
+      "source_lines": [
+        398
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x341251e680fb0fd4f47ad4dc1ad61c3be5142d0e",
+      "labels": [
+        "Streamlines creation of new vesting schedules.\t0x341251e680fB0FD4f47aD4dC1AD61C3bE5142d0e"
+      ],
+      "source_lines": [
+        244
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "Reduces gas costs for bulk token distributions.\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        267
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x43edb88c4b80fdd2adff2412a7bebf9df42cb40e",
+      "labels": [
+        "DisputeGameFactoryProxy\t0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
+      ],
+      "source_lines": [
+        393
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20",
+      "labels": [
+        "Handles ENS resolution queries on Ethereum for Base domains.\t0x480F8F2FfE823Dc70F499Cc2542C42a3a6aD3f20"
+      ],
+      "source_lines": [
+        47
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+      "labels": [
+        "OptimismPortal\t0x49048044D57e1C92A77f79988d21Fa8fAF74E97e"
+      ],
+      "source_lines": [
+        401
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x564d6e3a879c007183fad17bed9a70630f090651",
+      "labels": [
+        "Routes trades through multiple decentralized exchanges.\t0x564d6e3A879c007183fAd17beD9A70630F090651"
+      ],
+      "source_lines": [
+        115
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58bf355c5d4edfc723ef89d99582eccfd143266a",
+      "labels": [
+        "PermissionedDisputeGame\t0x58bf355C5d4EdFc723eF89d99582ECCfd143266A"
+      ],
+      "source_lines": [
+        402
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x608d94945a64503e642e6370ec598e519a2c1e53",
+      "labels": [
+        "L1ERC721Bridge\t0x608d94945A64503E642E6370Ec598e519a2C1E53"
+      ],
+      "source_lines": [
+        397
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6463dee3828677f6270d83d45408044fc5edb908",
+      "labels": [
+        "MIPS\t0x6463dEE3828677F6270d83d45408044fc5eDB908"
+      ],
+      "source_lines": [
+        399
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d",
+      "labels": [
+        "DelayedWETHProxy (PDG)\t0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d"
+      ],
+      "source_lines": [
+        392
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6ddba09bc4ccb0d6ca9fc5350580f74165707499",
+      "labels": [
+        "FaultDisputeGame\t0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499",
+        "FaultDisputeGame (Kona)\t0x6dDBa09bc4cCB0D6Ca9Fc5350580f74165707499"
+      ],
+      "source_lines": [
+        394,
+        395
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x73a79fab69143498ed3712e519a88a918e1f4072",
+      "labels": [
+        "SystemConfig\t0x73a79Fab69143498Ed3712e519A88a918e1f4072"
+      ],
+      "source_lines": [
+        405
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+      "labels": [
+        "Enables externally owned accounts to delegate to smart contracts.\t0x7702cb554e6bFb442cb743A7dF23154544a7176C"
+      ],
+      "source_lines": [
+        121
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x782f402c93e9b0d931197cd727e006356b55699d",
+      "labels": [
+        "Enables governance and upgrade capabilities.\t0x782F402C93E9b0d931197cD727e006356B55699d"
+      ],
+      "source_lines": [
+        259
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels": [
+        "Provides signature verification and security validation.\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "source_lines": [
+        63
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x866e82a600a1414e583f7f13623f1ac5d58b0afa",
+      "labels": [
+        "L1CrossDomainMessenger\t0x866E82a600A1414e583f7F13623F1aC5d58b0Afa"
+      ],
+      "source_lines": [
+        396
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8ebda19ddee719dab78def3e22c3d37970e35217",
+      "labels": [
+        "Allows multiple validator deposits in single transaction.\t0x8eBda19DdEE719DAB78DEf3e22c3d37970e35217"
+      ],
+      "source_lines": [
+        97
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8efb6b5c4767b09dc9aa6af4eaa89f749522bae2",
+      "labels": [
+        "AddressManager\t0x8EfB6B5c4767B09Dc9AA6Af4eAA89F749522BaE2"
+      ],
+      "source_lines": [
+        389
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x900857be98cd16c97f270ce450169761858eb559",
+      "labels": [
+        "Ethereum\t0x900857be98cd16C97f270Ce450169761858eb559"
+      ],
+      "source_lines": [
+        307
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x909f6cf47ed12f010a796527f562bfc26c7f4e72",
+      "labels": [
+        "AnchorStateRegistryProxy\t0x909f6cf47ed12f010A796527f562bFc26C7F4E72"
+      ],
+      "source_lines": [
+        390
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb7486b5bd2d14714950b082eafebe9822a1d96ee",
+      "labels": [
+        "Supports time-based and milestone-based unlocking.\t0xb7486B5bd2d14714950B082EafebE9822a1d96eE"
+      ],
+      "source_lines": [
+        237
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc76b81d835a6ef88fb9b841c22ed492473577ac3",
+      "labels": [
+        "Enables complex vesting logic integration.\t0xc76B81D835A6Ef88fb9b841C22Ed492473577aC3"
+      ],
+      "source_lines": [
+        251
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "source_lines": [
+        133
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels": [
+        "Manages transaction nonces for account abstraction.\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "source_lines": [
+        124
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd643980ee0ef698d37217d8f0123b0f766adec71",
+      "labels": [
+        "Ethereum\t0xd643980ee0ef698d37217d8f0123b0f766adec71"
+      ],
+      "source_lines": [
+        314
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9",
+      "labels": [
+        "Ethereum\t0xd6d4b339b972c7dfa427b6818396aeabb5bc03b9"
+      ],
+      "source_lines": [
+        299
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xde9049636f4a1dfe0a64d1bfe3155c0a14c54f31",
+      "labels": [
+        "Handles ENS resolution queries on Ethereum for Base domains.\t0xde9049636F4a1dfE0a64d1bFe3155C0A14C54F31"
+      ],
+      "source_lines": [
+        45
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe34fd8e02815125ab0947434e42978a8a4e70906",
+      "labels": [
+        "Ethereum\t0xE34Fd8e02815125aB0947434e42978a8A4e70906"
+      ],
+      "source_lines": [
+        224
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "source_lines": [
+        131
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf903f3a8b30a7b645e76db8511b4121cc96160eb",
+      "labels": [
+        "Ethereum\t0xF903f3A8B30a7b645e76DB8511b4121cc96160EB"
+      ],
+      "source_lines": [
+        221
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x16879ca809e8ca2783d89c2ee830671a8c348230",
+      "labels": [
+        "Optimism\t0x16879Ca809e8CA2783d89C2Ee830671A8C348230"
+      ],
+      "source_lines": [
+        242
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x2a8010a9d71d2a5aea19d040f8b4797789a194a9",
+      "labels": [
+        "Optimism\t0x2a8010A9D71D2a5AEA19D040F8b4797789A194a9"
+      ],
+      "source_lines": [
+        71
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x2fbdd01e44513302bb2789302e98749fb01c0e8d",
+      "labels": [
+        "Optimism\t0x2fbdd01e44513302bb2789302e98749fb01c0e8d"
+      ],
+      "source_lines": [
+        300
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "Optimism\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        273
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x79a33f950b90c7d07e66950daedf868bd0cdcf96",
+      "labels": [
+        "Optimism\t0x79A33f950b90C7d07E66950daedf868BD0cDcF96"
+      ],
+      "source_lines": [
+        64
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f",
+      "labels": [
+        "Optimism\t0x84730533ed3d4dcbac265976a5d7ef47ad2e1e9f"
+      ],
+      "source_lines": [
+        315
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x848e9743b6d0ac5614f6427d94fed295fe393b6d",
+      "labels": [
+        "Optimism\t0x848E9743b6D0aC5614f6427d94fEd295Fe393b6d"
+      ],
+      "source_lines": [
+        257
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x85f2a6bb58e52c9189fd8748790c5059508fbdc1",
+      "labels": [
+        "Optimism\t0x85F2A6BB58E52c9189fD8748790C5059508FBDc1"
+      ],
+      "source_lines": [
+        249
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xb3678a158e83946d02eaba654a1a6e8ea4d6889c",
+      "labels": [
+        "Optimism\t0xB3678A158E83946D02eaBa654a1a6e8eA4d6889C"
+      ],
+      "source_lines": [
+        309
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xc34c1643c4c2488315dc709fcb5abc6b4e3de6c7",
+      "labels": [
+        "Optimism\t0xC34c1643c4C2488315Dc709FCB5ABc6b4E3dE6C7"
+      ],
+      "source_lines": [
+        265
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "source_lines": [
+        141
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xd0ff13c28679fdd75bc09c0a430a0089bf8b95a8",
+      "labels": [
+        "Optimism\t0xD0Ff13c28679FDd75Bc09c0a430a0089bf8b95a8"
+      ],
+      "source_lines": [
+        125
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "source_lines": [
+        139
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf9456b2d7ea7cdd9accaa89771dd9e9709c5bb6a",
+      "labels": [
+        "Optimism\t0xF9456B2d7EA7CDD9accAa89771DD9E9709C5bB6a"
+      ],
+      "source_lines": [
+        308
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0x00f849ca595cfa7cecd052e77e9d152618333e8e",
+      "labels": [
+        "Polygon\t0x00F849ca595cFa7CeCd052E77e9d152618333E8E"
+      ],
+      "source_lines": [
+        264
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0x39c4b71d53db0b6b647fe5013608eea292db4a73",
+      "labels": [
+        "Polygon\t0x39C4B71D53Db0B6B647fe5013608eeA292db4A73"
+      ],
+      "source_lines": [
+        272
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0x595db8eca8d64f28a57d5f240204fdc8adbcb8c7",
+      "labels": [
+        "Polygon\t0x595db8eCa8d64f28A57D5F240204FDc8AdbCb8c7"
+      ],
+      "source_lines": [
+        256
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0x9efea6f63d583624e5a459d680d3a27adf6c570d",
+      "labels": [
+        "Polygon\t0x9efea6f63d583624E5a459D680D3A27Adf6C570d"
+      ],
+      "source_lines": [
+        241
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xc7284314593e952717b6a0b78766887b37fb1720",
+      "labels": [
+        "Polygon\t0xc7284314593e952717b6a0b78766887b37fb1720"
+      ],
+      "source_lines": [
+        248
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xcfce48b757601f3f351cb6f434cb0517aeee293d",
+      "labels": [
+        "Validates signatures for undeployed contracts and counterfactual addresses.\t0xcfCE48B757601F3f351CB6f434CB0517aEEE293D"
+      ],
+      "source_lines": [
+        149
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xf85210b21cc50302f477ba56686d2019dc9b67ad",
+      "labels": [
+        "Enables secure authorization of spending limits and approvals.\t0xf85210B21cC50302F477BA56686d2019dC9b67Ad"
+      ],
+      "source_lines": [
+        147
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "HNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM",
+      "labels": [
+        "Handles message validation and token custody on Solana.\tHNCne2FkVaNghhjKXapxJzPaBvAKDG1Ge3gqhZyfVWLM"
+      ],
+      "source_lines": [
+        291
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "g1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9",
+      "labels": [
+        "Submits transactions on Solana for bridged messages from Base.\tg1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9"
+      ],
+      "source_lines": [
+        293
+      ]
+    },
+    {
+      "chain": "zksync",
+      "address": "0xa9311c40e4038f6c9597aa07fddd643ae6147d08",
+      "labels": [
+        "ZKSync Era\t0xa9311c40e4038f6c9597aa07fddd643ae6147d08"
+      ],
+      "source_lines": [
+        301
+      ]
+    },
+    {
+      "chain": "zksync",
+      "address": "0xabf8fcd8954af787a8f7c080d10e7acd7bd1f5b5",
+      "labels": [
+        "ZKSync Era\t0xAbf8fcD8954Af787A8f7c080D10E7AcD7BD1F5B5"
+      ],
+      "source_lines": [
+        310
+      ]
+    }
+  ]
+}

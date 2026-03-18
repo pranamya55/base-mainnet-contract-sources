@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x900857be98cd16c97f270ce450169761858eb559",
+  "labels_from_input": [
+    "Ethereum\t0x900857be98cd16C97f270Ce450169761858eb559"
+  ],
+  "contract_name": "Distributor",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "shanghai",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 31,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x900857be98cd16c97f270ce450169761858eb559&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:35+00:00"
+}

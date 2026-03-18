@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xe3111d45733efee14bfb1ebe2364d929edbd9059",
+  "labels_from_input": [
+    "Base\t0xE3111D45733Efee14bFB1EbE2364D929eDBd9059"
+  ],
+  "contract_name": "BatchBlacklister",
+  "compiler_version": "v0.8.6+commit.11564f7e",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "berlin",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 2,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xe3111d45733efee14bfb1ebe2364d929edbd9059&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:09+00:00"
+}

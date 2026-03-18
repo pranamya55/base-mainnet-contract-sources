@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x420000000000000000000000000000000000001a",
+  "labels_from_input": [
+    "L1FeeVault\t0x420000000000000000000000000000000000001a"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "10000",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x0c9034b92351cf8f067379a1ffa4fa35f5af9dcc",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 1,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x420000000000000000000000000000000000001a&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:35+00:00"
+}

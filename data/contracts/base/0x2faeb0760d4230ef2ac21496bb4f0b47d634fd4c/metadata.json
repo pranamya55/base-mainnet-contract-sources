@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c",
+  "labels_from_input": [
+    "Validates transactions before sponsoring gas fees.\t0x2FAEB0760D4230Ef2aC21496Bb4F0b47D634FD4c"
+  ],
+  "contract_name": "VerifyingPaymaster",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 19,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:28+00:00"
+}

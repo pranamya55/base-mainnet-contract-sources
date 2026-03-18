@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20",
+  "labels_from_input": [
+    "Handles ENS resolution queries on Ethereum for Base domains.\t0x480F8F2FfE823Dc70F499Cc2542C42a3a6aD3f20"
+  ],
+  "contract_name": "L1Resolver",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 8,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x480f8f2ffe823dc70f499cc2542c42a3a6ad3f20&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:28+00:00"
+}

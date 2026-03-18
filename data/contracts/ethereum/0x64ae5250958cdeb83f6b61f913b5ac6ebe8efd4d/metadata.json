@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d",
+  "labels_from_input": [
+    "DelayedWETHProxy (PDG)\t0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "london",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x33dadc2d1aa9bb613a7ae6b28425ea00d44c6998",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 10,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x64ae5250958cdeb83f6b61f913b5ac6ebe8efd4d&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:31+00:00"
+}

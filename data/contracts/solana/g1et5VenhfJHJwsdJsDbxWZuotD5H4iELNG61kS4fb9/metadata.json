@@ -1,0 +1,10 @@
+{
+  "chain": "solana",
+  "address": "g1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9",
+  "labels_from_input": [
+    "Submits transactions on Solana for bridged messages from Base.\tg1et5VenhfJHJwsdJsDbxWZuotD5H4iELNG61kS4fb9"
+  ],
+  "source_verified": false,
+  "note": "Non-EVM chain entry; explorer source fetch not supported by this fetcher",
+  "fetched_at": "2026-03-18T16:56:50+00:00"
+}

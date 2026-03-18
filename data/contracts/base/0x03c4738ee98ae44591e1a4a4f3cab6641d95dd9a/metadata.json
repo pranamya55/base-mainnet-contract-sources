@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a",
+  "labels_from_input": [
+    "ERC721-based registrar for .base.eth domain ownership and transfers.\t0x03c4738Ee98aE44591e1A4A4F3CaB6641d95DD9a"
+  ],
+  "contract_name": "BaseRegistrar",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 9,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:14+00:00"
+}

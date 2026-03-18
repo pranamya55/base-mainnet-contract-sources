@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x49048044d57e1c92a77f79988d21fa8faf74e97e",
+  "labels_from_input": [
+    "OptimismPortal\t0x49048044D57e1C92A77f79988d21Fa8fAF74E97e"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x97cebbf8959e2a5476fbe9b98a21806ec234609b",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 1,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x49048044d57e1c92a77f79988d21fa8faf74e97e&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:29+00:00"
+}

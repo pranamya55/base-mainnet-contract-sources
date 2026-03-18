@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x58c5fa1e6e651320499ccfb2198ede481b35c87b",
+  "labels_from_input": [
+    "Supports send, allocate, deallocate, and distribute payout operations for flexible reward distribution.\t0x58c5fa1e6e651320499ccfb2198ede481b35c87b"
+  ],
+  "contract_name": "SimpleRewards",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "optimization_used": "1",
+  "runs": "100000",
+  "evm_version": "prague",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 55,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x58c5fa1e6e651320499ccfb2198ede481b35c87b&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:42+00:00"
+}

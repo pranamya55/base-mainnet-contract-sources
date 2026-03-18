@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x2d04d1743bab35b13841a466788479c591e01381",
+  "labels_from_input": [
+    "Validates signatures for authorized pool interactions.\t0x2D04d1743BaB35B13841A466788479c591E01381"
+  ],
+  "contract_name": "SignatureChecker",
+  "compiler_version": "v0.6.12+commit.27d51765",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "istanbul",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 3,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x2d04d1743bab35b13841a466788479c591e01381&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:27+00:00"
+}

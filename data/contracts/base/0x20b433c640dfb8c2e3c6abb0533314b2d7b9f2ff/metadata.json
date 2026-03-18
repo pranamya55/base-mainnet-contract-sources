@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff",
+  "labels_from_input": [
+    "Checks ownership of early Basename NFTs for registration benefits.\t0x20b433c640DFb8c2e3C6aBB0533314b2d7B9f2FF"
+  ],
+  "contract_name": "CBIdDiscountValidator",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 4,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x20b433c640dfb8c2e3c6abb0533314b2d7b9f2ff&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:23+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5",
+  "labels_from_input": [
+    "Handles pricing, discounts, and domain lifecycle management.\t0x4cCb0BB02FCABA27e82a56646E81d8c5bC4119a5"
+  ],
+  "contract_name": "RegistrarController",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "optimization_used": "1",
+  "runs": "200",
+  "evm_version": "paris",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 47,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x4ccb0bb02fcaba27e82a56646e81d8c5bc4119a5&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:38+00:00"
+}

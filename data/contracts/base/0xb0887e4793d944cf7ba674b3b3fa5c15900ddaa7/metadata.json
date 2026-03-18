@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7",
+  "labels_from_input": [
+    "Contains core logic for cross-chain token operations.\t0xb0887e4793d944Cf7bA674B3b3FA5C15900ddaA7"
+  ],
+  "contract_name": "Twin",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "prague",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 2,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0xb0887e4793d944cf7ba674b3b3fa5c15900ddaa7&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:59+00:00"
+}

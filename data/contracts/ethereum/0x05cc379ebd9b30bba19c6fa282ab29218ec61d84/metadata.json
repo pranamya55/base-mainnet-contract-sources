@@ -1,0 +1,23 @@
+{
+  "chain": "ethereum",
+  "address": "0x05cc379ebd9b30bba19c6fa282ab29218ec61d84",
+  "labels_from_input": [
+    "OptimismMintableERC20Factory\t0x05cc379EBD9B30BbA19C6fA282AB29218EC61D84"
+  ],
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "optimization_used": "1",
+  "runs": "999999",
+  "evm_version": "Default",
+  "license_type": "",
+  "proxy": "1",
+  "implementation": "0x8ee6fb13c6c9a7e401531168e196fbf8b05ceabb",
+  "implementation_source": "explorer_field",
+  "source_verified": true,
+  "source_file_count": 1,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=1&module=contract&action=getsourcecode&address=0x05cc379ebd9b30bba19c6fa282ab29218ec61d84&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:56:25+00:00"
+}

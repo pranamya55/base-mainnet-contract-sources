@@ -1,0 +1,23 @@
+{
+  "chain": "base",
+  "address": "0x5a178f113d9851c72c63e7f58255d4520c1a1d9d",
+  "labels_from_input": [
+    "Processes publisher conversions with configurable attribution windows, publisher allowlists, and attribution provider fee structures.\t0x5a178f113d9851c72c63e7f58255d4520c1a1d9d"
+  ],
+  "contract_name": "AdConversion",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "optimization_used": "1",
+  "runs": "100000",
+  "evm_version": "prague",
+  "license_type": "",
+  "proxy": "0",
+  "implementation": null,
+  "implementation_source": null,
+  "source_verified": true,
+  "source_file_count": 55,
+  "api_status": "1",
+  "api_message": "OK",
+  "api_url": "https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getsourcecode&address=0x5a178f113d9851c72c63e7f58255d4520c1a1d9d&apikey=<redacted>",
+  "raw_result_type": "list",
+  "fetched_at": "2026-03-18T16:55:43+00:00"
+}

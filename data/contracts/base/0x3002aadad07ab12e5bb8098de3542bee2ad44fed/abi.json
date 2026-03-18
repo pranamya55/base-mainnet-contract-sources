@@ -1,0 +1,969 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "adminIM",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "adminENG",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "platform",
+            "type": "address"
+          },
+          {
+            "internalType": "contract UnlockerFactory",
+            "name": "unlockerFactory",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "adminIM",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "managerIM",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "adminENG",
+                "type": "address"
+              },
+              {
+                "internalType": "contract IGenericRegistry",
+                "name": "genericRegistry",
+                "type": "address"
+              }
+            ],
+            "internalType": "struct DistributorFactory.IMFixedDistributorCreationParams",
+            "name": "imFixedDistributorCreationParams",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "managerENG",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "platformSigner",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "platformSender",
+                "type": "address"
+              }
+            ],
+            "internalType": "struct DistributorFactory.ENGFixedDistributorCreationParams",
+            "name": "engFixedDistributorCreationParams",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct DistributorFactory.Init",
+        "name": "init",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "AccessControlBadConfirmation",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "neededRole",
+        "type": "bytes32"
+      }
+    ],
+    "name": "AccessControlUnauthorizedAccount",
+    "type": "error"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes16",
+        "name": "tokenDistributionUUID",
+        "type": "bytes16"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "distributorAddress",
+        "type": "address"
+      }
+    ],
+    "name": "DistributorCreated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "previousAdminRole",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "newAdminRole",
+        "type": "bytes32"
+      }
+    ],
+    "name": "RoleAdminChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      }
+    ],
+    "name": "RoleGranted",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      }
+    ],
+    "name": "RoleRevoked",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes16",
+        "name": "tokenDistributionUUID",
+        "type": "bytes16"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "scheduledUnlockerAddress",
+        "type": "address"
+      }
+    ],
+    "name": "ScheduledUnlockerCreated",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "DEFAULT_ADMIN_ROLE",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "ENG_ADMIN_ROLE",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "ENG_MANAGER_ROLE",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "MANAGER_ROLE",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "PLATFORM_ROLE",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IERC20",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "tokenDistributionUUID",
+            "type": "bytes16"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "unlocker",
+                "type": "address"
+              },
+              {
+                "internalType": "bytes6",
+                "name": "releasableType",
+                "type": "bytes6"
+              },
+              {
+                "internalType": "bytes6",
+                "name": "releaseType",
+                "type": "bytes6"
+              }
+            ],
+            "internalType": "struct UnlockerLib.Unlocker",
+            "name": "unlocker",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "bytes16",
+                "name": "entityUUID",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "address",
+                "name": "signer",
+                "type": "address"
+              },
+              {
+                "internalType": "uint64",
+                "name": "amountInvestedUSDC",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "distributionShares",
+                "type": "uint64"
+              },
+              {
+                "internalType": "bool",
+                "name": "notChargedCarry",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct Claimer[]",
+            "name": "claimers",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "bytes16",
+                "name": "entityUUID",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "address",
+                "name": "signer",
+                "type": "address"
+              },
+              {
+                "internalType": "uint16",
+                "name": "carryBPS",
+                "type": "uint16"
+              }
+            ],
+            "internalType": "struct CarryWithdrawer[]",
+            "name": "carryWithdrawers",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "expectedClaimersRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint16",
+            "name": "platformCarryBPS",
+            "type": "uint16"
+          }
+        ],
+        "internalType": "struct DistributorFactory.VariableDistributorCreationParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "createDistributor",
+    "outputs": [
+      {
+        "internalType": "contract Distributor",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IERC20",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "tokenDistributionUUID",
+            "type": "bytes16"
+          },
+          {
+            "components": [
+              {
+                "internalType": "bytes16",
+                "name": "entityUUID",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "address",
+                "name": "signer",
+                "type": "address"
+              },
+              {
+                "internalType": "uint64",
+                "name": "amountInvestedUSDC",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "distributionShares",
+                "type": "uint64"
+              },
+              {
+                "internalType": "bool",
+                "name": "notChargedCarry",
+                "type": "bool"
+              }
+            ],
+            "internalType": "struct Claimer[]",
+            "name": "claimers",
+            "type": "tuple[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "bytes16",
+                "name": "entityUUID",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "address",
+                "name": "signer",
+                "type": "address"
+              },
+              {
+                "internalType": "uint16",
+                "name": "carryBPS",
+                "type": "uint16"
+              }
+            ],
+            "internalType": "struct CarryWithdrawer[]",
+            "name": "carryWithdrawers",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "expectedClaimersRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint16",
+            "name": "platformCarryBPS",
+            "type": "uint16"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint64",
+                    "name": "timestamp",
+                    "type": "uint64"
+                  },
+                  {
+                    "internalType": "uint64",
+                    "name": "proportionNumerator",
+                    "type": "uint64"
+                  },
+                  {
+                    "internalType": "uint64",
+                    "name": "proportionDenominator",
+                    "type": "uint64"
+                  }
+                ],
+                "internalType": "struct ScheduleAbsolutePoint[]",
+                "name": "points",
+                "type": "tuple[]"
+              },
+              {
+                "internalType": "bytes6[]",
+                "name": "interpolationTypes",
+                "type": "bytes6[]"
+              }
+            ],
+            "internalType": "struct UnlockAbsoluteSchedule",
+            "name": "unlockSchedule",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxUnlockableTokens",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct DistributorFactory.VariableDistributorAndScheduledUnlockerCreationParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "createDistributorWithScheduledUnlocker",
+    "outputs": [
+      {
+        "internalType": "contract Distributor",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "contract ScheduledUnlocker",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IERC20",
+            "name": "lockedToken",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "tokenDistributionUUID",
+            "type": "bytes16"
+          },
+          {
+            "internalType": "address",
+            "name": "distributor",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "uint64",
+                    "name": "timestamp",
+                    "type": "uint64"
+                  },
+                  {
+                    "internalType": "uint64",
+                    "name": "proportionNumerator",
+                    "type": "uint64"
+                  },
+                  {
+                    "internalType": "uint64",
+                    "name": "proportionDenominator",
+                    "type": "uint64"
+                  }
+                ],
+                "internalType": "struct ScheduleAbsolutePoint[]",
+                "name": "points",
+                "type": "tuple[]"
+              },
+              {
+                "internalType": "bytes6[]",
+                "name": "interpolationTypes",
+                "type": "bytes6[]"
+              }
+            ],
+            "internalType": "struct UnlockAbsoluteSchedule",
+            "name": "unlockSchedule",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxUnlockableTokens",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "initialTokensReleased",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct DistributorFactory.VariableScheduledUnlockerCreationParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "createScheduledUnlocker",
+    "outputs": [
+      {
+        "internalType": "contract ScheduledUnlocker",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "distributorImpl",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "engFixedDistributorCreationParams",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "managerENG",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "platformSigner",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "platformSender",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getRoleAdmin",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "index",
+        "type": "uint256"
+      }
+    ],
+    "name": "getRoleMember",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getRoleMemberCount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "grantRole",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "hasRole",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "imFixedDistributorCreationParams",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "adminIM",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "managerIM",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "adminENG",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IGenericRegistry",
+        "name": "genericRegistry",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "callerConfirmation",
+        "type": "address"
+      }
+    ],
+    "name": "renounceRole",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "role",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "revokeRole",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newImpl",
+        "type": "address"
+      }
+    ],
+    "name": "setDistributorImplementation",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "managerENG",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "platformSigner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "platformSender",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct DistributorFactory.ENGFixedDistributorCreationParams",
+        "name": "newParams",
+        "type": "tuple"
+      }
+    ],
+    "name": "setENGFixedDistributorCreationParams",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "adminIM",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "managerIM",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "adminENG",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IGenericRegistry",
+            "name": "genericRegistry",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct DistributorFactory.IMFixedDistributorCreationParams",
+        "name": "newParams",
+        "type": "tuple"
+      }
+    ],
+    "name": "setIMFixedDistributorCreationParams",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract UnlockerFactory",
+        "name": "newUnlockerFactory",
+        "type": "address"
+      }
+    ],
+    "name": "setUnlockerFactory",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes4",
+        "name": "interfaceId",
+        "type": "bytes4"
+      }
+    ],
+    "name": "supportsInterface",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "unlockerFactory",
+    "outputs": [
+      {
+        "internalType": "contract UnlockerFactory",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "version",
+    "outputs": [
+      {
+        "internalType": "uint32",
+        "name": "",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
